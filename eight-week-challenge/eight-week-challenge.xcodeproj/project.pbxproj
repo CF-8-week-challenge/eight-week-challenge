@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E51D5D5D1ECA1A5E00734FB1 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51D5D5C1ECA1A5E00734FB1 /* AFNetworking.framework */; };
 		E57935F21ECA145400C9E3AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E57935F11ECA145400C9E3AF /* main.m */; };
 		E57935F51ECA145400C9E3AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E57935F41ECA145400C9E3AF /* AppDelegate.m */; };
 		E57935F81ECA145400C9E3AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57935F71ECA145400C9E3AF /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		E57936001ECA145400C9E3AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57935FE1ECA145400C9E3AF /* LaunchScreen.storyboard */; };
 		E579360B1ECA145400C9E3AF /* eight_week_challengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E579360A1ECA145400C9E3AF /* eight_week_challengeTests.m */; };
 		E57936161ECA145400C9E3AF /* eight_week_challengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E57936151ECA145400C9E3AF /* eight_week_challengeUITests.m */; };
+		E57936241ECA18A700C9E3AF /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = E57936231ECA18A700C9E3AF /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E51D5D5C1ECA1A5E00734FB1 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
 		E57935ED1ECA145400C9E3AF /* eight-week-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eight-week-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57935F11ECA145400C9E3AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E57935F31ECA145400C9E3AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		E57936111ECA145400C9E3AF /* eight-week-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eight-week-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57936151ECA145400C9E3AF /* eight_week_challengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eight_week_challengeUITests.m; sourceTree = "<group>"; };
 		E57936171ECA145400C9E3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E57936231ECA18A700C9E3AF /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E51D5D5D1ECA1A5E00734FB1 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E51D5D5B1ECA1A5E00734FB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E51D5D5C1ECA1A5E00734FB1 /* AFNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E57935E41ECA145400C9E3AF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,8 @@
 				E57936091ECA145400C9E3AF /* eight-week-challengeTests */,
 				E57936141ECA145400C9E3AF /* eight-week-challengeUITests */,
 				E57935EE1ECA145400C9E3AF /* Products */,
+				E57936231ECA18A700C9E3AF /* Cartfile */,
+				E51D5D5B1ECA1A5E00734FB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -251,6 +266,7 @@
 			files = (
 				E57936001ECA145400C9E3AF /* LaunchScreen.storyboard in Resources */,
 				E57935FD1ECA145400C9E3AF /* Assets.xcassets in Resources */,
+				E57936241ECA18A700C9E3AF /* Cartfile in Resources */,
 				E57935FB1ECA145400C9E3AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +446,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6ZL2QC28LX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "eight-week-challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kylehillman.eight-week-challenge";
@@ -442,6 +462,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6ZL2QC28LX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "eight-week-challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kylehillman.eight-week-challenge";
@@ -518,6 +542,7 @@
 				E579361C1ECA145400C9E3AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E579361D1ECA145400C9E3AF /* Build configuration list for PBXNativeTarget "eight-week-challengeTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +551,7 @@
 				E579361F1ECA145400C9E3AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E57936201ECA145400C9E3AF /* Build configuration list for PBXNativeTarget "eight-week-challengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +560,7 @@
 				E57936221ECA145400C9E3AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
