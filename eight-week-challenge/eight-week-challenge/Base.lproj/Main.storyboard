@@ -32,7 +32,7 @@
         <scene sceneID="UWi-Pt-MMG">
             <objects>
                 <viewControllerPlaceholder storyboardName="Home" id="WsT-Ak-lde" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="gK4-Ee-Vb2"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="gK4-Ee-Vb2"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oP6-xd-Fhl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,4 +59,7 @@
             <point key="canvasLocation" x="-223" y="1066"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="home" width="25" height="25"/>
+    </resources>
 </document>
