@@ -1,0 +1,2121 @@
+{
+  "week1": {
+    "day1": [
+      {
+        "label": "Contact Teammate",
+        "value": 1
+      },
+      {
+        "label": "64 oz of water",
+        "value": 3
+      },
+      {
+        "label": "Stop eating before 9pm",
+        "value": 3
+      },
+      {
+        "label": "2 fruit servings",
+        "value": 3
+      },
+      {
+        "label": "3 vegetable servings",
+        "value": 5
+      },
+      {
+        "label": "No sweets",
+        "value": 5
+      },
+      {
+        "label": "Keep a food journal",
+        "value": 5
+      },
+      {
+        "label": "Exercise",
+        "value": {
+          "30Min": 5,
+          "45Min": 7
+        }
+      }
+    ],
+    "day2": [
+      {
+        "label": "Contact Teammate",
+        "value": 1
+      },
+      {
+        "label": "64 oz of water",
+        "value": 3
+      },
+      {
+        "label": "Stop eating before 9pm",
+        "value": 3
+      },
+      {
+        "label": "2 fruit servings",
+        "value": 3
+      },
+      {
+        "label": "3 vegetable servings",
+        "value": 5
+      },
+      {
+        "label": "No sweets",
+        "value": 5
+      },
+      {
+        "label": "Keep a food journal",
+        "value": 5
+      },
+      {
+        "label": "Exercise",
+        "value": {
+          "30Min": 5,
+          "45Min": 7
+        }
+      }
+    ],
+    "day3": [
+      {
+        "label": "Contact Teammate",
+        "value": 1
+      },
+      {
+        "label": "64 oz of water",
+        "value": 3
+      },
+      {
+        "label": "Stop eating before 9pm",
+        "value": 3
+      },
+      {
+        "label": "2 fruit servings",
+        "value": 3
+      },
+      {
+        "label": "3 vegetable servings",
+        "value": 5
+      },
+      {
+        "label": "No sweets",
+        "value": 5
+      },
+      {
+        "label": "Keep a food journal",
+        "value": 5
+      },
+      {
+        "label": "Exercise",
+        "value": {
+          "30Min": 5,
+          "45Min": 7
+        }
+      }
+    ],
+    "day4": [
+      {
+        "label": "Contact Teammate",
+        "value": 1
+      },
+      {
+        "label": "64 oz of water",
+        "value": 3
+      },
+      {
+        "label": "Stop eating before 9pm",
+        "value": 3
+      },
+      {
+        "label": "2 fruit servings",
+        "value": 3
+      },
+      {
+        "label": "3 vegetable servings",
+        "value": 5
+      },
+      {
+        "label": "No sweets",
+        "value": 5
+      },
+      {
+        "label": "Keep a food journal",
+        "value": 5
+      },
+      {
+        "label": "Exercise",
+        "value": {
+          "30Min": 5,
+          "45Min": 7
+        }
+      }
+    ],
+    "day5": [
+      {
+        "label": "Contact Teammate",
+        "value": 1
+      },
+      {
+        "label": "64 oz of water",
+        "value": 3
+      },
+      {
+        "label": "Stop eating before 9pm",
+        "value": 3
+      },
+      {
+        "label": "2 fruit servings",
+        "value": 3
+      },
+      {
+        "label": "3 vegetable servings",
+        "value": 5
+      },
+      {
+        "label": "No sweets",
+        "value": 5
+      },
+      {
+        "label": "Keep a food journal",
+        "value": 5
+      },
+      {
+        "label": "Exercise",
+        "value": {
+          "30Min": 5,
+          "45Min": 7
+        }
+      }
+    ],
+    "day6": [
+      {
+        "label": "Contact Teammate",
+        "value": 1
+      },
+      {
+        "label": "64 oz of water",
+        "value": 3
+      },
+      {
+        "label": "Stop eating before 9pm",
+        "value": 3
+      },
+      {
+        "label": "2 fruit servings",
+        "value": 3
+      },
+      {
+        "label": "3 vegetable servings",
+        "value": 5
+      },
+      {
+        "label": "No sweets",
+        "value": 5
+      },
+      {
+        "label": "Keep a food journal",
+        "value": 5
+      },
+      {
+        "label": "Exercise",
+        "value": {
+          "30Min": 5,
+          "45Min": 7
+        }
+      }
+    ],
+    "day7": [
+      {
+        "label": "Contact Teammate",
+        "value": 1
+      },
+      {
+        "label": "64 oz of water",
+        "value": 3
+      },
+      {
+        "label": "Stop eating before 9pm",
+        "value": 3
+      },
+      {
+        "label": "2 fruit servings",
+        "value": 3
+      },
+      {
+        "label": "3 vegetable servings",
+        "value": 5
+      },
+      {
+        "label": "No sweets",
+        "value": 5
+      },
+      {
+        "label": "Keep a food journal",
+        "value": 5
+      },
+      {
+        "label": "Exercise",
+        "value": {
+          "30Min": 5,
+          "45Min": 7
+        },
+        "poundsLost": {
+          "perPoundLost": 10,
+          "maintaingLowestWeight": 5
+        }
+      }
+    ],
+    "week2": {
+      "day1": [
+        {
+          "label": "Contact Teammate",
+          "value": 1
+        },
+        {
+          "label": "64 oz of water",
+          "value": 3
+        },
+        {
+          "label": "Stop eating before 9pm",
+          "value": 3
+        },
+        {
+          "label": "2 fruit servings",
+          "value": 3
+        },
+        {
+          "label": "3 vegetable servings",
+          "value": 5
+        },
+        {
+          "label": "No sweets",
+          "value": 5
+        },
+        {
+          "label": "Keep a food journal",
+          "value": 5
+        },
+        {
+          "label": "Exercise",
+          "value": {
+            "30Min": 5,
+            "45Min": 7
+          }
+        }
+      ],
+      "day2": [
+        {
+          "label": "Contact Teammate",
+          "value": 1
+        },
+        {
+          "label": "64 oz of water",
+          "value": 3
+        },
+        {
+          "label": "Stop eating before 9pm",
+          "value": 3
+        },
+        {
+          "label": "2 fruit servings",
+          "value": 3
+        },
+        {
+          "label": "3 vegetable servings",
+          "value": 5
+        },
+        {
+          "label": "No sweets",
+          "value": 5
+        },
+        {
+          "label": "Keep a food journal",
+          "value": 5
+        },
+        {
+          "label": "Exercise",
+          "value": {
+            "30Min": 5,
+            "45Min": 7
+          }
+        }
+      ],
+      "day3": [
+        {
+          "label": "Contact Teammate",
+          "value": 1
+        },
+        {
+          "label": "64 oz of water",
+          "value": 3
+        },
+        {
+          "label": "Stop eating before 9pm",
+          "value": 3
+        },
+        {
+          "label": "2 fruit servings",
+          "value": 3
+        },
+        {
+          "label": "3 vegetable servings",
+          "value": 5
+        },
+        {
+          "label": "No sweets",
+          "value": 5
+        },
+        {
+          "label": "Keep a food journal",
+          "value": 5
+        },
+        {
+          "label": "Exercise",
+          "value": {
+            "30Min": 5,
+            "45Min": 7
+          }
+        }
+      ],
+      "day4": [
+        {
+          "label": "Contact Teammate",
+          "value": 1
+        },
+        {
+          "label": "64 oz of water",
+          "value": 3
+        },
+        {
+          "label": "Stop eating before 9pm",
+          "value": 3
+        },
+        {
+          "label": "2 fruit servings",
+          "value": 3
+        },
+        {
+          "label": "3 vegetable servings",
+          "value": 5
+        },
+        {
+          "label": "No sweets",
+          "value": 5
+        },
+        {
+          "label": "Keep a food journal",
+          "value": 5
+        },
+        {
+          "label": "Exercise",
+          "value": {
+            "30Min": 5,
+            "45Min": 7
+          }
+        }
+      ],
+      "day5": [
+        {
+          "label": "Contact Teammate",
+          "value": 1
+        },
+        {
+          "label": "64 oz of water",
+          "value": 3
+        },
+        {
+          "label": "Stop eating before 9pm",
+          "value": 3
+        },
+        {
+          "label": "2 fruit servings",
+          "value": 3
+        },
+        {
+          "label": "3 vegetable servings",
+          "value": 5
+        },
+        {
+          "label": "No sweets",
+          "value": 5
+        },
+        {
+          "label": "Keep a food journal",
+          "value": 5
+        },
+        {
+          "label": "Exercise",
+          "value": {
+            "30Min": 5,
+            "45Min": 7
+          }
+        }
+      ],
+      "day6": [
+        {
+          "label": "Contact Teammate",
+          "value": 1
+        },
+        {
+          "label": "64 oz of water",
+          "value": 3
+        },
+        {
+          "label": "Stop eating before 9pm",
+          "value": 3
+        },
+        {
+          "label": "2 fruit servings",
+          "value": 3
+        },
+        {
+          "label": "3 vegetable servings",
+          "value": 5
+        },
+        {
+          "label": "No sweets",
+          "value": 5
+        },
+        {
+          "label": "Keep a food journal",
+          "value": 5
+        },
+        {
+          "label": "Exercise",
+          "value": {
+            "30Min": 5,
+            "45Min": 7
+          }
+        }
+      ],
+      "day7": [
+        {
+          "label": "Contact Teammate",
+          "value": 1
+        },
+        {
+          "label": "64 oz of water",
+          "value": 3
+        },
+        {
+          "label": "Stop eating before 9pm",
+          "value": 3
+        },
+        {
+          "label": "2 fruit servings",
+          "value": 3
+        },
+        {
+          "label": "3 vegetable servings",
+          "value": 5
+        },
+        {
+          "label": "No sweets",
+          "value": 5
+        },
+        {
+          "label": "Keep a food journal",
+          "value": 5
+        },
+        {
+          "label": "Exercise",
+          "value": {
+            "30Min": 5,
+            "45Min": 7
+          },
+          "poundsLost": {
+            "perPoundLost": 10,
+            "maintaingLowestWeight": 5
+          }
+        }
+      ],
+      "week3": {
+        "day1": [
+          {
+            "label": "Contact Teammate",
+            "value": 1
+          },
+          {
+            "label": "64 oz of water",
+            "value": 6
+          },
+          {
+            "label": "Stop eating before 9pm",
+            "value": 3
+          },
+          {
+            "label": "2 fruit servings",
+            "value": 3
+          },
+          {
+            "label": "3 vegetable servings",
+            "value": 5
+          },
+          {
+            "label": "No sweets",
+            "value": 5
+          },
+          {
+            "label": "Keep a food journal",
+            "value": 5
+          },
+          {
+            "label": "Exercise",
+            "value": {
+              "30Min": 5,
+              "45Min": 7
+            }
+          }
+        ],
+        "day2": [
+          {
+            "label": "Contact Teammate",
+            "value": 1
+          },
+          {
+            "label": "64 oz of water",
+            "value": 6
+          },
+          {
+            "label": "Stop eating before 9pm",
+            "value": 3
+          },
+          {
+            "label": "2 fruit servings",
+            "value": 3
+          },
+          {
+            "label": "3 vegetable servings",
+            "value": 5
+          },
+          {
+            "label": "No sweets",
+            "value": 5
+          },
+          {
+            "label": "Keep a food journal",
+            "value": 5
+          },
+          {
+            "label": "Exercise",
+            "value": {
+              "30Min": 5,
+              "45Min": 7
+            }
+          }
+        ],
+        "day3": [
+          {
+            "label": "Contact Teammate",
+            "value": 1
+          },
+          {
+            "label": "64 oz of water",
+            "value": 6
+          },
+          {
+            "label": "Stop eating before 9pm",
+            "value": 3
+          },
+          {
+            "label": "2 fruit servings",
+            "value": 3
+          },
+          {
+            "label": "3 vegetable servings",
+            "value": 5
+          },
+          {
+            "label": "No sweets",
+            "value": 5
+          },
+          {
+            "label": "Keep a food journal",
+            "value": 5
+          },
+          {
+            "label": "Exercise",
+            "value": {
+              "30Min": 5,
+              "45Min": 7
+            }
+          }
+        ],
+        "day4": [
+          {
+            "label": "Contact Teammate",
+            "value": 1
+          },
+          {
+            "label": "64 oz of water",
+            "value": 6
+          },
+          {
+            "label": "Stop eating before 9pm",
+            "value": 3
+          },
+          {
+            "label": "2 fruit servings",
+            "value": 3
+          },
+          {
+            "label": "3 vegetable servings",
+            "value": 5
+          },
+          {
+            "label": "No sweets",
+            "value": 5
+          },
+          {
+            "label": "Keep a food journal",
+            "value": 5
+          },
+          {
+            "label": "Exercise",
+            "value": {
+              "30Min": 5,
+              "45Min": 7
+            }
+          }
+        ],
+        "day5": [
+          {
+            "label": "Contact Teammate",
+            "value": 1
+          },
+          {
+            "label": "64 oz of water",
+            "value": 6
+          },
+          {
+            "label": "Stop eating before 9pm",
+            "value": 3
+          },
+          {
+            "label": "2 fruit servings",
+            "value": 3
+          },
+          {
+            "label": "3 vegetable servings",
+            "value": 5
+          },
+          {
+            "label": "No sweets",
+            "value": 5
+          },
+          {
+            "label": "Keep a food journal",
+            "value": 5
+          },
+          {
+            "label": "Exercise",
+            "value": {
+              "30Min": 5,
+              "45Min": 7
+            }
+          }
+        ],
+        "day6": [
+          {
+            "label": "Contact Teammate",
+            "value": 1
+          },
+          {
+            "label": "64 oz of water",
+            "value": 6
+          },
+          {
+            "label": "Stop eating before 9pm",
+            "value": 3
+          },
+          {
+            "label": "2 fruit servings",
+            "value": 3
+          },
+          {
+            "label": "3 vegetable servings",
+            "value": 5
+          },
+          {
+            "label": "No sweets",
+            "value": 5
+          },
+          {
+            "label": "Keep a food journal",
+            "value": 5
+          },
+          {
+            "label": "Exercise",
+            "value": {
+              "30Min": 5,
+              "45Min": 7
+            }
+          }
+        ],
+        "day7": [
+          {
+            "label": "Contact Teammate",
+            "value": 1
+          },
+          {
+            "label": "64 oz of water",
+            "value": 6
+          },
+          {
+            "label": "Stop eating before 9pm",
+            "value": 3
+          },
+          {
+            "label": "2 fruit servings",
+            "value": 3
+          },
+          {
+            "label": "3 vegetable servings",
+            "value": 5
+          },
+          {
+            "label": "No sweets",
+            "value": 5
+          },
+          {
+            "label": "Keep a food journal",
+            "value": 5
+          },
+          {
+            "label": "Exercise",
+            "value": {
+              "30Min": 5,
+              "45Min": 7
+            },
+            "poundsLost": {
+              "perPoundLost": 10,
+              "maintaingLowestWeight": 5
+            }
+          }
+        ],
+        "week4": {
+          "day1": [
+            {
+              "label": "Contact Teammate",
+              "value": 1
+            },
+            {
+              "label": "64 oz of water",
+              "value": 6
+            },
+            {
+              "label": "Stop eating before 9pm",
+              "value": 6
+            },
+            {
+              "label": "2 fruit servings",
+              "value": 3
+            },
+            {
+              "label": "3 vegetable servings",
+              "value": 5
+            },
+            {
+              "label": "No sweets",
+              "value": 5
+            },
+            {
+              "label": "Keep a food journal",
+              "value": 5
+            },
+            {
+              "label": "Exercise",
+              "value": {
+                "30Min": 5,
+                "45Min": 7
+              }
+            }
+          ],
+          "day2": [
+            {
+              "label": "Contact Teammate",
+              "value": 1
+            },
+            {
+              "label": "64 oz of water",
+              "value": 6
+            },
+            {
+              "label": "Stop eating before 9pm",
+              "value": 6
+            },
+            {
+              "label": "2 fruit servings",
+              "value": 3
+            },
+            {
+              "label": "3 vegetable servings",
+              "value": 5
+            },
+            {
+              "label": "No sweets",
+              "value": 5
+            },
+            {
+              "label": "Keep a food journal",
+              "value": 5
+            },
+            {
+              "label": "Exercise",
+              "value": {
+                "30Min": 5,
+                "45Min": 7
+              }
+            }
+          ],
+          "day3": [
+            {
+              "label": "Contact Teammate",
+              "value": 1
+            },
+            {
+              "label": "64 oz of water",
+              "value": 6
+            },
+            {
+              "label": "Stop eating before 9pm",
+              "value": 6
+            },
+            {
+              "label": "2 fruit servings",
+              "value": 3
+            },
+            {
+              "label": "3 vegetable servings",
+              "value": 5
+            },
+            {
+              "label": "No sweets",
+              "value": 5
+            },
+            {
+              "label": "Keep a food journal",
+              "value": 5
+            },
+            {
+              "label": "Exercise",
+              "value": {
+                "30Min": 5,
+                "45Min": 7
+              }
+            }
+          ],
+          "day4": [
+            {
+              "label": "Contact Teammate",
+              "value": 1
+            },
+            {
+              "label": "64 oz of water",
+              "value": 6
+            },
+            {
+              "label": "Stop eating before 9pm",
+              "value": 6
+            },
+            {
+              "label": "2 fruit servings",
+              "value": 3
+            },
+            {
+              "label": "3 vegetable servings",
+              "value": 5
+            },
+            {
+              "label": "No sweets",
+              "value": 5
+            },
+            {
+              "label": "Keep a food journal",
+              "value": 5
+            },
+            {
+              "label": "Exercise",
+              "value": {
+                "30Min": 5,
+                "45Min": 7
+              }
+            }
+          ],
+          "day5": [
+            {
+              "label": "Contact Teammate",
+              "value": 1
+            },
+            {
+              "label": "64 oz of water",
+              "value": 6
+            },
+            {
+              "label": "Stop eating before 9pm",
+              "value": 6
+            },
+            {
+              "label": "2 fruit servings",
+              "value": 3
+            },
+            {
+              "label": "3 vegetable servings",
+              "value": 5
+            },
+            {
+              "label": "No sweets",
+              "value": 5
+            },
+            {
+              "label": "Keep a food journal",
+              "value": 5
+            },
+            {
+              "label": "Exercise",
+              "value": {
+                "30Min": 5,
+                "45Min": 7
+              }
+            }
+          ],
+          "day6": [
+            {
+              "label": "Contact Teammate",
+              "value": 1
+            },
+            {
+              "label": "64 oz of water",
+              "value": 6
+            },
+            {
+              "label": "Stop eating before 9pm",
+              "value": 6
+            },
+            {
+              "label": "2 fruit servings",
+              "value": 3
+            },
+            {
+              "label": "3 vegetable servings",
+              "value": 5
+            },
+            {
+              "label": "No sweets",
+              "value": 5
+            },
+            {
+              "label": "Keep a food journal",
+              "value": 5
+            },
+            {
+              "label": "Exercise",
+              "value": {
+                "30Min": 5,
+                "45Min": 7
+              }
+            }
+          ],
+          "day7": [
+            {
+              "label": "Contact Teammate",
+              "value": 1
+            },
+            {
+              "label": "64 oz of water",
+              "value": 6
+            },
+            {
+              "label": "Stop eating before 9pm",
+              "value": 6
+            },
+            {
+              "label": "2 fruit servings",
+              "value": 3
+            },
+            {
+              "label": "3 vegetable servings",
+              "value": 5
+            },
+            {
+              "label": "No sweets",
+              "value": 5
+            },
+            {
+              "label": "Keep a food journal",
+              "value": 5
+            },
+            {
+              "label": "Exercise",
+              "value": {
+                "30Min": 5,
+                "45Min": 7
+              },
+              "poundsLost": {
+                "perPoundLost": 10,
+                "maintaingLowestWeight": 5
+              }
+            }
+          ],
+          "week5": {
+            "day1": [
+              {
+                "label": "Contact Teammate",
+                "value": 1
+              },
+              {
+                "label": "64 oz of water",
+                "value": 6
+              },
+              {
+                "label": "Stop eating before 9pm",
+                "value": 6
+              },
+              {
+                "label": "2 fruit servings",
+                "value": 3
+              },
+              {
+                "label": "3 vegetable servings",
+                "value": 1
+              },
+              {
+                "label": "No sweets",
+                "value": 5
+              },
+              {
+                "label": "Keep a food journal",
+                "value": 5
+              },
+              {
+                "label": "Exercise",
+                "value": {
+                  "30Min": 5,
+                  "45Min": 7
+                }
+              }
+            ],
+            "day2": [
+              {
+                "label": "Contact Teammate",
+                "value": 1
+              },
+              {
+                "label": "64 oz of water",
+                "value": 6
+              },
+              {
+                "label": "Stop eating before 9pm",
+                "value": 6
+              },
+              {
+                "label": "2 fruit servings",
+                "value": 3
+              },
+              {
+                "label": "3 vegetable servings",
+                "value": 1
+              },
+              {
+                "label": "No sweets",
+                "value": 5
+              },
+              {
+                "label": "Keep a food journal",
+                "value": 5
+              },
+              {
+                "label": "Exercise",
+                "value": {
+                  "30Min": 5,
+                  "45Min": 7
+                }
+              }
+            ],
+            "day3": [
+              {
+                "label": "Contact Teammate",
+                "value": 1
+              },
+              {
+                "label": "64 oz of water",
+                "value": 6
+              },
+              {
+                "label": "Stop eating before 9pm",
+                "value": 6
+              },
+              {
+                "label": "2 fruit servings",
+                "value": 3
+              },
+              {
+                "label": "3 vegetable servings",
+                "value": 1
+              },
+              {
+                "label": "No sweets",
+                "value": 5
+              },
+              {
+                "label": "Keep a food journal",
+                "value": 5
+              },
+              {
+                "label": "Exercise",
+                "value": {
+                  "30Min": 5,
+                  "45Min": 7
+                }
+              }
+            ],
+            "day4": [
+              {
+                "label": "Contact Teammate",
+                "value": 1
+              },
+              {
+                "label": "64 oz of water",
+                "value": 6
+              },
+              {
+                "label": "Stop eating before 9pm",
+                "value": 6
+              },
+              {
+                "label": "2 fruit servings",
+                "value": 3
+              },
+              {
+                "label": "3 vegetable servings",
+                "value": 1
+              },
+              {
+                "label": "No sweets",
+                "value": 5
+              },
+              {
+                "label": "Keep a food journal",
+                "value": 5
+              },
+              {
+                "label": "Exercise",
+                "value": {
+                  "30Min": 5,
+                  "45Min": 7
+                }
+              }
+            ],
+            "day5": [
+              {
+                "label": "Contact Teammate",
+                "value": 1
+              },
+              {
+                "label": "64 oz of water",
+                "value": 6
+              },
+              {
+                "label": "Stop eating before 9pm",
+                "value": 6
+              },
+              {
+                "label": "2 fruit servings",
+                "value": 3
+              },
+              {
+                "label": "3 vegetable servings",
+                "value": 1
+              },
+              {
+                "label": "No sweets",
+                "value": 5
+              },
+              {
+                "label": "Keep a food journal",
+                "value": 5
+              },
+              {
+                "label": "Exercise",
+                "value": {
+                  "30Min": 5,
+                  "45Min": 7
+                }
+              }
+            ],
+            "day6": [
+              {
+                "label": "Contact Teammate",
+                "value": 1
+              },
+              {
+                "label": "64 oz of water",
+                "value": 6
+              },
+              {
+                "label": "Stop eating before 9pm",
+                "value": 6
+              },
+              {
+                "label": "2 fruit servings",
+                "value": 3
+              },
+              {
+                "label": "3 vegetable servings",
+                "value": 1
+              },
+              {
+                "label": "No sweets",
+                "value": 5
+              },
+              {
+                "label": "Keep a food journal",
+                "value": 5
+              },
+              {
+                "label": "Exercise",
+                "value": {
+                  "30Min": 5,
+                  "45Min": 7
+                }
+              }
+            ],
+            "day7": [
+              {
+                "label": "Contact Teammate",
+                "value": 1
+              },
+              {
+                "label": "64 oz of water",
+                "value": 6
+              },
+              {
+                "label": "Stop eating before 9pm",
+                "value": 6
+              },
+              {
+                "label": "2 fruit servings",
+                "value": 3
+              },
+              {
+                "label": "3 vegetable servings",
+                "value": 1
+              },
+              {
+                "label": "No sweets",
+                "value": 5
+              },
+              {
+                "label": "Keep a food journal",
+                "value": 5
+              },
+              {
+                "label": "Exercise",
+                "value": {
+                  "30Min": 5,
+                  "45Min": 7
+                },
+                "poundsLost": {
+                  "perPoundLost": 10,
+                  "maintaingLowestWeight": 5
+                }
+              }
+            ],
+            "week6": {
+              "day1": [
+                {
+                  "label": "Contact Teammate",
+                  "value": 1
+                },
+                {
+                  "label": "64 oz of water",
+                  "value": 6
+                },
+                {
+                  "label": "Stop eating before 9pm",
+                  "value": 6
+                },
+                {
+                  "label": "2 fruit servings",
+                  "value": 3
+                },
+                {
+                  "label": "3 vegetable servings",
+                  "value": 1
+                },
+                {
+                  "label": "No sweets",
+                  "value": 1
+                },
+                {
+                  "label": "Keep a food journal",
+                  "value": 5
+                },
+                {
+                  "label": "Exercise",
+                  "value": {
+                    "30Min": 5,
+                    "45Min": 7
+                  }
+                }
+              ],
+              "day2": [
+                {
+                  "label": "Contact Teammate",
+                  "value": 1
+                },
+                {
+                  "label": "64 oz of water",
+                  "value": 6
+                },
+                {
+                  "label": "Stop eating before 9pm",
+                  "value": 6
+                },
+                {
+                  "label": "2 fruit servings",
+                  "value": 3
+                },
+                {
+                  "label": "3 vegetable servings",
+                  "value": 1
+                },
+                {
+                  "label": "No sweets",
+                  "value": 1
+                },
+                {
+                  "label": "Keep a food journal",
+                  "value": 5
+                },
+                {
+                  "label": "Exercise",
+                  "value": {
+                    "30Min": 5,
+                    "45Min": 7
+                  }
+                }
+              ],
+              "day3": [
+                {
+                  "label": "Contact Teammate",
+                  "value": 1
+                },
+                {
+                  "label": "64 oz of water",
+                  "value": 6
+                },
+                {
+                  "label": "Stop eating before 9pm",
+                  "value": 6
+                },
+                {
+                  "label": "2 fruit servings",
+                  "value": 3
+                },
+                {
+                  "label": "3 vegetable servings",
+                  "value": 1
+                },
+                {
+                  "label": "No sweets",
+                  "value": 1
+                },
+                {
+                  "label": "Keep a food journal",
+                  "value": 5
+                },
+                {
+                  "label": "Exercise",
+                  "value": {
+                    "30Min": 5,
+                    "45Min": 7
+                  }
+                }
+              ],
+              "day4": [
+                {
+                  "label": "Contact Teammate",
+                  "value": 1
+                },
+                {
+                  "label": "64 oz of water",
+                  "value": 6
+                },
+                {
+                  "label": "Stop eating before 9pm",
+                  "value": 6
+                },
+                {
+                  "label": "2 fruit servings",
+                  "value": 3
+                },
+                {
+                  "label": "3 vegetable servings",
+                  "value": 1
+                },
+                {
+                  "label": "No sweets",
+                  "value": 1
+                },
+                {
+                  "label": "Keep a food journal",
+                  "value": 5
+                },
+                {
+                  "label": "Exercise",
+                  "value": {
+                    "30Min": 5,
+                    "45Min": 7
+                  }
+                }
+              ],
+              "day5": [
+                {
+                  "label": "Contact Teammate",
+                  "value": 1
+                },
+                {
+                  "label": "64 oz of water",
+                  "value": 6
+                },
+                {
+                  "label": "Stop eating before 9pm",
+                  "value": 6
+                },
+                {
+                  "label": "2 fruit servings",
+                  "value": 3
+                },
+                {
+                  "label": "3 vegetable servings",
+                  "value": 1
+                },
+                {
+                  "label": "No sweets",
+                  "value": 1
+                },
+                {
+                  "label": "Keep a food journal",
+                  "value": 5
+                },
+                {
+                  "label": "Exercise",
+                  "value": {
+                    "30Min": 5,
+                    "45Min": 7
+                  }
+                }
+              ],
+              "day6": [
+                {
+                  "label": "Contact Teammate",
+                  "value": 1
+                },
+                {
+                  "label": "64 oz of water",
+                  "value": 6
+                },
+                {
+                  "label": "Stop eating before 9pm",
+                  "value": 6
+                },
+                {
+                  "label": "2 fruit servings",
+                  "value": 3
+                },
+                {
+                  "label": "3 vegetable servings",
+                  "value": 1
+                },
+                {
+                  "label": "No sweets",
+                  "value": 1
+                },
+                {
+                  "label": "Keep a food journal",
+                  "value": 5
+                },
+                {
+                  "label": "Exercise",
+                  "value": {
+                    "30Min": 5,
+                    "45Min": 7
+                  }
+                }
+              ],
+              "day7": [
+                {
+                  "label": "Contact Teammate",
+                  "value": 1
+                },
+                {
+                  "label": "64 oz of water",
+                  "value": 6
+                },
+                {
+                  "label": "Stop eating before 9pm",
+                  "value": 6
+                },
+                {
+                  "label": "2 fruit servings",
+                  "value": 3
+                },
+                {
+                  "label": "3 vegetable servings",
+                  "value": 1
+                },
+                {
+                  "label": "No sweets",
+                  "value": 1
+                },
+                {
+                  "label": "Keep a food journal",
+                  "value": 5
+                },
+                {
+                  "label": "Exercise",
+                  "value": {
+                    "30Min": 5,
+                    "45Min": 7
+                  },
+                  "poundsLost": {
+                    "perPoundLost": 10,
+                    "maintaingLowestWeight": 5
+                  }
+                }
+              ],
+              "week7": {
+                "day1": [
+                  {
+                    "label": "Contact Teammate",
+                    "value": 1
+                  },
+                  {
+                    "label": "64 oz of water",
+                    "value": 6
+                  },
+                  {
+                    "label": "Stop eating before 9pm",
+                    "value": 6
+                  },
+                  {
+                    "label": "2 fruit servings",
+                    "value": 3
+                  },
+                  {
+                    "label": "3 vegetable servings",
+                    "value": 1
+                  },
+                  {
+                    "label": "No sweets",
+                    "value": 1
+                  },
+                  {
+                    "label": "Keep a food journal",
+                    "value": 1
+                  },
+                  {
+                    "label": "Exercise",
+                    "value": {
+                      "30Min": 5,
+                      "45Min": 7
+                    }
+                  }
+                ],
+                "day2": [
+                  {
+                    "label": "Contact Teammate",
+                    "value": 1
+                  },
+                  {
+                    "label": "64 oz of water",
+                    "value": 6
+                  },
+                  {
+                    "label": "Stop eating before 9pm",
+                    "value": 6
+                  },
+                  {
+                    "label": "2 fruit servings",
+                    "value": 3
+                  },
+                  {
+                    "label": "3 vegetable servings",
+                    "value": 1
+                  },
+                  {
+                    "label": "No sweets",
+                    "value": 1
+                  },
+                  {
+                    "label": "Keep a food journal",
+                    "value": 1
+                  },
+                  {
+                    "label": "Exercise",
+                    "value": {
+                      "30Min": 5,
+                      "45Min": 7
+                    }
+                  }
+                ],
+                "day3": [
+                  {
+                    "label": "Contact Teammate",
+                    "value": 1
+                  },
+                  {
+                    "label": "64 oz of water",
+                    "value": 6
+                  },
+                  {
+                    "label": "Stop eating before 9pm",
+                    "value": 6
+                  },
+                  {
+                    "label": "2 fruit servings",
+                    "value": 3
+                  },
+                  {
+                    "label": "3 vegetable servings",
+                    "value": 1
+                  },
+                  {
+                    "label": "No sweets",
+                    "value": 1
+                  },
+                  {
+                    "label": "Keep a food journal",
+                    "value": 1
+                  },
+                  {
+                    "label": "Exercise",
+                    "value": {
+                      "30Min": 5,
+                      "45Min": 7
+                    }
+                  }
+                ],
+                "day4": [
+                  {
+                    "label": "Contact Teammate",
+                    "value": 1
+                  },
+                  {
+                    "label": "64 oz of water",
+                    "value": 6
+                  },
+                  {
+                    "label": "Stop eating before 9pm",
+                    "value": 6
+                  },
+                  {
+                    "label": "2 fruit servings",
+                    "value": 3
+                  },
+                  {
+                    "label": "3 vegetable servings",
+                    "value": 1
+                  },
+                  {
+                    "label": "No sweets",
+                    "value": 1
+                  },
+                  {
+                    "label": "Keep a food journal",
+                    "value": 1
+                  },
+                  {
+                    "label": "Exercise",
+                    "value": {
+                      "30Min": 5,
+                      "45Min": 7
+                    }
+                  }
+                ],
+                "day5": [
+                  {
+                    "label": "Contact Teammate",
+                    "value": 1
+                  },
+                  {
+                    "label": "64 oz of water",
+                    "value": 6
+                  },
+                  {
+                    "label": "Stop eating before 9pm",
+                    "value": 6
+                  },
+                  {
+                    "label": "2 fruit servings",
+                    "value": 3
+                  },
+                  {
+                    "label": "3 vegetable servings",
+                    "value": 1
+                  },
+                  {
+                    "label": "No sweets",
+                    "value": 1
+                  },
+                  {
+                    "label": "Keep a food journal",
+                    "value": 1
+                  },
+                  {
+                    "label": "Exercise",
+                    "value": {
+                      "30Min": 5,
+                      "45Min": 7
+                    }
+                  }
+                ],
+                "day6": [
+                  {
+                    "label": "Contact Teammate",
+                    "value": 1
+                  },
+                  {
+                    "label": "64 oz of water",
+                    "value": 6
+                  },
+                  {
+                    "label": "Stop eating before 9pm",
+                    "value": 6
+                  },
+                  {
+                    "label": "2 fruit servings",
+                    "value": 3
+                  },
+                  {
+                    "label": "3 vegetable servings",
+                    "value": 1
+                  },
+                  {
+                    "label": "No sweets",
+                    "value": 1
+                  },
+                  {
+                    "label": "Keep a food journal",
+                    "value": 1
+                  },
+                  {
+                    "label": "Exercise",
+                    "value": {
+                      "30Min": 5,
+                      "45Min": 7
+                    }
+                  }
+                ],
+                "day7": [
+                  {
+                    "label": "Contact Teammate",
+                    "value": 1
+                  },
+                  {
+                    "label": "64 oz of water",
+                    "value": 6
+                  },
+                  {
+                    "label": "Stop eating before 9pm",
+                    "value": 6
+                  },
+                  {
+                    "label": "2 fruit servings",
+                    "value": 3
+                  },
+                  {
+                    "label": "3 vegetable servings",
+                    "value": 1
+                  },
+                  {
+                    "label": "No sweets",
+                    "value": 1
+                  },
+                  {
+                    "label": "Keep a food journal",
+                    "value": 1
+                  },
+                  {
+                    "label": "Exercise",
+                    "value": {
+                      "30Min": 5,
+                      "45Min": 7
+                    },
+                    "poundsLost": {
+                      "perPoundLost": 10,
+                      "maintaingLowestWeight": 5
+                    }
+                  }
+                ],
+                "week8": {
+                  "day1": [
+                    {
+                      "label": "Contact Teammate",
+                      "value": 1
+                    },
+                    {
+                      "label": "64 oz of water",
+                      "value": 6
+                    },
+                    {
+                      "label": "Stop eating before 9pm",
+                      "value": 6
+                    },
+                    {
+                      "label": "2 fruit servings",
+                      "value": 3
+                    },
+                    {
+                      "label": "3 vegetable servings",
+                      "value": 1
+                    },
+                    {
+                      "label": "No sweets",
+                      "value": 1
+                    },
+                    {
+                      "label": "Keep a food journal",
+                      "value": 1
+                    },
+                    {
+                      "label": "Exercise",
+                      "value": {
+                        "30Min": 10,
+                        "45Min": 14
+                      }
+                    }
+                  ],
+                  "day2": [
+                    {
+                      "label": "Contact Teammate",
+                      "value": 1
+                    },
+                    {
+                      "label": "64 oz of water",
+                      "value": 6
+                    },
+                    {
+                      "label": "Stop eating before 9pm",
+                      "value": 6
+                    },
+                    {
+                      "label": "2 fruit servings",
+                      "value": 3
+                    },
+                    {
+                      "label": "3 vegetable servings",
+                      "value": 1
+                    },
+                    {
+                      "label": "No sweets",
+                      "value": 1
+                    },
+                    {
+                      "label": "Keep a food journal",
+                      "value": 1
+                    },
+                    {
+                      "label": "Exercise",
+                      "value": {
+                        "30Min": 10,
+                        "45Min": 14
+                      }
+                    }
+                  ],
+                  "day3": [
+                    {
+                      "label": "Contact Teammate",
+                      "value": 1
+                    },
+                    {
+                      "label": "64 oz of water",
+                      "value": 6
+                    },
+                    {
+                      "label": "Stop eating before 9pm",
+                      "value": 6
+                    },
+                    {
+                      "label": "2 fruit servings",
+                      "value": 3
+                    },
+                    {
+                      "label": "3 vegetable servings",
+                      "value": 1
+                    },
+                    {
+                      "label": "No sweets",
+                      "value": 1
+                    },
+                    {
+                      "label": "Keep a food journal",
+                      "value": 1
+                    },
+                    {
+                      "label": "Exercise",
+                      "value": {
+                        "30Min": 10,
+                        "45Min": 14
+                      }
+                    }
+                  ],
+                  "day4": [
+                    {
+                      "label": "Contact Teammate",
+                      "value": 1
+                    },
+                    {
+                      "label": "64 oz of water",
+                      "value": 6
+                    },
+                    {
+                      "label": "Stop eating before 9pm",
+                      "value": 6
+                    },
+                    {
+                      "label": "2 fruit servings",
+                      "value": 3
+                    },
+                    {
+                      "label": "3 vegetable servings",
+                      "value": 1
+                    },
+                    {
+                      "label": "No sweets",
+                      "value": 1
+                    },
+                    {
+                      "label": "Keep a food journal",
+                      "value": 1
+                    },
+                    {
+                      "label": "Exercise",
+                      "value": {
+                        "30Min": 10,
+                        "45Min": 14
+                      }
+                    }
+                  ],
+                  "day5": [
+                    {
+                      "label": "Contact Teammate",
+                      "value": 1
+                    },
+                    {
+                      "label": "64 oz of water",
+                      "value": 6
+                    },
+                    {
+                      "label": "Stop eating before 9pm",
+                      "value": 6
+                    },
+                    {
+                      "label": "2 fruit servings",
+                      "value": 3
+                    },
+                    {
+                      "label": "3 vegetable servings",
+                      "value": 1
+                    },
+                    {
+                      "label": "No sweets",
+                      "value": 1
+                    },
+                    {
+                      "label": "Keep a food journal",
+                      "value": 1
+                    },
+                    {
+                      "label": "Exercise",
+                      "value": {
+                        "30Min": 10,
+                        "45Min": 14
+                      }
+                    }
+                  ],
+                  "day6": [
+                    {
+                      "label": "Contact Teammate",
+                      "value": 1
+                    },
+                    {
+                      "label": "64 oz of water",
+                      "value": 6
+                    },
+                    {
+                      "label": "Stop eating before 9pm",
+                      "value": 6
+                    },
+                    {
+                      "label": "2 fruit servings",
+                      "value": 3
+                    },
+                    {
+                      "label": "3 vegetable servings",
+                      "value": 1
+                    },
+                    {
+                      "label": "No sweets",
+                      "value": 1
+                    },
+                    {
+                      "label": "Keep a food journal",
+                      "value": 1
+                    },
+                    {
+                      "label": "Exercise",
+                      "value": {
+                        "30Min": 10,
+                        "45Min": 14
+                      }
+                    }
+                  ],
+                  "day7": [
+                    {
+                      "label": "Contact Teammate",
+                      "value": 1
+                    },
+                    {
+                      "label": "64 oz of water",
+                      "value": 6
+                    },
+                    {
+                      "label": "Stop eating before 9pm",
+                      "value": 6
+                    },
+                    {
+                      "label": "2 fruit servings",
+                      "value": 3
+                    },
+                    {
+                      "label": "3 vegetable servings",
+                      "value": 1
+                    },
+                    {
+                      "label": "No sweets",
+                      "value": 1
+                    },
+                    {
+                      "label": "Keep a food journal",
+                      "value": 1
+                    },
+                    {
+                      "label": "Exercise",
+                      "value": {
+                        "30Min": 10,
+                        "45Min": 14
+                      },
+                      "poundsLost": {
+                        "perPoundLost": 10,
+                        "maintaingLowestWeight": 5
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
