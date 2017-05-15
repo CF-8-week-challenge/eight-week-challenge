@@ -8,6 +8,11 @@
 
 #import "TodayTaskCell.h"
 
+@interface TodayTaskCell ()
+@property (weak, nonatomic) IBOutlet UILabel *taskTitle;
+@property (weak, nonatomic) IBOutlet UISwitch *taskDoneStatus;
+@end
+
 @implementation TodayTaskCell
 
 - (void)awakeFromNib {
@@ -16,6 +21,11 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
   [super setSelected:selected animated:animated];
+}
+
+- (void) configureTask:(Task *)task {
+  self.task = task;
+  self.taskTitle.text = task.title;
 }
 
 @end
