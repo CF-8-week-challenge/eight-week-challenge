@@ -11,6 +11,7 @@
 @interface TodayTaskCell ()
 @property (weak, nonatomic) IBOutlet UILabel *taskTitle;
 @property (weak, nonatomic) IBOutlet UISwitch *taskDoneStatus;
+@property (weak, nonatomic) IBOutlet UILabel *pointValue;
 @end
 
 @implementation TodayTaskCell
@@ -26,6 +27,7 @@
 - (void) configureTask:(Task *)task {
   self.task = task;
   self.taskTitle.text = task.title;
+  self.pointValue.text = [NSString stringWithFormat:@"Points: %@", task.value];
 }
 
 @end
