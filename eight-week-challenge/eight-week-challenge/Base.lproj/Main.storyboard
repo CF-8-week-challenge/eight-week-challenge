@@ -42,7 +42,7 @@
         <scene sceneID="6Ce-zt-zMg">
             <objects>
                 <viewControllerPlaceholder storyboardName="Today" id="GtC-fo-i7s" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="w64-XU-EAs"/>
+                    <tabBarItem key="tabBarItem" title="Today" image="program" id="w64-XU-EAs"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qrj-OK-O0G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -52,7 +52,7 @@
         <scene sceneID="M7X-iq-ozJ">
             <objects>
                 <viewControllerPlaceholder storyboardName="Profile" id="czX-tp-OoW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="5rg-a9-xUQ"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="user" selectedImage="user" id="5rg-a9-xUQ"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cB4-3j-A0G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,5 +61,7 @@
     </scenes>
     <resources>
         <image name="home" width="25" height="25"/>
+        <image name="program" width="25" height="25"/>
+        <image name="user" width="25" height="25"/>
     </resources>
 </document>
