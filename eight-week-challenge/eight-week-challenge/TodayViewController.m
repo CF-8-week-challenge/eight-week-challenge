@@ -8,9 +8,11 @@
 
 #import "TodayViewController.h"
 #import "TodayTaskCell.h"
+#import "Task.h"
 
 @interface TodayViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) NSArray *todaysTasks;
 @end
 
 @implementation TodayViewController
@@ -22,20 +24,28 @@
 
   UINib *todayTaskCell = [UINib nibWithNibName:@"TodayTaskCell" bundle:nil];
   [self.tableView registerNib:todayTaskCell forCellReuseIdentifier:@"TodayTaskCell"];
+
+  self.todaysTasks = @[
+    [Task taskFromDict:@{@"title": @"get lifted", @"value": @420}]
+  ];
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView
  numberOfRowsInSection:(NSInteger)section {
-  return 0;
+  return self.todaysTasks.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
          cellForRowAtIndexPath:(NSIndexPath *)indexPath {
   TodayTaskCell *cell;
+  Task *selectedTask;
+  
   cell = (TodayTaskCell *)
   [tableView dequeueReusableCellWithIdentifier:@"TodayTaskCell"
                                   forIndexPath:indexPath];
+  selectedTask = self.todaysTasks[indexPath.row];
+  [cell configureTask: selectedTask];
   return cell;
 }
 
