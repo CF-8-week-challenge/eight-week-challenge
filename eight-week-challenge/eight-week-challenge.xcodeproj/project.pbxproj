@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B3983E71ECA2834000269AD /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3983E61ECA2834000269AD /* AFNetworking.framework */; };
 		1B3983E81ECA2834000269AD /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3983E61ECA2834000269AD /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1B3983ED1ECA2B77000269AD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3983EC1ECA2B77000269AD /* HomeViewController.m */; };
 		1B6A01761ECA1DB8005DAC00 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A01741ECA1DB8005DAC00 /* Home.storyboard */; };
 		1B6A01791ECA1DF5005DAC00 /* Today.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A01771ECA1DF5005DAC00 /* Today.storyboard */; };
 		1B6A017C1ECA1E18005DAC00 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A017A1ECA1E18005DAC00 /* Profile.storyboard */; };
@@ -56,6 +57,8 @@
 
 /* Begin PBXFileReference section */
 		1B3983E61ECA2834000269AD /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		1B3983EB1ECA2B77000269AD /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1B3983EC1ECA2B77000269AD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		1B6A01751ECA1DB8005DAC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		1B6A01781ECA1DF5005DAC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Today.storyboard; sourceTree = "<group>"; };
 		1B6A017B1ECA1E18005DAC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
@@ -140,6 +143,8 @@
 			children = (
 				E57935F31ECA145400C9E3AF /* AppDelegate.h */,
 				E57935F41ECA145400C9E3AF /* AppDelegate.m */,
+				1B3983EB1ECA2B77000269AD /* HomeViewController.h */,
+				1B3983EC1ECA2B77000269AD /* HomeViewController.m */,
 				E57935F91ECA145400C9E3AF /* Main.storyboard */,
 				1B6A017A1ECA1E18005DAC00 /* Profile.storyboard */,
 				1B6A01741ECA1DB8005DAC00 /* Home.storyboard */,
@@ -339,6 +344,7 @@
 			files = (
 				E57935F51ECA145400C9E3AF /* AppDelegate.m in Sources */,
 				E57935F21ECA145400C9E3AF /* main.m in Sources */,
+				1B3983ED1ECA2B77000269AD /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
