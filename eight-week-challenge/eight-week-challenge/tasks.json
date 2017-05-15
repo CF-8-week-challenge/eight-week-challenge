@@ -1,3 +1,4 @@
+
 {
   "week1": {
     "day1": [
@@ -296,8 +297,8 @@
         {
           "label": "Exercise",
           "value": {
-            "30Min": 5,
-            "45Min": 7
+            "30Min": 10,
+            "45Min": 14
           }
         }
       ],
@@ -333,8 +334,8 @@
         {
           "label": "Exercise",
           "value": {
-            "30Min": 5,
-            "45Min": 7
+            "30Min": 10,
+            "45Min": 14
           }
         }
       ],
@@ -370,8 +371,9 @@
         {
           "label": "Exercise",
           "value": {
-            "30Min": 5,
-            "45Min": 7
+            "30Min": 10,
+            "45Min": 14
+
           }
         }
       ],
@@ -407,8 +409,8 @@
         {
           "label": "Exercise",
           "value": {
-            "30Min": 5,
-            "45Min": 7
+            "30Min": 10,
+            "45Min": 14
           }
         }
       ],
@@ -444,8 +446,8 @@
         {
           "label": "Exercise",
           "value": {
-            "30Min": 5,
-            "45Min": 7
+            "30Min": 10,
+            "45Min": 14
           }
         }
       ],
@@ -481,8 +483,8 @@
         {
           "label": "Exercise",
           "value": {
-            "30Min": 5,
-            "45Min": 7
+            "30Min": 10,
+            "45Min": 14
           }
         }
       ],
@@ -518,8 +520,8 @@
         {
           "label": "Exercise",
           "value": {
-            "30Min": 5,
-            "45Min": 7
+            "30Min": 10,
+            "45Min": 14
           },
           "poundsLost": {
             "perPoundLost": 10,
@@ -1063,11 +1065,11 @@
               },
               {
                 "label": "64 oz of water",
-                "value": 6
+                "value": 3
               },
               {
                 "label": "Stop eating before 9pm",
-                "value": 6
+                "value": 3
               },
               {
                 "label": "2 fruit servings",
@@ -1075,7 +1077,7 @@
               },
               {
                 "label": "3 vegetable servings",
-                "value": 1
+                "value": 10
               },
               {
                 "label": "No sweets",
@@ -1100,11 +1102,11 @@
               },
               {
                 "label": "64 oz of water",
-                "value": 6
+                "value": 3
               },
               {
                 "label": "Stop eating before 9pm",
-                "value": 6
+                "value": 3
               },
               {
                 "label": "2 fruit servings",
@@ -1112,7 +1114,7 @@
               },
               {
                 "label": "3 vegetable servings",
-                "value": 1
+                "value": 10
               },
               {
                 "label": "No sweets",
@@ -1137,11 +1139,11 @@
               },
               {
                 "label": "64 oz of water",
-                "value": 6
+                "value": 3
               },
               {
                 "label": "Stop eating before 9pm",
-                "value": 6
+                "value": 3
               },
               {
                 "label": "2 fruit servings",
@@ -1149,7 +1151,7 @@
               },
               {
                 "label": "3 vegetable servings",
-                "value": 1
+                "value": 10
               },
               {
                 "label": "No sweets",
@@ -1174,11 +1176,11 @@
               },
               {
                 "label": "64 oz of water",
-                "value": 6
+                "value": 3
               },
               {
                 "label": "Stop eating before 9pm",
-                "value": 6
+                "value": 3
               },
               {
                 "label": "2 fruit servings",
@@ -1186,7 +1188,7 @@
               },
               {
                 "label": "3 vegetable servings",
-                "value": 1
+                "value": 10
               },
               {
                 "label": "No sweets",
@@ -1211,11 +1213,11 @@
               },
               {
                 "label": "64 oz of water",
-                "value": 6
+                "value": 3
               },
               {
                 "label": "Stop eating before 9pm",
-                "value": 6
+                "value": 3
               },
               {
                 "label": "2 fruit servings",
@@ -1223,7 +1225,7 @@
               },
               {
                 "label": "3 vegetable servings",
-                "value": 1
+                "value": 10
               },
               {
                 "label": "No sweets",
@@ -1248,11 +1250,11 @@
               },
               {
                 "label": "64 oz of water",
-                "value": 6
+                "value": 3
               },
               {
                 "label": "Stop eating before 9pm",
-                "value": 6
+                "value": 3
               },
               {
                 "label": "2 fruit servings",
@@ -1260,7 +1262,7 @@
               },
               {
                 "label": "3 vegetable servings",
-                "value": 1
+                "value": 10
               },
               {
                 "label": "No sweets",
@@ -1285,11 +1287,11 @@
               },
               {
                 "label": "64 oz of water",
-                "value": 6
+                "value": 3
               },
               {
                 "label": "Stop eating before 9pm",
-                "value": 6
+                "value": 3
               },
               {
                 "label": "2 fruit servings",
@@ -1297,7 +1299,7 @@
               },
               {
                 "label": "3 vegetable servings",
-                "value": 1
+                "value": 10
               },
               {
                 "label": "No sweets",
@@ -1327,11 +1329,11 @@
                 },
                 {
                   "label": "64 oz of water",
-                  "value": 6
+                  "value": 3
                 },
                 {
                   "label": "Stop eating before 9pm",
-                  "value": 6
+                  "value": 3
                 },
                 {
                   "label": "2 fruit servings",
@@ -1339,11 +1341,11 @@
                 },
                 {
                   "label": "3 vegetable servings",
-                  "value": 1
+                  "value": 5
                 },
                 {
                   "label": "No sweets",
-                  "value": 1
+                  "value": 10
                 },
                 {
                   "label": "Keep a food journal",
@@ -1364,11 +1366,11 @@
                 },
                 {
                   "label": "64 oz of water",
-                  "value": 6
+                  "value": 3
                 },
                 {
                   "label": "Stop eating before 9pm",
-                  "value": 6
+                  "value": 3
                 },
                 {
                   "label": "2 fruit servings",
@@ -1376,11 +1378,11 @@
                 },
                 {
                   "label": "3 vegetable servings",
-                  "value": 1
+                  "value": 5
                 },
                 {
                   "label": "No sweets",
-                  "value": 1
+                  "value": 10
                 },
                 {
                   "label": "Keep a food journal",
@@ -1401,11 +1403,11 @@
                 },
                 {
                   "label": "64 oz of water",
-                  "value": 6
+                  "value": 3
                 },
                 {
                   "label": "Stop eating before 9pm",
-                  "value": 6
+                  "value": 3
                 },
                 {
                   "label": "2 fruit servings",
@@ -1413,11 +1415,11 @@
                 },
                 {
                   "label": "3 vegetable servings",
-                  "value": 1
+                  "value": 5
                 },
                 {
                   "label": "No sweets",
-                  "value": 1
+                  "value": 10
                 },
                 {
                   "label": "Keep a food journal",
@@ -1438,11 +1440,11 @@
                 },
                 {
                   "label": "64 oz of water",
-                  "value": 6
+                  "value": 3
                 },
                 {
                   "label": "Stop eating before 9pm",
-                  "value": 6
+                  "value": 3
                 },
                 {
                   "label": "2 fruit servings",
@@ -1450,11 +1452,11 @@
                 },
                 {
                   "label": "3 vegetable servings",
-                  "value": 1
+                  "value": 5
                 },
                 {
                   "label": "No sweets",
-                  "value": 1
+                  "value": 10
                 },
                 {
                   "label": "Keep a food journal",
@@ -1475,11 +1477,11 @@
                 },
                 {
                   "label": "64 oz of water",
-                  "value": 6
+                  "value": 3
                 },
                 {
                   "label": "Stop eating before 9pm",
-                  "value": 6
+                  "value": 3
                 },
                 {
                   "label": "2 fruit servings",
@@ -1487,11 +1489,11 @@
                 },
                 {
                   "label": "3 vegetable servings",
-                  "value": 1
+                  "value": 5
                 },
                 {
                   "label": "No sweets",
-                  "value": 1
+                  "value": 10
                 },
                 {
                   "label": "Keep a food journal",
@@ -1512,11 +1514,11 @@
                 },
                 {
                   "label": "64 oz of water",
-                  "value": 6
+                  "value": 3
                 },
                 {
                   "label": "Stop eating before 9pm",
-                  "value": 6
+                  "value": 3
                 },
                 {
                   "label": "2 fruit servings",
@@ -1524,11 +1526,11 @@
                 },
                 {
                   "label": "3 vegetable servings",
-                  "value": 1
+                  "value": 5
                 },
                 {
                   "label": "No sweets",
-                  "value": 1
+                  "value": 10
                 },
                 {
                   "label": "Keep a food journal",
@@ -1549,11 +1551,11 @@
                 },
                 {
                   "label": "64 oz of water",
-                  "value": 6
+                  "value": 3
                 },
                 {
                   "label": "Stop eating before 9pm",
-                  "value": 6
+                  "value": 3
                 },
                 {
                   "label": "2 fruit servings",
@@ -1561,11 +1563,11 @@
                 },
                 {
                   "label": "3 vegetable servings",
-                  "value": 1
+                  "value": 5
                 },
                 {
                   "label": "No sweets",
-                  "value": 1
+                  "value": 10
                 },
                 {
                   "label": "Keep a food journal",
@@ -1591,11 +1593,11 @@
                   },
                   {
                     "label": "64 oz of water",
-                    "value": 6
+                    "value": 3
                   },
                   {
                     "label": "Stop eating before 9pm",
-                    "value": 6
+                    "value": 3
                   },
                   {
                     "label": "2 fruit servings",
@@ -1603,15 +1605,15 @@
                   },
                   {
                     "label": "3 vegetable servings",
-                    "value": 1
+                    "value": 5
                   },
                   {
                     "label": "No sweets",
-                    "value": 1
+                    "value": 5
                   },
                   {
                     "label": "Keep a food journal",
-                    "value": 1
+                    "value": 10
                   },
                   {
                     "label": "Exercise",
@@ -1628,11 +1630,11 @@
                   },
                   {
                     "label": "64 oz of water",
-                    "value": 6
+                    "value": 3
                   },
                   {
                     "label": "Stop eating before 9pm",
-                    "value": 6
+                    "value": 3
                   },
                   {
                     "label": "2 fruit servings",
@@ -1640,15 +1642,15 @@
                   },
                   {
                     "label": "3 vegetable servings",
-                    "value": 1
+                    "value": 5
                   },
                   {
                     "label": "No sweets",
-                    "value": 1
+                    "value": 5
                   },
                   {
                     "label": "Keep a food journal",
-                    "value": 1
+                    "value": 10
                   },
                   {
                     "label": "Exercise",
@@ -1665,11 +1667,11 @@
                   },
                   {
                     "label": "64 oz of water",
-                    "value": 6
+                    "value": 3
                   },
                   {
                     "label": "Stop eating before 9pm",
-                    "value": 6
+                    "value": 3
                   },
                   {
                     "label": "2 fruit servings",
@@ -1677,15 +1679,15 @@
                   },
                   {
                     "label": "3 vegetable servings",
-                    "value": 1
+                    "value": 5
                   },
                   {
                     "label": "No sweets",
-                    "value": 1
+                    "value": 5
                   },
                   {
                     "label": "Keep a food journal",
-                    "value": 1
+                    "value": 10
                   },
                   {
                     "label": "Exercise",
@@ -1702,11 +1704,11 @@
                   },
                   {
                     "label": "64 oz of water",
-                    "value": 6
+                    "value": 3
                   },
                   {
                     "label": "Stop eating before 9pm",
-                    "value": 6
+                    "value": 3
                   },
                   {
                     "label": "2 fruit servings",
@@ -1714,15 +1716,15 @@
                   },
                   {
                     "label": "3 vegetable servings",
-                    "value": 1
+                    "value": 5
                   },
                   {
                     "label": "No sweets",
-                    "value": 1
+                    "value": 5
                   },
                   {
                     "label": "Keep a food journal",
-                    "value": 1
+                    "value": 10
                   },
                   {
                     "label": "Exercise",
@@ -1739,11 +1741,11 @@
                   },
                   {
                     "label": "64 oz of water",
-                    "value": 6
+                    "value": 3
                   },
                   {
                     "label": "Stop eating before 9pm",
-                    "value": 6
+                    "value": 3
                   },
                   {
                     "label": "2 fruit servings",
@@ -1751,15 +1753,15 @@
                   },
                   {
                     "label": "3 vegetable servings",
-                    "value": 1
+                    "value": 5
                   },
                   {
                     "label": "No sweets",
-                    "value": 1
+                    "value": 5
                   },
                   {
                     "label": "Keep a food journal",
-                    "value": 1
+                    "value": 10
                   },
                   {
                     "label": "Exercise",
@@ -1776,11 +1778,11 @@
                   },
                   {
                     "label": "64 oz of water",
-                    "value": 6
+                    "value": 3
                   },
                   {
                     "label": "Stop eating before 9pm",
-                    "value": 6
+                    "value": 3
                   },
                   {
                     "label": "2 fruit servings",
@@ -1788,11 +1790,11 @@
                   },
                   {
                     "label": "3 vegetable servings",
-                    "value": 1
+                    "value": 5
                   },
                   {
                     "label": "No sweets",
-                    "value": 1
+                    "value": 10
                   },
                   {
                     "label": "Keep a food journal",
@@ -1813,11 +1815,11 @@
                   },
                   {
                     "label": "64 oz of water",
-                    "value": 6
+                    "value": 3
                   },
                   {
                     "label": "Stop eating before 9pm",
-                    "value": 6
+                    "value": 3
                   },
                   {
                     "label": "2 fruit servings",
@@ -1825,15 +1827,15 @@
                   },
                   {
                     "label": "3 vegetable servings",
-                    "value": 1
+                    "value": 5
                   },
                   {
                     "label": "No sweets",
-                    "value": 1
+                    "value": 5
                   },
                   {
                     "label": "Keep a food journal",
-                    "value": 1
+                    "value": 10
                   },
                   {
                     "label": "Exercise",
@@ -1855,11 +1857,11 @@
                     },
                     {
                       "label": "64 oz of water",
-                      "value": 6
+                      "value": 3
                     },
                     {
                       "label": "Stop eating before 9pm",
-                      "value": 6
+                      "value": 3
                     },
                     {
                       "label": "2 fruit servings",
@@ -1867,15 +1869,15 @@
                     },
                     {
                       "label": "3 vegetable servings",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "No sweets",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "Keep a food journal",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "Exercise",
@@ -1892,11 +1894,11 @@
                     },
                     {
                       "label": "64 oz of water",
-                      "value": 6
+                      "value": 3
                     },
                     {
                       "label": "Stop eating before 9pm",
-                      "value": 6
+                      "value": 3
                     },
                     {
                       "label": "2 fruit servings",
@@ -1904,15 +1906,15 @@
                     },
                     {
                       "label": "3 vegetable servings",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "No sweets",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "Keep a food journal",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "Exercise",
@@ -1929,11 +1931,11 @@
                     },
                     {
                       "label": "64 oz of water",
-                      "value": 6
+                      "value": 3
                     },
                     {
                       "label": "Stop eating before 9pm",
-                      "value": 6
+                      "value": 3
                     },
                     {
                       "label": "2 fruit servings",
@@ -1941,15 +1943,15 @@
                     },
                     {
                       "label": "3 vegetable servings",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "No sweets",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "Keep a food journal",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "Exercise",
@@ -1966,11 +1968,11 @@
                     },
                     {
                       "label": "64 oz of water",
-                      "value": 6
+                      "value": 3
                     },
                     {
                       "label": "Stop eating before 9pm",
-                      "value": 6
+                      "value": 3
                     },
                     {
                       "label": "2 fruit servings",
@@ -1978,15 +1980,15 @@
                     },
                     {
                       "label": "3 vegetable servings",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "No sweets",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "Keep a food journal",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "Exercise",
@@ -2003,11 +2005,11 @@
                     },
                     {
                       "label": "64 oz of water",
-                      "value": 6
+                      "value": 3
                     },
                     {
                       "label": "Stop eating before 9pm",
-                      "value": 6
+                      "value": 3
                     },
                     {
                       "label": "2 fruit servings",
@@ -2015,15 +2017,15 @@
                     },
                     {
                       "label": "3 vegetable servings",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "No sweets",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "Keep a food journal",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "Exercise",
@@ -2040,11 +2042,11 @@
                     },
                     {
                       "label": "64 oz of water",
-                      "value": 6
+                      "value": 3
                     },
                     {
                       "label": "Stop eating before 9pm",
-                      "value": 6
+                      "value": 3
                     },
                     {
                       "label": "2 fruit servings",
@@ -2052,15 +2054,15 @@
                     },
                     {
                       "label": "3 vegetable servings",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "No sweets",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "Keep a food journal",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "Exercise",
@@ -2077,11 +2079,11 @@
                     },
                     {
                       "label": "64 oz of water",
-                      "value": 6
+                      "value": 3
                     },
                     {
                       "label": "Stop eating before 9pm",
-                      "value": 6
+                      "value": 3
                     },
                     {
                       "label": "2 fruit servings",
@@ -2089,15 +2091,15 @@
                     },
                     {
                       "label": "3 vegetable servings",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "No sweets",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "Keep a food journal",
-                      "value": 1
+                      "value": 5
                     },
                     {
                       "label": "Exercise",

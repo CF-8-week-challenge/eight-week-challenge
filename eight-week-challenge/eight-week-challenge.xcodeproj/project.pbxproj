@@ -21,8 +21,7 @@
 		1BB83C221ECA5773009E6315 /* TodayTaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BB83C201ECA5773009E6315 /* TodayTaskCell.xib */; };
 		1BB83C251ECA5E3E009E6315 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB83C241ECA5E3E009E6315 /* Task.m */; };
 		1BB83C261ECA5E3E009E6315 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB83C241ECA5E3E009E6315 /* Task.m */; };
-		1BB83C281ECA5EBF009E6315 /* tasks.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BB83C271ECA5EBF009E6315 /* tasks.json */; };
-		1BB83C291ECA5EBF009E6315 /* tasks.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BB83C271ECA5EBF009E6315 /* tasks.json */; };
+		1BB83C2B1ECA6889009E6315 /* tasks.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BB83C2A1ECA6889009E6315 /* tasks.json */; };
 		E51D5D5D1ECA1A5E00734FB1 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51D5D5C1ECA1A5E00734FB1 /* AFNetworking.framework */; };
 		E57935F21ECA145400C9E3AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E57935F11ECA145400C9E3AF /* main.m */; };
 		E57935F51ECA145400C9E3AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E57935F41ECA145400C9E3AF /* AppDelegate.m */; };
@@ -84,7 +83,7 @@
 		1BB83C201ECA5773009E6315 /* TodayTaskCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodayTaskCell.xib; sourceTree = "<group>"; };
 		1BB83C231ECA5E3E009E6315 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
 		1BB83C241ECA5E3E009E6315 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
-		1BB83C271ECA5EBF009E6315 /* tasks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tasks.json; sourceTree = "<group>"; };
+		1BB83C2A1ECA6889009E6315 /* tasks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tasks.json; sourceTree = "<group>"; };
 		E51D5D5C1ECA1A5E00734FB1 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
 		E57935ED1ECA145400C9E3AF /* eight-week-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eight-week-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57935F11ECA145400C9E3AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -210,7 +209,7 @@
 				1B3983EE1ECA32C1000269AD /* Models */,
 				E57935FC1ECA145400C9E3AF /* Assets.xcassets */,
 				E57935FE1ECA145400C9E3AF /* LaunchScreen.storyboard */,
-				1BB83C271ECA5EBF009E6315 /* tasks.json */,
+				1BB83C2A1ECA6889009E6315 /* tasks.json */,
 				E57936011ECA145400C9E3AF /* Info.plist */,
 				E57935F01ECA145400C9E3AF /* Supporting Files */,
 			);
@@ -358,7 +357,7 @@
 				1B3983F81ECA3494000269AD /* LeaderboardCell.xib in Resources */,
 				E57936001ECA145400C9E3AF /* LaunchScreen.storyboard in Resources */,
 				1B6A01761ECA1DB8005DAC00 /* Home.storyboard in Resources */,
-				1BB83C281ECA5EBF009E6315 /* tasks.json in Resources */,
+				1BB83C2B1ECA6889009E6315 /* tasks.json in Resources */,
 				1BB83C221ECA5773009E6315 /* TodayTaskCell.xib in Resources */,
 				E57935FD1ECA145400C9E3AF /* Assets.xcassets in Resources */,
 				E57936241ECA18A700C9E3AF /* Cartfile in Resources */,
@@ -371,7 +370,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BB83C291ECA5EBF009E6315 /* tasks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
