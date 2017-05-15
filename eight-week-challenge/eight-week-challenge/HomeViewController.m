@@ -21,9 +21,9 @@
   self.collectionView.delegate = self;
   self.collectionView.dataSource = self;
   self.leaderBoardItems = @[
-    [LeaderboardItem itemFromDict: @{@"name": @"Ulya", @"score": @50}],
-    [LeaderboardItem itemFromDict: @{@"name": @"Natasha", @"score": @40}],
-    [LeaderboardItem itemFromDict: @{@"name": @"Olga", @"score": @35}]
+    [LeaderboardItem itemFromDict: @{@"name": @"Ulya", @"currentScore": @50}],
+    [LeaderboardItem itemFromDict: @{@"name": @"Natasha", @"currentScore": @40}],
+    [LeaderboardItem itemFromDict: @{@"name": @"Olga", @"currentScore": @35}]
   ];
 
   UINib *leaderboardCell = [UINib nibWithNibName:@"LeaderboardCell" bundle:nil];
