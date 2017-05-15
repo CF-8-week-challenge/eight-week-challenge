@@ -1,38 +1,37 @@
-
 {
   "week1": {
     "day1": [
       {
         "label": "Contact Teammate",
-        "pointValue": 1
+        "value": 1
       },
       {
         "label": "64 oz of water",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "Stop eating before 9pm",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "2 fruit servings",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "3 vegetable servings",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "No sweets",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "Keep a food journal",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "Exercise",
-        "pointValue": {
+        "value": {
           "30Min": 5,
           "45Min": 7
         }
@@ -41,35 +40,35 @@
     "day2": [
       {
         "label": "Contact Teammate",
-        "pointValue": 1
+        "value": 1
       },
       {
         "label": "64 oz of water",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "Stop eating before 9pm",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "2 fruit servings",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "3 vegetable servings",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "No sweets",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "Keep a food journal",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "Exercise",
-        "pointValue": {
+        "value": {
           "30Min": 5,
           "45Min": 7
         }
@@ -78,35 +77,35 @@
     "day3": [
       {
         "label": "Contact Teammate",
-        "pointValue": 1
+        "value": 1
       },
       {
         "label": "64 oz of water",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "Stop eating before 9pm",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "2 fruit servings",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "3 vegetable servings",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "No sweets",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "Keep a food journal",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "Exercise",
-        "pointValue": {
+        "value": {
           "30Min": 5,
           "45Min": 7
         }
@@ -115,35 +114,35 @@
     "day4": [
       {
         "label": "Contact Teammate",
-        "pointValue": 1
+        "value": 1
       },
       {
         "label": "64 oz of water",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "Stop eating before 9pm",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "2 fruit servings",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "3 vegetable servings",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "No sweets",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "Keep a food journal",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "Exercise",
-        "pointValue": {
+        "value": {
           "30Min": 5,
           "45Min": 7
         }
@@ -152,35 +151,35 @@
     "day5": [
       {
         "label": "Contact Teammate",
-        "pointValue": 1
+        "value": 1
       },
       {
         "label": "64 oz of water",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "Stop eating before 9pm",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "2 fruit servings",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "3 vegetable servings",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "No sweets",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "Keep a food journal",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "Exercise",
-        "pointValue": {
+        "value": {
           "30Min": 5,
           "45Min": 7
         }
@@ -189,35 +188,35 @@
     "day6": [
       {
         "label": "Contact Teammate",
-        "pointValue": 1
+        "value": 1
       },
       {
         "label": "64 oz of water",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "Stop eating before 9pm",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "2 fruit servings",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "3 vegetable servings",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "No sweets",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "Keep a food journal",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "Exercise",
-        "pointValue": {
+        "value": {
           "30Min": 5,
           "45Min": 7
         }
@@ -226,35 +225,35 @@
     "day7": [
       {
         "label": "Contact Teammate",
-        "pointValue": 1
+        "value": 1
       },
       {
         "label": "64 oz of water",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "Stop eating before 9pm",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "2 fruit servings",
-        "pointValue": 3
+        "value": 3
       },
       {
         "label": "3 vegetable servings",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "No sweets",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "Keep a food journal",
-        "pointValue": 5
+        "value": 5
       },
       {
         "label": "Exercise",
-        "pointValue": {
+        "value": {
           "30Min": 5,
           "45Min": 7
         },
@@ -268,260 +267,259 @@
       "day1": [
         {
           "label": "Contact Teammate",
-          "pointValue": 1
+          "value": 1
         },
         {
           "label": "64 oz of water",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "Stop eating before 9pm",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "2 fruit servings",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "3 vegetable servings",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "No sweets",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "Keep a food journal",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "Exercise",
-          "pointValue": {
-            "30Min": 10,
-            "45Min": 14
+          "value": {
+            "30Min": 5,
+            "45Min": 7
           }
         }
       ],
       "day2": [
         {
           "label": "Contact Teammate",
-          "pointValue": 1
+          "value": 1
         },
         {
           "label": "64 oz of water",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "Stop eating before 9pm",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "2 fruit servings",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "3 vegetable servings",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "No sweets",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "Keep a food journal",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "Exercise",
-          "pointValue": {
-            "30Min": 10,
-            "45Min": 14
+          "value": {
+            "30Min": 5,
+            "45Min": 7
           }
         }
       ],
       "day3": [
         {
           "label": "Contact Teammate",
-          "pointValue": 1
+          "value": 1
         },
         {
           "label": "64 oz of water",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "Stop eating before 9pm",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "2 fruit servings",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "3 vegetable servings",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "No sweets",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "Keep a food journal",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "Exercise",
-          "pointValue": {
-            "30Min": 10,
-            "45Min": 14
-
+          "value": {
+            "30Min": 5,
+            "45Min": 7
           }
         }
       ],
       "day4": [
         {
           "label": "Contact Teammate",
-          "pointValue": 1
+          "value": 1
         },
         {
           "label": "64 oz of water",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "Stop eating before 9pm",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "2 fruit servings",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "3 vegetable servings",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "No sweets",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "Keep a food journal",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "Exercise",
-          "pointValue": {
-            "30Min": 10,
-            "45Min": 14
+          "value": {
+            "30Min": 5,
+            "45Min": 7
           }
         }
       ],
       "day5": [
         {
           "label": "Contact Teammate",
-          "pointValue": 1
+          "value": 1
         },
         {
           "label": "64 oz of water",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "Stop eating before 9pm",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "2 fruit servings",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "3 vegetable servings",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "No sweets",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "Keep a food journal",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "Exercise",
-          "pointValue": {
-            "30Min": 10,
-            "45Min": 14
+          "value": {
+            "30Min": 5,
+            "45Min": 7
           }
         }
       ],
       "day6": [
         {
           "label": "Contact Teammate",
-          "pointValue": 1
+          "value": 1
         },
         {
           "label": "64 oz of water",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "Stop eating before 9pm",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "2 fruit servings",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "3 vegetable servings",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "No sweets",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "Keep a food journal",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "Exercise",
-          "pointValue": {
-            "30Min": 10,
-            "45Min": 14
+          "value": {
+            "30Min": 5,
+            "45Min": 7
           }
         }
       ],
       "day7": [
         {
           "label": "Contact Teammate",
-          "pointValue": 1
+          "value": 1
         },
         {
           "label": "64 oz of water",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "Stop eating before 9pm",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "2 fruit servings",
-          "pointValue": 3
+          "value": 3
         },
         {
           "label": "3 vegetable servings",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "No sweets",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "Keep a food journal",
-          "pointValue": 5
+          "value": 5
         },
         {
           "label": "Exercise",
-          "pointValue": {
-            "30Min": 10,
-            "45Min": 14
+          "value": {
+            "30Min": 5,
+            "45Min": 7
           },
           "poundsLost": {
             "perPoundLost": 10,
@@ -533,35 +531,35 @@
         "day1": [
           {
             "label": "Contact Teammate",
-            "pointValue": 1
+            "value": 1
           },
           {
             "label": "64 oz of water",
-            "pointValue": 6
+            "value": 6
           },
           {
             "label": "Stop eating before 9pm",
-            "pointValue": 3
+            "value": 3
           },
           {
             "label": "2 fruit servings",
-            "pointValue": 3
+            "value": 3
           },
           {
             "label": "3 vegetable servings",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "No sweets",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "Keep a food journal",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "Exercise",
-            "pointValue": {
+            "value": {
               "30Min": 5,
               "45Min": 7
             }
@@ -570,35 +568,35 @@
         "day2": [
           {
             "label": "Contact Teammate",
-            "pointValue": 1
+            "value": 1
           },
           {
             "label": "64 oz of water",
-            "pointValue": 6
+            "value": 6
           },
           {
             "label": "Stop eating before 9pm",
-            "pointValue": 3
+            "value": 3
           },
           {
             "label": "2 fruit servings",
-            "pointValue": 3
+            "value": 3
           },
           {
             "label": "3 vegetable servings",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "No sweets",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "Keep a food journal",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "Exercise",
-            "pointValue": {
+            "value": {
               "30Min": 5,
               "45Min": 7
             }
@@ -607,35 +605,35 @@
         "day3": [
           {
             "label": "Contact Teammate",
-            "pointValue": 1
+            "value": 1
           },
           {
             "label": "64 oz of water",
-            "pointValue": 6
+            "value": 6
           },
           {
             "label": "Stop eating before 9pm",
-            "pointValue": 3
+            "value": 3
           },
           {
             "label": "2 fruit servings",
-            "pointValue": 3
+            "value": 3
           },
           {
             "label": "3 vegetable servings",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "No sweets",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "Keep a food journal",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "Exercise",
-            "pointValue": {
+            "value": {
               "30Min": 5,
               "45Min": 7
             }
@@ -644,35 +642,35 @@
         "day4": [
           {
             "label": "Contact Teammate",
-            "pointValue": 1
+            "value": 1
           },
           {
             "label": "64 oz of water",
-            "pointValue": 6
+            "value": 6
           },
           {
             "label": "Stop eating before 9pm",
-            "pointValue": 3
+            "value": 3
           },
           {
             "label": "2 fruit servings",
-            "pointValue": 3
+            "value": 3
           },
           {
             "label": "3 vegetable servings",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "No sweets",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "Keep a food journal",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "Exercise",
-            "pointValue": {
+            "value": {
               "30Min": 5,
               "45Min": 7
             }
@@ -681,35 +679,35 @@
         "day5": [
           {
             "label": "Contact Teammate",
-            "pointValue": 1
+            "value": 1
           },
           {
             "label": "64 oz of water",
-            "pointValue": 6
+            "value": 6
           },
           {
             "label": "Stop eating before 9pm",
-            "pointValue": 3
+            "value": 3
           },
           {
             "label": "2 fruit servings",
-            "pointValue": 3
+            "value": 3
           },
           {
             "label": "3 vegetable servings",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "No sweets",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "Keep a food journal",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "Exercise",
-            "pointValue": {
+            "value": {
               "30Min": 5,
               "45Min": 7
             }
@@ -718,35 +716,35 @@
         "day6": [
           {
             "label": "Contact Teammate",
-            "pointValue": 1
+            "value": 1
           },
           {
             "label": "64 oz of water",
-            "pointValue": 6
+            "value": 6
           },
           {
             "label": "Stop eating before 9pm",
-            "pointValue": 3
+            "value": 3
           },
           {
             "label": "2 fruit servings",
-            "pointValue": 3
+            "value": 3
           },
           {
             "label": "3 vegetable servings",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "No sweets",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "Keep a food journal",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "Exercise",
-            "pointValue": {
+            "value": {
               "30Min": 5,
               "45Min": 7
             }
@@ -755,35 +753,35 @@
         "day7": [
           {
             "label": "Contact Teammate",
-            "pointValue": 1
+            "value": 1
           },
           {
             "label": "64 oz of water",
-            "pointValue": 6
+            "value": 6
           },
           {
             "label": "Stop eating before 9pm",
-            "pointValue": 3
+            "value": 3
           },
           {
             "label": "2 fruit servings",
-            "pointValue": 3
+            "value": 3
           },
           {
             "label": "3 vegetable servings",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "No sweets",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "Keep a food journal",
-            "pointValue": 5
+            "value": 5
           },
           {
             "label": "Exercise",
-            "pointValue": {
+            "value": {
               "30Min": 5,
               "45Min": 7
             },
@@ -797,35 +795,35 @@
           "day1": [
             {
               "label": "Contact Teammate",
-              "pointValue": 1
+              "value": 1
             },
             {
               "label": "64 oz of water",
-              "pointValue": 6
+              "value": 6
             },
             {
               "label": "Stop eating before 9pm",
-              "pointValue": 6
+              "value": 6
             },
             {
               "label": "2 fruit servings",
-              "pointValue": 3
+              "value": 3
             },
             {
               "label": "3 vegetable servings",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "No sweets",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "Keep a food journal",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "Exercise",
-              "pointValue": {
+              "value": {
                 "30Min": 5,
                 "45Min": 7
               }
@@ -834,35 +832,35 @@
           "day2": [
             {
               "label": "Contact Teammate",
-              "pointValue": 1
+              "value": 1
             },
             {
               "label": "64 oz of water",
-              "pointValue": 6
+              "value": 6
             },
             {
               "label": "Stop eating before 9pm",
-              "pointValue": 6
+              "value": 6
             },
             {
               "label": "2 fruit servings",
-              "pointValue": 3
+              "value": 3
             },
             {
               "label": "3 vegetable servings",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "No sweets",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "Keep a food journal",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "Exercise",
-              "pointValue": {
+              "value": {
                 "30Min": 5,
                 "45Min": 7
               }
@@ -871,35 +869,35 @@
           "day3": [
             {
               "label": "Contact Teammate",
-              "pointValue": 1
+              "value": 1
             },
             {
               "label": "64 oz of water",
-              "pointValue": 6
+              "value": 6
             },
             {
               "label": "Stop eating before 9pm",
-              "pointValue": 6
+              "value": 6
             },
             {
               "label": "2 fruit servings",
-              "pointValue": 3
+              "value": 3
             },
             {
               "label": "3 vegetable servings",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "No sweets",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "Keep a food journal",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "Exercise",
-              "pointValue": {
+              "value": {
                 "30Min": 5,
                 "45Min": 7
               }
@@ -908,35 +906,35 @@
           "day4": [
             {
               "label": "Contact Teammate",
-              "pointValue": 1
+              "value": 1
             },
             {
               "label": "64 oz of water",
-              "pointValue": 6
+              "value": 6
             },
             {
               "label": "Stop eating before 9pm",
-              "pointValue": 6
+              "value": 6
             },
             {
               "label": "2 fruit servings",
-              "pointValue": 3
+              "value": 3
             },
             {
               "label": "3 vegetable servings",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "No sweets",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "Keep a food journal",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "Exercise",
-              "pointValue": {
+              "value": {
                 "30Min": 5,
                 "45Min": 7
               }
@@ -945,35 +943,35 @@
           "day5": [
             {
               "label": "Contact Teammate",
-              "pointValue": 1
+              "value": 1
             },
             {
               "label": "64 oz of water",
-              "pointValue": 6
+              "value": 6
             },
             {
               "label": "Stop eating before 9pm",
-              "pointValue": 6
+              "value": 6
             },
             {
               "label": "2 fruit servings",
-              "pointValue": 3
+              "value": 3
             },
             {
               "label": "3 vegetable servings",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "No sweets",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "Keep a food journal",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "Exercise",
-              "pointValue": {
+              "value": {
                 "30Min": 5,
                 "45Min": 7
               }
@@ -982,35 +980,35 @@
           "day6": [
             {
               "label": "Contact Teammate",
-              "pointValue": 1
+              "value": 1
             },
             {
               "label": "64 oz of water",
-              "pointValue": 6
+              "value": 6
             },
             {
               "label": "Stop eating before 9pm",
-              "pointValue": 6
+              "value": 6
             },
             {
               "label": "2 fruit servings",
-              "pointValue": 3
+              "value": 3
             },
             {
               "label": "3 vegetable servings",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "No sweets",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "Keep a food journal",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "Exercise",
-              "pointValue": {
+              "value": {
                 "30Min": 5,
                 "45Min": 7
               }
@@ -1019,35 +1017,35 @@
           "day7": [
             {
               "label": "Contact Teammate",
-              "pointValue": 1
+              "value": 1
             },
             {
               "label": "64 oz of water",
-              "pointValue": 6
+              "value": 6
             },
             {
               "label": "Stop eating before 9pm",
-              "pointValue": 6
+              "value": 6
             },
             {
               "label": "2 fruit servings",
-              "pointValue": 3
+              "value": 3
             },
             {
               "label": "3 vegetable servings",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "No sweets",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "Keep a food journal",
-              "pointValue": 5
+              "value": 5
             },
             {
               "label": "Exercise",
-              "pointValue": {
+              "value": {
                 "30Min": 5,
                 "45Min": 7
               },
@@ -1061,35 +1059,35 @@
             "day1": [
               {
                 "label": "Contact Teammate",
-                "pointValue": 1
+                "value": 1
               },
               {
                 "label": "64 oz of water",
-                "pointValue": 3
+                "value": 6
               },
               {
                 "label": "Stop eating before 9pm",
-                "pointValue": 3
+                "value": 6
               },
               {
                 "label": "2 fruit servings",
-                "pointValue": 3
+                "value": 3
               },
               {
                 "label": "3 vegetable servings",
-                "pointValue": 10
+                "value": 1
               },
               {
                 "label": "No sweets",
-                "pointValue": 5
+                "value": 5
               },
               {
                 "label": "Keep a food journal",
-                "pointValue": 5
+                "value": 5
               },
               {
                 "label": "Exercise",
-                "pointValue": {
+                "value": {
                   "30Min": 5,
                   "45Min": 7
                 }
@@ -1098,35 +1096,35 @@
             "day2": [
               {
                 "label": "Contact Teammate",
-                "pointValue": 1
+                "value": 1
               },
               {
                 "label": "64 oz of water",
-                "pointValue": 3
+                "value": 6
               },
               {
                 "label": "Stop eating before 9pm",
-                "pointValue": 3
+                "value": 6
               },
               {
                 "label": "2 fruit servings",
-                "pointValue": 3
+                "value": 3
               },
               {
                 "label": "3 vegetable servings",
-                "pointValue": 10
+                "value": 1
               },
               {
                 "label": "No sweets",
-                "pointValue": 5
+                "value": 5
               },
               {
                 "label": "Keep a food journal",
-                "pointValue": 5
+                "value": 5
               },
               {
                 "label": "Exercise",
-                "pointValue": {
+                "value": {
                   "30Min": 5,
                   "45Min": 7
                 }
@@ -1135,35 +1133,35 @@
             "day3": [
               {
                 "label": "Contact Teammate",
-                "pointValue": 1
+                "value": 1
               },
               {
                 "label": "64 oz of water",
-                "pointValue": 3
+                "value": 6
               },
               {
                 "label": "Stop eating before 9pm",
-                "pointValue": 3
+                "value": 6
               },
               {
                 "label": "2 fruit servings",
-                "pointValue": 3
+                "value": 3
               },
               {
                 "label": "3 vegetable servings",
-                "pointValue": 10
+                "value": 1
               },
               {
                 "label": "No sweets",
-                "pointValue": 5
+                "value": 5
               },
               {
                 "label": "Keep a food journal",
-                "pointValue": 5
+                "value": 5
               },
               {
                 "label": "Exercise",
-                "pointValue": {
+                "value": {
                   "30Min": 5,
                   "45Min": 7
                 }
@@ -1172,35 +1170,35 @@
             "day4": [
               {
                 "label": "Contact Teammate",
-                "pointValue": 1
+                "value": 1
               },
               {
                 "label": "64 oz of water",
-                "pointValue": 3
+                "value": 6
               },
               {
                 "label": "Stop eating before 9pm",
-                "pointValue": 3
+                "value": 6
               },
               {
                 "label": "2 fruit servings",
-                "pointValue": 3
+                "value": 3
               },
               {
                 "label": "3 vegetable servings",
-                "pointValue": 10
+                "value": 1
               },
               {
                 "label": "No sweets",
-                "pointValue": 5
+                "value": 5
               },
               {
                 "label": "Keep a food journal",
-                "pointValue": 5
+                "value": 5
               },
               {
                 "label": "Exercise",
-                "pointValue": {
+                "value": {
                   "30Min": 5,
                   "45Min": 7
                 }
@@ -1209,35 +1207,35 @@
             "day5": [
               {
                 "label": "Contact Teammate",
-                "pointValue": 1
+                "value": 1
               },
               {
                 "label": "64 oz of water",
-                "pointValue": 3
+                "value": 6
               },
               {
                 "label": "Stop eating before 9pm",
-                "pointValue": 3
+                "value": 6
               },
               {
                 "label": "2 fruit servings",
-                "pointValue": 3
+                "value": 3
               },
               {
                 "label": "3 vegetable servings",
-                "pointValue": 10
+                "value": 1
               },
               {
                 "label": "No sweets",
-                "pointValue": 5
+                "value": 5
               },
               {
                 "label": "Keep a food journal",
-                "pointValue": 5
+                "value": 5
               },
               {
                 "label": "Exercise",
-                "pointValue": {
+                "value": {
                   "30Min": 5,
                   "45Min": 7
                 }
@@ -1246,35 +1244,35 @@
             "day6": [
               {
                 "label": "Contact Teammate",
-                "pointValue": 1
+                "value": 1
               },
               {
                 "label": "64 oz of water",
-                "pointValue": 3
+                "value": 6
               },
               {
                 "label": "Stop eating before 9pm",
-                "pointValue": 3
+                "value": 6
               },
               {
                 "label": "2 fruit servings",
-                "pointValue": 3
+                "value": 3
               },
               {
                 "label": "3 vegetable servings",
-                "pointValue": 10
+                "value": 1
               },
               {
                 "label": "No sweets",
-                "pointValue": 5
+                "value": 5
               },
               {
                 "label": "Keep a food journal",
-                "pointValue": 5
+                "value": 5
               },
               {
                 "label": "Exercise",
-                "pointValue": {
+                "value": {
                   "30Min": 5,
                   "45Min": 7
                 }
@@ -1283,35 +1281,35 @@
             "day7": [
               {
                 "label": "Contact Teammate",
-                "pointValue": 1
+                "value": 1
               },
               {
                 "label": "64 oz of water",
-                "pointValue": 3
+                "value": 6
               },
               {
                 "label": "Stop eating before 9pm",
-                "pointValue": 3
+                "value": 6
               },
               {
                 "label": "2 fruit servings",
-                "pointValue": 3
+                "value": 3
               },
               {
                 "label": "3 vegetable servings",
-                "pointValue": 10
+                "value": 1
               },
               {
                 "label": "No sweets",
-                "pointValue": 5
+                "value": 5
               },
               {
                 "label": "Keep a food journal",
-                "pointValue": 5
+                "value": 5
               },
               {
                 "label": "Exercise",
-                "pointValue": {
+                "value": {
                   "30Min": 5,
                   "45Min": 7
                 },
@@ -1325,35 +1323,35 @@
               "day1": [
                 {
                   "label": "Contact Teammate",
-                  "pointValue": 1
+                  "value": 1
                 },
                 {
                   "label": "64 oz of water",
-                  "pointValue": 3
+                  "value": 6
                 },
                 {
                   "label": "Stop eating before 9pm",
-                  "pointValue": 3
+                  "value": 6
                 },
                 {
                   "label": "2 fruit servings",
-                  "pointValue": 3
+                  "value": 3
                 },
                 {
                   "label": "3 vegetable servings",
-                  "pointValue": 5
+                  "value": 1
                 },
                 {
                   "label": "No sweets",
-                  "pointValue": 10
+                  "value": 1
                 },
                 {
                   "label": "Keep a food journal",
-                  "pointValue": 5
+                  "value": 5
                 },
                 {
                   "label": "Exercise",
-                  "pointValue": {
+                  "value": {
                     "30Min": 5,
                     "45Min": 7
                   }
@@ -1362,35 +1360,35 @@
               "day2": [
                 {
                   "label": "Contact Teammate",
-                  "pointValue": 1
+                  "value": 1
                 },
                 {
                   "label": "64 oz of water",
-                  "pointValue": 3
+                  "value": 6
                 },
                 {
                   "label": "Stop eating before 9pm",
-                  "pointValue": 3
+                  "value": 6
                 },
                 {
                   "label": "2 fruit servings",
-                  "pointValue": 3
+                  "value": 3
                 },
                 {
                   "label": "3 vegetable servings",
-                  "pointValue": 5
+                  "value": 1
                 },
                 {
                   "label": "No sweets",
-                  "pointValue": 10
+                  "value": 1
                 },
                 {
                   "label": "Keep a food journal",
-                  "pointValue": 5
+                  "value": 5
                 },
                 {
                   "label": "Exercise",
-                  "pointValue": {
+                  "value": {
                     "30Min": 5,
                     "45Min": 7
                   }
@@ -1399,35 +1397,35 @@
               "day3": [
                 {
                   "label": "Contact Teammate",
-                  "pointValue": 1
+                  "value": 1
                 },
                 {
                   "label": "64 oz of water",
-                  "pointValue": 3
+                  "value": 6
                 },
                 {
                   "label": "Stop eating before 9pm",
-                  "pointValue": 3
+                  "value": 6
                 },
                 {
                   "label": "2 fruit servings",
-                  "pointValue": 3
+                  "value": 3
                 },
                 {
                   "label": "3 vegetable servings",
-                  "pointValue": 5
+                  "value": 1
                 },
                 {
                   "label": "No sweets",
-                  "pointValue": 10
+                  "value": 1
                 },
                 {
                   "label": "Keep a food journal",
-                  "pointValue": 5
+                  "value": 5
                 },
                 {
                   "label": "Exercise",
-                  "pointValue": {
+                  "value": {
                     "30Min": 5,
                     "45Min": 7
                   }
@@ -1436,35 +1434,35 @@
               "day4": [
                 {
                   "label": "Contact Teammate",
-                  "pointValue": 1
+                  "value": 1
                 },
                 {
                   "label": "64 oz of water",
-                  "pointValue": 3
+                  "value": 6
                 },
                 {
                   "label": "Stop eating before 9pm",
-                  "pointValue": 3
+                  "value": 6
                 },
                 {
                   "label": "2 fruit servings",
-                  "pointValue": 3
+                  "value": 3
                 },
                 {
                   "label": "3 vegetable servings",
-                  "pointValue": 5
+                  "value": 1
                 },
                 {
                   "label": "No sweets",
-                  "pointValue": 10
+                  "value": 1
                 },
                 {
                   "label": "Keep a food journal",
-                  "pointValue": 5
+                  "value": 5
                 },
                 {
                   "label": "Exercise",
-                  "pointValue": {
+                  "value": {
                     "30Min": 5,
                     "45Min": 7
                   }
@@ -1473,35 +1471,35 @@
               "day5": [
                 {
                   "label": "Contact Teammate",
-                  "pointValue": 1
+                  "value": 1
                 },
                 {
                   "label": "64 oz of water",
-                  "pointValue": 3
+                  "value": 6
                 },
                 {
                   "label": "Stop eating before 9pm",
-                  "pointValue": 3
+                  "value": 6
                 },
                 {
                   "label": "2 fruit servings",
-                  "pointValue": 3
+                  "value": 3
                 },
                 {
                   "label": "3 vegetable servings",
-                  "pointValue": 5
+                  "value": 1
                 },
                 {
                   "label": "No sweets",
-                  "pointValue": 10
+                  "value": 1
                 },
                 {
                   "label": "Keep a food journal",
-                  "pointValue": 5
+                  "value": 5
                 },
                 {
                   "label": "Exercise",
-                  "pointValue": {
+                  "value": {
                     "30Min": 5,
                     "45Min": 7
                   }
@@ -1510,35 +1508,35 @@
               "day6": [
                 {
                   "label": "Contact Teammate",
-                  "pointValue": 1
+                  "value": 1
                 },
                 {
                   "label": "64 oz of water",
-                  "pointValue": 3
+                  "value": 6
                 },
                 {
                   "label": "Stop eating before 9pm",
-                  "pointValue": 3
+                  "value": 6
                 },
                 {
                   "label": "2 fruit servings",
-                  "pointValue": 3
+                  "value": 3
                 },
                 {
                   "label": "3 vegetable servings",
-                  "pointValue": 5
+                  "value": 1
                 },
                 {
                   "label": "No sweets",
-                  "pointValue": 10
+                  "value": 1
                 },
                 {
                   "label": "Keep a food journal",
-                  "pointValue": 5
+                  "value": 5
                 },
                 {
                   "label": "Exercise",
-                  "pointValue": {
+                  "value": {
                     "30Min": 5,
                     "45Min": 7
                   }
@@ -1547,35 +1545,35 @@
               "day7": [
                 {
                   "label": "Contact Teammate",
-                  "pointValue": 1
+                  "value": 1
                 },
                 {
                   "label": "64 oz of water",
-                  "pointValue": 3
+                  "value": 6
                 },
                 {
                   "label": "Stop eating before 9pm",
-                  "pointValue": 3
+                  "value": 6
                 },
                 {
                   "label": "2 fruit servings",
-                  "pointValue": 3
+                  "value": 3
                 },
                 {
                   "label": "3 vegetable servings",
-                  "pointValue": 5
+                  "value": 1
                 },
                 {
                   "label": "No sweets",
-                  "pointValue": 10
+                  "value": 1
                 },
                 {
                   "label": "Keep a food journal",
-                  "pointValue": 5
+                  "value": 5
                 },
                 {
                   "label": "Exercise",
-                  "pointValue": {
+                  "value": {
                     "30Min": 5,
                     "45Min": 7
                   },
@@ -1589,35 +1587,35 @@
                 "day1": [
                   {
                     "label": "Contact Teammate",
-                    "pointValue": 1
+                    "value": 1
                   },
                   {
                     "label": "64 oz of water",
-                    "pointValue": 3
+                    "value": 6
                   },
                   {
                     "label": "Stop eating before 9pm",
-                    "pointValue": 3
+                    "value": 6
                   },
                   {
                     "label": "2 fruit servings",
-                    "pointValue": 3
+                    "value": 3
                   },
                   {
                     "label": "3 vegetable servings",
-                    "pointValue": 5
+                    "value": 1
                   },
                   {
                     "label": "No sweets",
-                    "pointValue": 5
+                    "value": 1
                   },
                   {
                     "label": "Keep a food journal",
-                    "pointValue": 10
+                    "value": 1
                   },
                   {
                     "label": "Exercise",
-                    "pointValue": {
+                    "value": {
                       "30Min": 5,
                       "45Min": 7
                     }
@@ -1626,35 +1624,35 @@
                 "day2": [
                   {
                     "label": "Contact Teammate",
-                    "pointValue": 1
+                    "value": 1
                   },
                   {
                     "label": "64 oz of water",
-                    "pointValue": 3
+                    "value": 6
                   },
                   {
                     "label": "Stop eating before 9pm",
-                    "pointValue": 3
+                    "value": 6
                   },
                   {
                     "label": "2 fruit servings",
-                    "pointValue": 3
+                    "value": 3
                   },
                   {
                     "label": "3 vegetable servings",
-                    "pointValue": 5
+                    "value": 1
                   },
                   {
                     "label": "No sweets",
-                    "pointValue": 5
+                    "value": 1
                   },
                   {
                     "label": "Keep a food journal",
-                    "pointValue": 10
+                    "value": 1
                   },
                   {
                     "label": "Exercise",
-                    "pointValue": {
+                    "value": {
                       "30Min": 5,
                       "45Min": 7
                     }
@@ -1663,35 +1661,35 @@
                 "day3": [
                   {
                     "label": "Contact Teammate",
-                    "pointValue": 1
+                    "value": 1
                   },
                   {
                     "label": "64 oz of water",
-                    "pointValue": 3
+                    "value": 6
                   },
                   {
                     "label": "Stop eating before 9pm",
-                    "pointValue": 3
+                    "value": 6
                   },
                   {
                     "label": "2 fruit servings",
-                    "pointValue": 3
+                    "value": 3
                   },
                   {
                     "label": "3 vegetable servings",
-                    "pointValue": 5
+                    "value": 1
                   },
                   {
                     "label": "No sweets",
-                    "pointValue": 5
+                    "value": 1
                   },
                   {
                     "label": "Keep a food journal",
-                    "pointValue": 10
+                    "value": 1
                   },
                   {
                     "label": "Exercise",
-                    "pointValue": {
+                    "value": {
                       "30Min": 5,
                       "45Min": 7
                     }
@@ -1700,35 +1698,35 @@
                 "day4": [
                   {
                     "label": "Contact Teammate",
-                    "pointValue": 1
+                    "value": 1
                   },
                   {
                     "label": "64 oz of water",
-                    "pointValue": 3
+                    "value": 6
                   },
                   {
                     "label": "Stop eating before 9pm",
-                    "pointValue": 3
+                    "value": 6
                   },
                   {
                     "label": "2 fruit servings",
-                    "pointValue": 3
+                    "value": 3
                   },
                   {
                     "label": "3 vegetable servings",
-                    "pointValue": 5
+                    "value": 1
                   },
                   {
                     "label": "No sweets",
-                    "pointValue": 5
+                    "value": 1
                   },
                   {
                     "label": "Keep a food journal",
-                    "pointValue": 10
+                    "value": 1
                   },
                   {
                     "label": "Exercise",
-                    "pointValue": {
+                    "value": {
                       "30Min": 5,
                       "45Min": 7
                     }
@@ -1737,35 +1735,35 @@
                 "day5": [
                   {
                     "label": "Contact Teammate",
-                    "pointValue": 1
+                    "value": 1
                   },
                   {
                     "label": "64 oz of water",
-                    "pointValue": 3
+                    "value": 6
                   },
                   {
                     "label": "Stop eating before 9pm",
-                    "pointValue": 3
+                    "value": 6
                   },
                   {
                     "label": "2 fruit servings",
-                    "pointValue": 3
+                    "value": 3
                   },
                   {
                     "label": "3 vegetable servings",
-                    "pointValue": 5
+                    "value": 1
                   },
                   {
                     "label": "No sweets",
-                    "pointValue": 5
+                    "value": 1
                   },
                   {
                     "label": "Keep a food journal",
-                    "pointValue": 10
+                    "value": 1
                   },
                   {
                     "label": "Exercise",
-                    "pointValue": {
+                    "value": {
                       "30Min": 5,
                       "45Min": 7
                     }
@@ -1774,35 +1772,35 @@
                 "day6": [
                   {
                     "label": "Contact Teammate",
-                    "pointValue": 1
+                    "value": 1
                   },
                   {
                     "label": "64 oz of water",
-                    "pointValue": 3
+                    "value": 6
                   },
                   {
                     "label": "Stop eating before 9pm",
-                    "pointValue": 3
+                    "value": 6
                   },
                   {
                     "label": "2 fruit servings",
-                    "pointValue": 3
+                    "value": 3
                   },
                   {
                     "label": "3 vegetable servings",
-                    "pointValue": 5
+                    "value": 1
                   },
                   {
                     "label": "No sweets",
-                    "pointValue": 10
+                    "value": 1
                   },
                   {
                     "label": "Keep a food journal",
-                    "pointValue": 1
+                    "value": 1
                   },
                   {
                     "label": "Exercise",
-                    "pointValue": {
+                    "value": {
                       "30Min": 5,
                       "45Min": 7
                     }
@@ -1811,35 +1809,35 @@
                 "day7": [
                   {
                     "label": "Contact Teammate",
-                    "pointValue": 1
+                    "value": 1
                   },
                   {
                     "label": "64 oz of water",
-                    "pointValue": 3
+                    "value": 6
                   },
                   {
                     "label": "Stop eating before 9pm",
-                    "pointValue": 3
+                    "value": 6
                   },
                   {
                     "label": "2 fruit servings",
-                    "pointValue": 3
+                    "value": 3
                   },
                   {
                     "label": "3 vegetable servings",
-                    "pointValue": 5
+                    "value": 1
                   },
                   {
                     "label": "No sweets",
-                    "pointValue": 5
+                    "value": 1
                   },
                   {
                     "label": "Keep a food journal",
-                    "pointValue": 10
+                    "value": 1
                   },
                   {
                     "label": "Exercise",
-                    "pointValue": {
+                    "value": {
                       "30Min": 5,
                       "45Min": 7
                     },
@@ -1853,35 +1851,35 @@
                   "day1": [
                     {
                       "label": "Contact Teammate",
-                      "pointValue": 1
+                      "value": 1
                     },
                     {
                       "label": "64 oz of water",
-                      "pointValue": 3
+                      "value": 6
                     },
                     {
                       "label": "Stop eating before 9pm",
-                      "pointValue": 3
+                      "value": 6
                     },
                     {
                       "label": "2 fruit servings",
-                      "pointValue": 3
+                      "value": 3
                     },
                     {
                       "label": "3 vegetable servings",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "No sweets",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "Keep a food journal",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "Exercise",
-                      "pointValue": {
+                      "value": {
                         "30Min": 10,
                         "45Min": 14
                       }
@@ -1890,35 +1888,35 @@
                   "day2": [
                     {
                       "label": "Contact Teammate",
-                      "pointValue": 1
+                      "value": 1
                     },
                     {
                       "label": "64 oz of water",
-                      "pointValue": 3
+                      "value": 6
                     },
                     {
                       "label": "Stop eating before 9pm",
-                      "pointValue": 3
+                      "value": 6
                     },
                     {
                       "label": "2 fruit servings",
-                      "pointValue": 3
+                      "value": 3
                     },
                     {
                       "label": "3 vegetable servings",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "No sweets",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "Keep a food journal",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "Exercise",
-                      "pointValue": {
+                      "value": {
                         "30Min": 10,
                         "45Min": 14
                       }
@@ -1927,35 +1925,35 @@
                   "day3": [
                     {
                       "label": "Contact Teammate",
-                      "pointValue": 1
+                      "value": 1
                     },
                     {
                       "label": "64 oz of water",
-                      "pointValue": 3
+                      "value": 6
                     },
                     {
                       "label": "Stop eating before 9pm",
-                      "pointValue": 3
+                      "value": 6
                     },
                     {
                       "label": "2 fruit servings",
-                      "pointValue": 3
+                      "value": 3
                     },
                     {
                       "label": "3 vegetable servings",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "No sweets",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "Keep a food journal",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "Exercise",
-                      "pointValue": {
+                      "value": {
                         "30Min": 10,
                         "45Min": 14
                       }
@@ -1964,35 +1962,35 @@
                   "day4": [
                     {
                       "label": "Contact Teammate",
-                      "pointValue": 1
+                      "value": 1
                     },
                     {
                       "label": "64 oz of water",
-                      "pointValue": 3
+                      "value": 6
                     },
                     {
                       "label": "Stop eating before 9pm",
-                      "pointValue": 3
+                      "value": 6
                     },
                     {
                       "label": "2 fruit servings",
-                      "pointValue": 3
+                      "value": 3
                     },
                     {
                       "label": "3 vegetable servings",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "No sweets",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "Keep a food journal",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "Exercise",
-                      "pointValue": {
+                      "value": {
                         "30Min": 10,
                         "45Min": 14
                       }
@@ -2001,35 +1999,35 @@
                   "day5": [
                     {
                       "label": "Contact Teammate",
-                      "pointValue": 1
+                      "value": 1
                     },
                     {
                       "label": "64 oz of water",
-                      "pointValue": 3
+                      "value": 6
                     },
                     {
                       "label": "Stop eating before 9pm",
-                      "pointValue": 3
+                      "value": 6
                     },
                     {
                       "label": "2 fruit servings",
-                      "pointValue": 3
+                      "value": 3
                     },
                     {
                       "label": "3 vegetable servings",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "No sweets",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "Keep a food journal",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "Exercise",
-                      "pointValue": {
+                      "value": {
                         "30Min": 10,
                         "45Min": 14
                       }
@@ -2038,35 +2036,35 @@
                   "day6": [
                     {
                       "label": "Contact Teammate",
-                      "pointValue": 1
+                      "value": 1
                     },
                     {
                       "label": "64 oz of water",
-                      "pointValue": 3
+                      "value": 6
                     },
                     {
                       "label": "Stop eating before 9pm",
-                      "pointValue": 3
+                      "value": 6
                     },
                     {
                       "label": "2 fruit servings",
-                      "pointValue": 3
+                      "value": 3
                     },
                     {
                       "label": "3 vegetable servings",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "No sweets",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "Keep a food journal",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "Exercise",
-                      "pointValue": {
+                      "value": {
                         "30Min": 10,
                         "45Min": 14
                       }
@@ -2075,35 +2073,35 @@
                   "day7": [
                     {
                       "label": "Contact Teammate",
-                      "pointValue": 1
+                      "value": 1
                     },
                     {
                       "label": "64 oz of water",
-                      "pointValue": 3
+                      "value": 6
                     },
                     {
                       "label": "Stop eating before 9pm",
-                      "pointValue": 3
+                      "value": 6
                     },
                     {
                       "label": "2 fruit servings",
-                      "pointValue": 3
+                      "value": 3
                     },
                     {
                       "label": "3 vegetable servings",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "No sweets",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "Keep a food journal",
-                      "pointValue": 5
+                      "value": 1
                     },
                     {
                       "label": "Exercise",
-                      "pointValue": {
+                      "value": {
                         "30Min": 10,
                         "45Min": 14
                       },

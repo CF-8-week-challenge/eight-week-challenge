@@ -7,9 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B3983E71ECA2834000269AD /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3983E61ECA2834000269AD /* AFNetworking.framework */; };
+		1B3983E81ECA2834000269AD /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3983E61ECA2834000269AD /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1B3983ED1ECA2B77000269AD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3983EC1ECA2B77000269AD /* HomeViewController.m */; };
+		1B3983F31ECA3315000269AD /* LeaderboardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3983F21ECA3315000269AD /* LeaderboardCell.m */; };
+		1B3983F61ECA3339000269AD /* LeaderboardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3983F51ECA3339000269AD /* LeaderboardItem.m */; };
+		1B3983F81ECA3494000269AD /* LeaderboardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B3983F71ECA3494000269AD /* LeaderboardCell.xib */; };
 		1B6A01761ECA1DB8005DAC00 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A01741ECA1DB8005DAC00 /* Home.storyboard */; };
 		1B6A01791ECA1DF5005DAC00 /* Today.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A01771ECA1DF5005DAC00 /* Today.storyboard */; };
 		1B6A017C1ECA1E18005DAC00 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A017A1ECA1E18005DAC00 /* Profile.storyboard */; };
+		1BB83C1D1ECA56AB009E6315 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB83C1C1ECA56AB009E6315 /* TodayViewController.m */; };
+		1BB83C211ECA5773009E6315 /* TodayTaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB83C1F1ECA5773009E6315 /* TodayTaskCell.m */; };
+		1BB83C221ECA5773009E6315 /* TodayTaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BB83C201ECA5773009E6315 /* TodayTaskCell.xib */; };
+		1BB83C251ECA5E3E009E6315 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB83C241ECA5E3E009E6315 /* Task.m */; };
+		1BB83C261ECA5E3E009E6315 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB83C241ECA5E3E009E6315 /* Task.m */; };
+		1BB83C281ECA5EBF009E6315 /* tasks.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BB83C271ECA5EBF009E6315 /* tasks.json */; };
+		1BB83C291ECA5EBF009E6315 /* tasks.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BB83C271ECA5EBF009E6315 /* tasks.json */; };
 		E51D5D5D1ECA1A5E00734FB1 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51D5D5C1ECA1A5E00734FB1 /* AFNetworking.framework */; };
 		E57935F21ECA145400C9E3AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E57935F11ECA145400C9E3AF /* main.m */; };
 		E57935F51ECA145400C9E3AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E57935F41ECA145400C9E3AF /* AppDelegate.m */; };
@@ -38,10 +51,40 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1B3983E91ECA2835000269AD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1B3983E81ECA2834000269AD /* AFNetworking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1B3983E61ECA2834000269AD /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		1B3983EB1ECA2B77000269AD /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1B3983EC1ECA2B77000269AD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1B3983F11ECA3315000269AD /* LeaderboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardCell.h; sourceTree = "<group>"; };
+		1B3983F21ECA3315000269AD /* LeaderboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardCell.m; sourceTree = "<group>"; };
+		1B3983F41ECA3339000269AD /* LeaderboardItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardItem.h; sourceTree = "<group>"; };
+		1B3983F51ECA3339000269AD /* LeaderboardItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardItem.m; sourceTree = "<group>"; };
+		1B3983F71ECA3494000269AD /* LeaderboardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeaderboardCell.xib; sourceTree = "<group>"; };
 		1B6A01751ECA1DB8005DAC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		1B6A01781ECA1DF5005DAC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Today.storyboard; sourceTree = "<group>"; };
 		1B6A017B1ECA1E18005DAC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
+		1BB83C1B1ECA56AB009E6315 /* TodayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		1BB83C1C1ECA56AB009E6315 /* TodayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		1BB83C1E1ECA5773009E6315 /* TodayTaskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayTaskCell.h; sourceTree = "<group>"; };
+		1BB83C1F1ECA5773009E6315 /* TodayTaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayTaskCell.m; sourceTree = "<group>"; };
+		1BB83C201ECA5773009E6315 /* TodayTaskCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodayTaskCell.xib; sourceTree = "<group>"; };
+		1BB83C231ECA5E3E009E6315 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		1BB83C241ECA5E3E009E6315 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		1BB83C271ECA5EBF009E6315 /* tasks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tasks.json; sourceTree = "<group>"; };
 		E51D5D5C1ECA1A5E00734FB1 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
 		E57935ED1ECA145400C9E3AF /* eight-week-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eight-week-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57935F11ECA145400C9E3AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +109,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E51D5D5D1ECA1A5E00734FB1 /* AFNetworking.framework in Frameworks */,
+				1B3983E71ECA2834000269AD /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +130,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B3983EE1ECA32C1000269AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B3983F41ECA3339000269AD /* LeaderboardItem.h */,
+				1B3983F51ECA3339000269AD /* LeaderboardItem.m */,
+				1BB83C231ECA5E3E009E6315 /* Task.h */,
+				1BB83C241ECA5E3E009E6315 /* Task.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1B3983EF1ECA32C9000269AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E57935F91ECA145400C9E3AF /* Main.storyboard */,
+				1B6A01741ECA1DB8005DAC00 /* Home.storyboard */,
+				1B6A01771ECA1DF5005DAC00 /* Today.storyboard */,
+				1B6A017A1ECA1E18005DAC00 /* Profile.storyboard */,
+				1B3983F11ECA3315000269AD /* LeaderboardCell.h */,
+				1B3983F21ECA3315000269AD /* LeaderboardCell.m */,
+				1B3983F71ECA3494000269AD /* LeaderboardCell.xib */,
+				1BB83C1E1ECA5773009E6315 /* TodayTaskCell.h */,
+				1BB83C1F1ECA5773009E6315 /* TodayTaskCell.m */,
+				1BB83C201ECA5773009E6315 /* TodayTaskCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1B3983F01ECA32CD000269AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E57935F31ECA145400C9E3AF /* AppDelegate.h */,
+				E57935F41ECA145400C9E3AF /* AppDelegate.m */,
+				1B3983EB1ECA2B77000269AD /* HomeViewController.h */,
+				1B3983EC1ECA2B77000269AD /* HomeViewController.m */,
+				1BB83C1B1ECA56AB009E6315 /* TodayViewController.h */,
+				1BB83C1C1ECA56AB009E6315 /* TodayViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		E51D5D5B1ECA1A5E00734FB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +187,7 @@
 				E57936141ECA145400C9E3AF /* eight-week-challengeUITests */,
 				E57935EE1ECA145400C9E3AF /* Products */,
 				E57936231ECA18A700C9E3AF /* Cartfile */,
+				1B3983E61ECA2834000269AD /* AFNetworking.framework */,
 				E51D5D5B1ECA1A5E00734FB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -119,14 +205,12 @@
 		E57935EF1ECA145400C9E3AF /* eight-week-challenge */ = {
 			isa = PBXGroup;
 			children = (
-				E57935F31ECA145400C9E3AF /* AppDelegate.h */,
-				E57935F41ECA145400C9E3AF /* AppDelegate.m */,
-				E57935F91ECA145400C9E3AF /* Main.storyboard */,
-				1B6A017A1ECA1E18005DAC00 /* Profile.storyboard */,
-				1B6A01741ECA1DB8005DAC00 /* Home.storyboard */,
-				1B6A01771ECA1DF5005DAC00 /* Today.storyboard */,
+				1B3983F01ECA32CD000269AD /* Controllers */,
+				1B3983EF1ECA32C9000269AD /* Views */,
+				1B3983EE1ECA32C1000269AD /* Models */,
 				E57935FC1ECA145400C9E3AF /* Assets.xcassets */,
 				E57935FE1ECA145400C9E3AF /* LaunchScreen.storyboard */,
+				1BB83C271ECA5EBF009E6315 /* tasks.json */,
 				E57936011ECA145400C9E3AF /* Info.plist */,
 				E57935F01ECA145400C9E3AF /* Supporting Files */,
 			);
@@ -169,6 +253,8 @@
 				E57935E91ECA145400C9E3AF /* Sources */,
 				E57935EA1ECA145400C9E3AF /* Frameworks */,
 				E57935EB1ECA145400C9E3AF /* Resources */,
+				1B3983E91ECA2835000269AD /* Embed Frameworks */,
+				1B3983EA1ECA2878000269AD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -269,8 +355,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B6A01791ECA1DF5005DAC00 /* Today.storyboard in Resources */,
+				1B3983F81ECA3494000269AD /* LeaderboardCell.xib in Resources */,
 				E57936001ECA145400C9E3AF /* LaunchScreen.storyboard in Resources */,
 				1B6A01761ECA1DB8005DAC00 /* Home.storyboard in Resources */,
+				1BB83C281ECA5EBF009E6315 /* tasks.json in Resources */,
+				1BB83C221ECA5773009E6315 /* TodayTaskCell.xib in Resources */,
 				E57935FD1ECA145400C9E3AF /* Assets.xcassets in Resources */,
 				E57936241ECA18A700C9E3AF /* Cartfile in Resources */,
 				1B6A017C1ECA1E18005DAC00 /* Profile.storyboard in Resources */,
@@ -282,6 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BB83C291ECA5EBF009E6315 /* tasks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,13 +384,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B3983EA1ECA2878000269AD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AFNetworking.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E57935E91ECA145400C9E3AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BB83C211ECA5773009E6315 /* TodayTaskCell.m in Sources */,
+				1BB83C1D1ECA56AB009E6315 /* TodayViewController.m in Sources */,
 				E57935F51ECA145400C9E3AF /* AppDelegate.m in Sources */,
+				1B3983F61ECA3339000269AD /* LeaderboardItem.m in Sources */,
+				1BB83C251ECA5E3E009E6315 /* Task.m in Sources */,
+				1B3983F31ECA3315000269AD /* LeaderboardCell.m in Sources */,
 				E57935F21ECA145400C9E3AF /* main.m in Sources */,
+				1B3983ED1ECA2B77000269AD /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BB83C261ECA5E3E009E6315 /* Task.m in Sources */,
 				E579360B1ECA145400C9E3AF /* eight_week_challengeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
