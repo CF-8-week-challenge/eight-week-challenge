@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B3983E71ECA2834000269AD /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3983E61ECA2834000269AD /* AFNetworking.framework */; };
+		1B3983E81ECA2834000269AD /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3983E61ECA2834000269AD /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1B6A01761ECA1DB8005DAC00 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A01741ECA1DB8005DAC00 /* Home.storyboard */; };
 		1B6A01791ECA1DF5005DAC00 /* Today.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A01771ECA1DF5005DAC00 /* Today.storyboard */; };
 		1B6A017C1ECA1E18005DAC00 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A017A1ECA1E18005DAC00 /* Profile.storyboard */; };
@@ -38,7 +40,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1B3983E91ECA2835000269AD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1B3983E81ECA2834000269AD /* AFNetworking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1B3983E61ECA2834000269AD /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
 		1B6A01751ECA1DB8005DAC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		1B6A01781ECA1DF5005DAC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Today.storyboard; sourceTree = "<group>"; };
 		1B6A017B1ECA1E18005DAC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
@@ -66,6 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E51D5D5D1ECA1A5E00734FB1 /* AFNetworking.framework in Frameworks */,
+				1B3983E71ECA2834000269AD /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +120,7 @@
 				E57936141ECA145400C9E3AF /* eight-week-challengeUITests */,
 				E57935EE1ECA145400C9E3AF /* Products */,
 				E57936231ECA18A700C9E3AF /* Cartfile */,
+				1B3983E61ECA2834000269AD /* AFNetworking.framework */,
 				E51D5D5B1ECA1A5E00734FB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -169,6 +188,8 @@
 				E57935E91ECA145400C9E3AF /* Sources */,
 				E57935EA1ECA145400C9E3AF /* Frameworks */,
 				E57935EB1ECA145400C9E3AF /* Resources */,
+				1B3983E91ECA2835000269AD /* Embed Frameworks */,
+				1B3983EA1ECA2878000269AD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -293,6 +314,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B3983EA1ECA2878000269AD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AFNetworking.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E57935E91ECA145400C9E3AF /* Sources */ = {

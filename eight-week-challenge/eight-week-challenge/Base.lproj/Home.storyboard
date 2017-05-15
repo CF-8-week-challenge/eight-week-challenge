@@ -20,14 +20,45 @@
                     <view key="view" contentMode="scaleToFill" id="dU3-Sz-5pu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="RxN-Od-7B1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9c6-lc-hy2">
+                                    <size key="itemSize" width="371" height="101"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="otc-aU-ScW">
+                                        <rect key="frame" x="2" y="0.0" width="371" height="101"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="371" height="101"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gi7-9g-lbR" firstAttribute="top" secondItem="RxN-Od-7B1" secondAttribute="bottom" id="0xl-iF-uuV"/>
+                            <constraint firstItem="RxN-Od-7B1" firstAttribute="leading" secondItem="dU3-Sz-5pu" secondAttribute="leading" id="7Pj-bp-sX8"/>
+                            <constraint firstAttribute="trailing" secondItem="RxN-Od-7B1" secondAttribute="trailing" id="iFE-7K-YC2"/>
+                            <constraint firstItem="RxN-Od-7B1" firstAttribute="top" secondItem="dU3-Sz-5pu" secondAttribute="top" id="wVc-ed-41d"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="jOI-sR-WQM"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="jOI-sR-WQM"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8lp-pn-3CN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-209" y="-514"/>
+            <point key="canvasLocation" x="-210.40000000000001" y="-514.09295352323841"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="home" width="25" height="25"/>
+    </resources>
 </document>
