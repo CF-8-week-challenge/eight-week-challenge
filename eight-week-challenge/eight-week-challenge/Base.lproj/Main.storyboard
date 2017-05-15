@@ -26,7 +26,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TU2-Zi-hnV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1726" y="452"/>
+            <point key="canvasLocation" x="-1070" y="282"/>
         </scene>
         <!--Home-->
         <scene sceneID="UWi-Pt-MMG">
@@ -36,7 +36,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oP6-xd-Fhl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-209" y="-514"/>
+            <point key="canvasLocation" x="-221" y="14"/>
         </scene>
         <!--Today-->
         <scene sceneID="6Ce-zt-zMg">
@@ -56,7 +56,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cB4-3j-A0G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-223" y="1066"/>
+            <point key="canvasLocation" x="-224" y="544"/>
         </scene>
     </scenes>
     <resources>
