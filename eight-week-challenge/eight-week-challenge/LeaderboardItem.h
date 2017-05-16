@@ -6,7 +6,7 @@
 //  Copyright © 2017 Kyle Hillman. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 @interface LeaderboardItem : NSObject
 @property (strong, nonatomic) NSString *name;

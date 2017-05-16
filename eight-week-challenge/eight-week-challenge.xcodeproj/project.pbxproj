@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B34D83F1ECAAC2700D01F1F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B34D83E1ECAAC2700D01F1F /* ProfileViewController.m */; };
 		1B3983E71ECA2834000269AD /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3983E61ECA2834000269AD /* AFNetworking.framework */; };
 		1B3983E81ECA2834000269AD /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3983E61ECA2834000269AD /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1B3983ED1ECA2B77000269AD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3983EC1ECA2B77000269AD /* HomeViewController.m */; };
@@ -65,6 +66,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B34D83D1ECAAC2700D01F1F /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		1B34D83E1ECAAC2700D01F1F /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		1B3983E61ECA2834000269AD /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
 		1B3983EB1ECA2B77000269AD /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		1B3983EC1ECA2B77000269AD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
@@ -166,6 +169,8 @@
 				1B3983EC1ECA2B77000269AD /* HomeViewController.m */,
 				1BB83C1B1ECA56AB009E6315 /* TodayViewController.h */,
 				1BB83C1C1ECA56AB009E6315 /* TodayViewController.m */,
+				1B34D83D1ECAAC2700D01F1F /* ProfileViewController.h */,
+				1B34D83E1ECAAC2700D01F1F /* ProfileViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -405,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BB83C211ECA5773009E6315 /* TodayTaskCell.m in Sources */,
+				1B34D83F1ECAAC2700D01F1F /* ProfileViewController.m in Sources */,
 				1BB83C1D1ECA56AB009E6315 /* TodayViewController.m in Sources */,
 				E57935F51ECA145400C9E3AF /* AppDelegate.m in Sources */,
 				1B3983F61ECA3339000269AD /* LeaderboardItem.m in Sources */,

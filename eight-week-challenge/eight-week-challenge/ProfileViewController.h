@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ProfileViewController.h
 //  eight-week-challenge
 //
 //  Created by Kyle Hillman on 5/15/17.
@@ -8,8 +8,5 @@
 
 @import UIKit;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property(strong, nonatomic) UIWindow *window;
-
+@interface ProfileViewController : UIViewController
 @end
