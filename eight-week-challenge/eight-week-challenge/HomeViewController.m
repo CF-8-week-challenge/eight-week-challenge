@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "LeaderboardCell.h"
+@import AFNetworking;
 
 @interface HomeViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
   @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
@@ -20,15 +21,22 @@
   [super viewDidLoad];
   self.collectionView.delegate = self;
   self.collectionView.dataSource = self;
-  self.leaderBoardItems = @[
-    [LeaderboardItem itemFromDict: @{@"name": @"Ulya", @"currentScore": @50}],
-    [LeaderboardItem itemFromDict: @{@"name": @"Natasha", @"currentScore": @40}],
-    [LeaderboardItem itemFromDict: @{@"name": @"Olga", @"currentScore": @35}]
-  ];
-
   UINib *leaderboardCell = [UINib nibWithNibName:@"LeaderboardCell" bundle:nil];
   [self.collectionView registerNib:leaderboardCell
         forCellWithReuseIdentifier:@"LeaderboardCell"];
+
+  NSString *leaderboardUrlString = @"https://demo2029138.mockable.io/leaderboard";
+  AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+  [manager GET:leaderboardUrlString
+    parameters:nil
+      progress:nil
+       success:^(NSURLSessionTask *task, id responseObject) {
+         NSArray *leaderboardEntries = responseObject[@"leaderboard"];
+         self.leaderBoardItems = [LeaderboardItem itemsFromDicts: leaderboardEntries];
+         [self.collectionView reloadData];
+       } failure:^(NSURLSessionTask *operation, NSError *error) {
+         NSLog(@"Error: %@", error);
+       }]; 
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView
