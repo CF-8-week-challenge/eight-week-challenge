@@ -70,7 +70,26 @@
     
 }
 
+- (IBAction)imagePressed:(UITapGestureRecognizer *)sender {
+    NSLog(@"pic is tapped");
+    UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
+    imagePicker.delegate = self;
+    imagePicker.allowsEditing = YES;
+    imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+    [self presentViewController:imagePicker animated:YES completion:NULL];
+}
+
 - (IBAction)historyButtonPressed:(id)sender {
+}
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    UIImage *selectedImage = info[UIImagePickerControllerEditedImage];
+    self.profilePic.image = selectedImage;
+    [picker dismissViewControllerAnimated:YES completion:NULL];
+}
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
+    [picker dismissViewControllerAnimated:YES completion:NULL];
 }
 
 @end
