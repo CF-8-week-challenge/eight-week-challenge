@@ -13,4 +13,5 @@
 @property (strong, nonatomic) NSNumber *currentScore;
 
 + (instancetype) itemFromDict:(NSDictionary*)dict;
++ (NSArray *) itemsFromDicts:(NSArray*)dicts;
 @end

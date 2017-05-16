@@ -25,11 +25,20 @@
   UINib *todayTaskCell = [UINib nibWithNibName:@"TodayTaskCell" bundle:nil];
   [self.tableView registerNib:todayTaskCell forCellReuseIdentifier:@"TodayTaskCell"];
 
-  self.todaysTasks = @[
-    [Task taskFromDict:@{@"title": @"get lifted", @"value": @420}]
-  ];
+  NSArray *today;
+  NSString *path = [[NSBundle mainBundle] pathForResource:@"tasks" ofType:@"json"];
+  NSData *jsonData = [NSData dataWithContentsOfFile:path];
+  NSError *jsonError;
+  NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:jsonData
+                                                       options:NSJSONReadingMutableContainers
+                                                         error:&jsonError];
+  if (jsonError) {
+    NSLog(@"JSON Parsing error: %@", jsonError);
+  } else {
+    today = dict[@"week3"][@"day5"];
+    self.todaysTasks = [Task tasksFromDicts:today];
+  }
 }
-
 
 - (NSInteger)tableView:(UITableView *)tableView
  numberOfRowsInSection:(NSInteger)section {

@@ -15,4 +15,14 @@
   task.value = dict[@"value"];
   return task;
 }
+
++ (NSArray*) tasksFromDicts:(NSArray *)dicts {
+  NSMutableArray *tasks = [[NSMutableArray alloc] init];
+
+  for (NSDictionary *dict in dicts) {
+    [tasks addObject:[Task taskFromDict:dict]];
+  }
+
+  return tasks;
+}
 @end
