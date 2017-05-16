@@ -33,13 +33,12 @@
     if (error) {
       NSLog(@"Error: %@", error);
     } else {
-      // NSLog(@"%@ %@", response, responseObject);
       NSDictionary *user = (NSDictionary *)responseObject;
       NSNumber *userHeight = user[@"userProfile"][@"height"];
       NSNumber *userWeight = user[@"userProfile"][@"currentWeight"];
-      // formatDate user[@"userProfile"][@"dateOfBirth"];
       NSDate *userAge = [self formatDate:user[@"userProfile"][@"dateOfBirth"]];
       NSDate *date1 = [NSDate date];
+      //UIImage *userPic = user[@"userProfile"][@"avatarUrl"];
       
       NSTimeInterval secondsBetween = [date1 timeIntervalSinceDate:userAge];
       
@@ -47,6 +46,7 @@
       int years = numberOfDays / 365;
       
       self.nameLabel.text = user[@"userProfile"][@"name"];
+      self.profilePic.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:user[@"userProfile"][@"avatarUrl"]]]];
       self.heightLabel.text = [NSString stringWithFormat:@"%@", [userHeight stringValue]];
       self.weightLabel.text = [NSString stringWithFormat:@"%@", [userWeight stringValue]];
       self.ageLabel.text = [NSString stringWithFormat:@"%d", years];
