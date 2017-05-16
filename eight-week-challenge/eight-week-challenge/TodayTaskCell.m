@@ -7,17 +7,22 @@
 //
 
 #import "TodayTaskCell.h"
+@import AFNetworking;
 
 @interface TodayTaskCell ()
 @property(weak, nonatomic) IBOutlet UILabel *taskTitle;
 @property(weak, nonatomic) IBOutlet UISwitch *taskDoneStatus;
 @property(weak, nonatomic) IBOutlet UILabel *pointValue;
+@property(strong, nonatomic) NSString *resourceURL;
+@property(strong, nonatomic) AFHTTPSessionManager *sessionManager;
 @end
 
 @implementation TodayTaskCell
 
 - (void)awakeFromNib {
   [super awakeFromNib];
+  self.resourceURL = @"http://127.0.0.1:3000/api/tasks";
+  self.sessionManager = [AFHTTPSessionManager manager];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -33,11 +38,40 @@
 
 - (IBAction)switchWasToggled:(UISwitch *)sender {
   if (sender.on) {
-    // post task completion
-    // for now, just the default value
+    [self postTaskCompletion];
   } else {
-    // delete task completion
+    [self deleteTaskCompletion];
   }
+}
+
+- (void) postTaskCompletion {
+  [self.sessionManager POST:self.resourceURL
+                 parameters:nil
+                   progress:nil
+                    success:^(NSURLSessionTask *task, id responseObject) {
+                      NSLog(@"%@", task);
+                      NSLog(@"%@", responseObject);
+//                        TODO:
+//                        self.task.uid = responseObject.uid;
+                    }
+                    failure:^(NSURLSessionTask *operation, NSError *error) {
+                      NSLog(@"Error: %@", error);
+                    }];
+}
+
+- (void) deleteTaskCompletion {
+  NSNumber *taskId = self.task.uid;
+  NSString *taskURL = [NSString stringWithFormat:@"%@/%@", self.resourceURL, taskId];
+  
+  [self.sessionManager DELETE:taskURL
+                   parameters:nil
+                      success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+                        NSLog(@"%@", task);
+                        NSLog(@"%@", responseObject);
+                      }
+                      failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+                        NSLog(@"Error: %@", error);
+                      }];
 }
 
 @end
