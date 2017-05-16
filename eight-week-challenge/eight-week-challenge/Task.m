@@ -9,14 +9,31 @@
 #import "Task.h"
 
 @implementation Task
-+ (instancetype) taskFromDict:(NSDictionary*)dict {
++ (instancetype)taskFromDict:(NSDictionary *)dict {
   Task *task = [[Task alloc] init];
   task.title = dict[@"title"];
-  task.value = dict[@"value"];
+
+  if ([dict[@"value"] isKindOfClass:[NSDictionary class]]) {
+    NSMutableArray *options = [NSMutableArray array];
+
+    for (NSString *key in dict[@"value"]) {
+      [options addObject:[NSString stringWithFormat:@"%@ (%@)",
+                                                    dict[@"value"][key], key]];
+    }
+
+    task.valueLabel = [options componentsJoinedByString:@" / "];
+    task.value = dict[@"value"];
+    task.allowsValueOptions = YES;
+  } else {
+    task.valueLabel = dict[@"value"];
+    task.value = @{ @"value" : dict[@"value"] };
+    task.allowsValueOptions = NO;
+  }
+
   return task;
 }
 
-+ (NSArray*) tasksFromDicts:(NSArray *)dicts {
++ (NSArray *)tasksFromDicts:(NSArray *)dicts {
   NSMutableArray *tasks = [[NSMutableArray alloc] init];
 
   for (NSDictionary *dict in dicts) {

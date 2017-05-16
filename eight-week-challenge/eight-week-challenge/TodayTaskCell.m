@@ -9,9 +9,9 @@
 #import "TodayTaskCell.h"
 
 @interface TodayTaskCell ()
-@property (weak, nonatomic) IBOutlet UILabel *taskTitle;
-@property (weak, nonatomic) IBOutlet UISwitch *taskDoneStatus;
-@property (weak, nonatomic) IBOutlet UILabel *pointValue;
+@property(weak, nonatomic) IBOutlet UILabel *taskTitle;
+@property(weak, nonatomic) IBOutlet UISwitch *taskDoneStatus;
+@property(weak, nonatomic) IBOutlet UILabel *pointValue;
 @end
 
 @implementation TodayTaskCell
@@ -24,10 +24,11 @@
   [super setSelected:selected animated:animated];
 }
 
-- (void) configureTask:(Task *)task {
+- (void)configureTask:(Task *)task {
   self.task = task;
   self.taskTitle.text = task.title;
-  self.pointValue.text = [NSString stringWithFormat:@"Points: %@", task.value];
+  self.pointValue.text =
+      [NSString stringWithFormat:@"Points: %@", task.valueLabel];
 }
 
 @end
