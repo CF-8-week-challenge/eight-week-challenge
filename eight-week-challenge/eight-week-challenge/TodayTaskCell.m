@@ -28,7 +28,16 @@
   self.task = task;
   self.taskTitle.text = task.title;
   self.pointValue.text =
-      [NSString stringWithFormat:@"Points: %@", task.valueLabel];
+      [NSString stringWithFormat:@"Points: %@", task.value];
+}
+
+- (IBAction)switchWasToggled:(UISwitch *)sender {
+  if (sender.on) {
+    // post task completion
+    // for now, just the default value
+  } else {
+    // delete task completion
+  }
 }
 
 @end

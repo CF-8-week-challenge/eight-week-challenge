@@ -35,7 +35,7 @@
   if (jsonError) {
     NSLog(@"JSON Parsing error: %@", jsonError);
   } else {
-    today = dict[@"week3"][@"day5"];
+    today = dict[@"week3"][@"day6"];
     self.todaysTasks = [Task tasksFromDicts:today];
   }
 }

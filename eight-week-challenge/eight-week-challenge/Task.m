@@ -12,24 +12,7 @@
 + (instancetype)taskFromDict:(NSDictionary *)dict {
   Task *task = [[Task alloc] init];
   task.title = dict[@"title"];
-
-  if ([dict[@"value"] isKindOfClass:[NSDictionary class]]) {
-    NSMutableArray *options = [NSMutableArray array];
-
-    for (NSString *key in dict[@"value"]) {
-      [options addObject:[NSString stringWithFormat:@"%@ (%@)",
-                                                    dict[@"value"][key], key]];
-    }
-
-    task.valueLabel = [options componentsJoinedByString:@" / "];
-    task.value = dict[@"value"];
-    task.allowsValueOptions = YES;
-  } else {
-    task.valueLabel = dict[@"value"];
-    task.value = @{ @"value" : dict[@"value"] };
-    task.allowsValueOptions = NO;
-  }
-
+  task.value = dict[@"value"];
   return task;
 }
 
