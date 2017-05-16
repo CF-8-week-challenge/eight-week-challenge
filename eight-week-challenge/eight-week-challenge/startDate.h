@@ -1,5 +1,5 @@
 //
-//  startDate.h
+//  StartDate.h
 //  eight-week-challenge
 //
 //  Created by Pavel Parkhomey on 5/16/17.
@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface startDate : NSObject
+@interface StartDate : NSObject
 
-+(NSDictionary*) currrentWeekAndDayFromStartDate:(NSDate*)startDate todaysDate:(NSDate*)todaysDate;
-
++ (NSDictionary*) currentWeekAndDayFromStartDate:(NSDate*)startDate;
++(NSDate *)formatDate:(NSString *)date;
 @end

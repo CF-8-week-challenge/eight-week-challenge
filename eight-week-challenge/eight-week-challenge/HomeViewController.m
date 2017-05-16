@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "LeaderboardCell.h"
+#import "StartDate.h"
 @import AFNetworking;
 
 @interface HomeViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
@@ -19,6 +20,7 @@
   
 - (void)viewDidLoad {
   [super viewDidLoad];
+    [StartDate currentWeekAndDayFromStartDate:[StartDate formatDate:@"2017-05-01"]];
   self.collectionView.delegate = self;
   self.collectionView.dataSource = self;
   UINib *leaderboardCell = [UINib nibWithNibName:@"LeaderboardCell" bundle:nil];
