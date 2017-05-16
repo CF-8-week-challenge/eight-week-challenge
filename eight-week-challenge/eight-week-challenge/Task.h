@@ -12,4 +12,5 @@
 @property (strong, nonatomic) NSString *title;
 @property (strong, nonatomic) NSNumber *value;
 + (instancetype) taskFromDict:(NSDictionary*)dict;
++ (NSArray*) tasksFromDicts:(NSArray *)dicts;
 @end
