@@ -6,7 +6,7 @@
 //  Copyright © 2017 Kyle Hillman. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface HomeViewController : UIViewController
 
