@@ -16,5 +16,16 @@
   item.currentScore = dict[@"currentScore"];
   return item;
 }
+
+
++ (NSArray *) itemsFromDicts:(NSArray*)dicts {
+  NSMutableArray *items = [NSMutableArray array];
+
+  for (NSDictionary *dict in dicts) {
+    [items addObject: [LeaderboardItem itemFromDict:dict]];
+  }
+
+  return items;
+}
   
 @end

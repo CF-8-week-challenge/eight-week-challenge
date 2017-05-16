@@ -79,8 +79,6 @@
     [self presentViewController:imagePicker animated:YES completion:NULL];
 }
 
-
-
 - (IBAction)historyButtonPressed:(id)sender {
 }
 
@@ -95,38 +93,3 @@
 }
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
