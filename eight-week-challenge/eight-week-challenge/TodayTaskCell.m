@@ -21,7 +21,7 @@
 
 - (void)awakeFromNib {
   [super awakeFromNib];
-  self.resourceURL = @"https://demo2029138.mockable.io/tasks";
+  self.resourceURL = @"http://127.0.0.1:3000/api/tasks";
   self.sessionManager = [AFHTTPSessionManager manager];
 }
 
@@ -49,7 +49,10 @@
                  parameters:nil
                    progress:nil
                     success:^(NSURLSessionTask *task, id responseObject) {
-                      // do shit
+                      NSLog(@"%@", task);
+                      NSLog(@"%@", responseObject);
+//                        TODO:
+//                        self.task.uid = responseObject.uid;
                     }
                     failure:^(NSURLSessionTask *operation, NSError *error) {
                       NSLog(@"Error: %@", error);
@@ -57,10 +60,14 @@
 }
 
 - (void) deleteTaskCompletion {
-  [self.sessionManager DELETE:self.resourceURL
+  NSNumber *taskId = self.task.uid;
+  NSString *taskURL = [NSString stringWithFormat:@"%@/%@", self.resourceURL, taskId];
+  
+  [self.sessionManager DELETE:taskURL
                    parameters:nil
                       success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-                        // do shit
+                        NSLog(@"%@", task);
+                        NSLog(@"%@", responseObject);
                       }
                       failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
                         NSLog(@"Error: %@", error);
