@@ -10,7 +10,6 @@
 
 @interface StartDate : NSObject
 
-+(NSDictionary*) currentWeekAndDayFromStartDate:(NSDate*)startDate;
++(NSDictionary*) weekNumDayNumFromStartDate:(NSDate*)startDate currentDate:(NSDate*)currentDate;
 
-//+(NSDate *)formatDate:(NSString *)date;
 @end

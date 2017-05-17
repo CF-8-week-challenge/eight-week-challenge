@@ -7,31 +7,26 @@
 //
 
 #import "StartDate.h"
-#import <tgmath.h>
 
 @implementation StartDate
 
-+(NSDictionary*) currentWeekAndDayFromStartDate:(NSDate*)startDate{
-    
-    
-    NSTimeInterval interval = [startDate timeIntervalSinceNow];
-    double rawWeeks = ((interval / 604800) * -1);
-    int week = (int)rawWeeks;
-    double rawDays = rawWeeks - (double)week;
-    int day = (int)(rawDays * 10);
-    NSString *weekConverted = [NSString stringWithFormat:@"%d",week];
-    NSString *dayConverted = [NSString stringWithFormat:@"%d",day];
-    NSDictionary* dayInWeek = @{ @"weekNum": weekConverted, @"dayNum": dayConverted };
-    NSLog(@"Days and Week: %@", dayInWeek);
-    
-    return dayInWeek;
++(NSDictionary*) weekNumDayNumFromStartDate:(NSDate*)startDate
+                                currentDate:(NSDate*)currentDate {
+  NSTimeInterval seconds;
+  NSNumber *weekNum, *dayNum;
+  double days, weeks;
+
+  seconds = [currentDate timeIntervalSinceDate:startDate];
+  days = seconds / 60 / 60 / 24;
+  weeks = days / 7;
+  
+  dayNum = [NSNumber numberWithInt:((int)days % 7) + 1];
+  weekNum = [NSNumber numberWithInt:(int)days + 1];
+
+  NSDictionary* result = @{ @"weekNum": weekNum, @"dayNum": dayNum };
+  NSLog(@"Days and Week: %@", result);
+  
+  return result;
 }
 
-//+(NSDate *)formatDate:(NSString *)date {
-//      NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
-//    NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
-//    [formatter setLocale:locale];
-//    [formatter setDateFormat:@"yyyy-MM-dd"];
-//    return [formatter dateFromString:date];
-//}
 @end

@@ -7,45 +7,32 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "NSDate+StringUtils.h"
 #import "StartDate.h"
 
 @interface eight_week_challengeTests : XCTestCase
-
-@property(strong, nonatomic) NSDate *testStartDay;
-@property(strong, nonatomic) NSDate *testReturnValue;
-
 @end
 
 @implementation eight_week_challengeTests
 
 - (void)setUp {
-    [super setUp];
+  [super setUp];
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+  [super tearDown];
 }
-
--(void)testCurrentWeekAndDayFromStartDate{
-    NSDate *testingDate = [[NSDate alloc]init];
-    id testDay = [StartDate currentWeekAndDayFromStartDate:testingDate];
-    
-    XCTAssert([testDay isKindOfClass:[NSDictionary class]], @"Start Day Success!");
-}
-
+  
 -(void) testStartDate{
-    NSDate *startingDate = [[NSDate alloc]init];
-    NSDictionary *startingDayAndWeek = [StartDate currentWeekAndDayFromStartDate:startingDate];
+  NSDate *startDate = [NSDate fromString:@"2001-01-01"];
+  NSDate *currDate = [NSDate fromString:@"2001-01-05"];
+  NSDictionary *result;
+  
+  result = [StartDate weekNumDayNumFromStartDate:startDate
+                                     currentDate:currDate];
     
-    //XCTAssertEqual(@1,startingDayAndWeek[@"dayNum"]);
-   // XCTAssertEqual(@1, startingDayAndWeek[@"weekNum"]);
-    NSLog(@"DAY AND WEEK: %@", startingDayAndWeek);
-    //XCTAssert([@1 isEqual:startingDayAndWeek[@"dayNum"]]);
-    //XCTAssert([@1 isEqual:startingDayAndWeek[@"weekNum"]]);
-    XCTAssertEqualObjects(@1, startingDayAndWeek[@"dayNum"]);
-    XCTAssertEqualObjects(@1, startingDayAndWeek[@"weekNum"]);
+  XCTAssertEqualObjects(@1, result[@"weekNum"], @"Expected week 1");
+  XCTAssertEqualObjects(@5, result[@"dayNum"], @"Expected day 1");
 }
-
 
 @end

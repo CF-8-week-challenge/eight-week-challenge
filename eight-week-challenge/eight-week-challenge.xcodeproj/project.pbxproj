@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0F678B1ECCB376006C3268 /* NSDate+StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F678A1ECCB376006C3268 /* NSDate+StringUtils.m */; };
+		1B0F678C1ECCB376006C3268 /* NSDate+StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F678A1ECCB376006C3268 /* NSDate+StringUtils.m */; };
 		1B34D83F1ECAAC2700D01F1F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B34D83E1ECAAC2700D01F1F /* ProfileViewController.m */; };
 		1B3983E71ECA2834000269AD /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3983E61ECA2834000269AD /* AFNetworking.framework */; };
 		1B3983E81ECA2834000269AD /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3983E61ECA2834000269AD /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -31,7 +33,6 @@
 		E57935FD1ECA145400C9E3AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57935FC1ECA145400C9E3AF /* Assets.xcassets */; };
 		E57936001ECA145400C9E3AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57935FE1ECA145400C9E3AF /* LaunchScreen.storyboard */; };
 		E579360B1ECA145400C9E3AF /* eight_week_challengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E579360A1ECA145400C9E3AF /* eight_week_challengeTests.m */; };
-		E57936161ECA145400C9E3AF /* eight_week_challengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E57936151ECA145400C9E3AF /* eight_week_challengeUITests.m */; };
 		E57936241ECA18A700C9E3AF /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = E57936231ECA18A700C9E3AF /* Cartfile */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B0F67891ECCB376006C3268 /* NSDate+StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+StringUtils.h"; sourceTree = "<group>"; };
+		1B0F678A1ECCB376006C3268 /* NSDate+StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+StringUtils.m"; sourceTree = "<group>"; };
 		1B34D83D1ECAAC2700D01F1F /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		1B34D83E1ECAAC2700D01F1F /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		1B3983E61ECA2834000269AD /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
@@ -103,8 +106,6 @@
 		E579360A1ECA145400C9E3AF /* eight_week_challengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eight_week_challengeTests.m; sourceTree = "<group>"; };
 		E579360C1ECA145400C9E3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E57936111ECA145400C9E3AF /* eight-week-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eight-week-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E57936151ECA145400C9E3AF /* eight_week_challengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eight_week_challengeUITests.m; sourceTree = "<group>"; };
-		E57936171ECA145400C9E3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E57936231ECA18A700C9E3AF /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +136,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B0F67881ECCB353006C3268 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1B0F67891ECCB376006C3268 /* NSDate+StringUtils.h */,
+				1B0F678A1ECCB376006C3268 /* NSDate+StringUtils.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		1B3983EE1ECA32C1000269AD /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +203,6 @@
 			children = (
 				E57935EF1ECA145400C9E3AF /* eight-week-challenge */,
 				E57936091ECA145400C9E3AF /* eight-week-challengeTests */,
-				E57936141ECA145400C9E3AF /* eight-week-challengeUITests */,
 				E57935EE1ECA145400C9E3AF /* Products */,
 				E57936231ECA18A700C9E3AF /* Cartfile */,
 				1B3983E61ECA2834000269AD /* AFNetworking.framework */,
@@ -217,6 +226,7 @@
 				1B3983F01ECA32CD000269AD /* Controllers */,
 				1B3983EF1ECA32C9000269AD /* Views */,
 				1B3983EE1ECA32C1000269AD /* Models */,
+				1B0F67881ECCB353006C3268 /* Extensions */,
 				E57935FC1ECA145400C9E3AF /* Assets.xcassets */,
 				E57935FE1ECA145400C9E3AF /* LaunchScreen.storyboard */,
 				1BB83C2A1ECA6889009E6315 /* tasks.json */,
@@ -241,15 +251,6 @@
 				E579360C1ECA145400C9E3AF /* Info.plist */,
 			);
 			path = "eight-week-challengeTests";
-			sourceTree = "<group>";
-		};
-		E57936141ECA145400C9E3AF /* eight-week-challengeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E57936151ECA145400C9E3AF /* eight_week_challengeUITests.m */,
-				E57936171ECA145400C9E3AF /* Info.plist */,
-			);
-			path = "eight-week-challengeUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,6 +423,7 @@
 				1B3983F61ECA3339000269AD /* LeaderboardItem.m in Sources */,
 				1BB83C251ECA5E3E009E6315 /* Task.m in Sources */,
 				1B3983F31ECA3315000269AD /* LeaderboardCell.m in Sources */,
+				1B0F678B1ECCB376006C3268 /* NSDate+StringUtils.m in Sources */,
 				E57935F21ECA145400C9E3AF /* main.m in Sources */,
 				1B3983ED1ECA2B77000269AD /* HomeViewController.m in Sources */,
 			);
@@ -433,6 +435,7 @@
 			files = (
 				1BB83C261ECA5E3E009E6315 /* Task.m in Sources */,
 				E579360B1ECA145400C9E3AF /* eight_week_challengeTests.m in Sources */,
+				1B0F678C1ECCB376006C3268 /* NSDate+StringUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +443,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E57936161ECA145400C9E3AF /* eight_week_challengeUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
