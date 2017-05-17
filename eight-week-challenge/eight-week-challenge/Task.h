@@ -10,9 +10,8 @@
 
 @interface Task : NSObject
 @property(strong, nonatomic) NSString *title;
-@property(strong, nonatomic) NSString *valueLabel;
-@property(strong, nonatomic) NSDictionary *value;
-@property(nonatomic) BOOL allowsValueOptions;
+@property(strong, nonatomic) NSNumber *value;
+@property(strong, nonatomic) NSNumber *uid;
 
 + (instancetype)taskFromDict:(NSDictionary *)dict;
 + (NSArray *)tasksFromDicts:(NSArray *)dicts;
