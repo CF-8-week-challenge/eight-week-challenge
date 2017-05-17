@@ -21,7 +21,7 @@
 
 - (void)awakeFromNib {
   [super awakeFromNib];
-  self.resourceURL = @"http://127.0.0.1:3000/api/tasks";
+  self.resourceURL = @"https://effortmanager-staging.herokuapp.com/api/tasks";
   self.sessionManager = [AFHTTPSessionManager manager];
 }
 
@@ -45,6 +45,11 @@
 }
 
 - (void) postTaskCompletion {
+  AFHTTPRequestSerializer *serializer = [AFJSONRequestSerializer serializer];
+  [serializer setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+  [serializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+  self.sessionManager.requestSerializer = serializer;
+  
   [self.sessionManager POST:self.resourceURL
                  parameters:nil
                    progress:nil
