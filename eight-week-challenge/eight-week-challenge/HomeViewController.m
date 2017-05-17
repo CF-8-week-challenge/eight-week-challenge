@@ -8,7 +8,6 @@
 
 #import "HomeViewController.h"
 #import "LeaderboardCell.h"
-#import "StartDate.h"
 @import AFNetworking;
 
 @interface HomeViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
