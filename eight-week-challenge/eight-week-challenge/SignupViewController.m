@@ -7,6 +7,7 @@
 //
 
 #import "SignupViewController.h"
+#import "HomeViewController.h"
 
 @import AFNetworking;
 
@@ -31,20 +32,21 @@
 
 - (IBAction)signupButtonPressed:(id)sender {
     
-    NSDictionary *params = @{@"email": self.emailField.text, @"password": self.passwordField.text, @"name": self.nameField.text, @"height": self.heightField.text, @"weight": self.weightField.text, @"dob": self.dobField.text};
+    NSDictionary *params = @{@"emailAddress": self.emailField.text, @"password": self.passwordField.text};
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:params options:0 error:nil];
     NSString *json = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
     NSDictionary *dict = @{@"userProfile":json};
-    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
-    AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:configuration];
-    manager.responseSerializer = [AFJSONResponseSerializer serializer];
-    [manager POST:@"https://effortmanager-staging.herokuapp.com/api/user/signup" parameters:dict progress:^(NSProgress * _Nonnull uploadProgress) {
-        NSLog(@"JSON: %@", uploadProgress);
-    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"JSON: %@", responseObject);
+
+    AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc]initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    
+    [manager POST:@"https://effortmanager-staging.herokuapp.com/api/user/signup" parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSLog(@"success!");
+        HomeViewController *homeController = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
+        [self presentViewController:homeController animated:YES completion:nil];
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        NSString *myString = [[NSString alloc] initWithData:task encoding:NSUTF8StringEncoding];
-        NSLog(@"Error: %@", error);
+        NSLog(@"error: %@", error);
     }];
 }
 
