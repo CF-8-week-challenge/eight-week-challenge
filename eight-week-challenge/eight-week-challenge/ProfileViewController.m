@@ -39,7 +39,7 @@
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
     AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
     
-    NSURL *URL = [NSURL URLWithString:@"https://demo2029138.mockable.io/user"];
+    NSURL *URL = [NSURL URLWithString:@"https://effortmanager-staging.herokuapp.com/user/:id"];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     
     NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:request completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {

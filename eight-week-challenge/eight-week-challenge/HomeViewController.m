@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "LeaderboardCell.h"
+#import "LoginOptionsViewController.h"
 @import AFNetworking;
 
 @interface HomeViewController () <UICollectionViewDataSource,
@@ -20,6 +21,9 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
+    
+  [self checkUserStatus];
+    
   self.collectionView.delegate = self;
   self.collectionView.dataSource = self;
   UINib *leaderboardCell = [UINib nibWithNibName:@"LeaderboardCell" bundle:nil];
@@ -62,6 +66,19 @@
 - (void)collectionView:(UICollectionView *)collectionView
     didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
   NSLog(@"selected item %@", indexPath);
+}
+
+-(void)checkUserStatus {
+    NSDictionary *credentials;
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Login" bundle:nil];
+    
+    if (!credentials) {
+        LoginOptionsViewController *loginController = [storyboard instantiateViewControllerWithIdentifier:@"LoginOptionsViewController"];
+        
+        [self presentViewController:loginController animated:YES completion:nil];
+
+    }
 }
 
 @end

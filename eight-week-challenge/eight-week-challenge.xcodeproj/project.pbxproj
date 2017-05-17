@@ -32,6 +32,10 @@
 		E579360B1ECA145400C9E3AF /* eight_week_challengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E579360A1ECA145400C9E3AF /* eight_week_challengeTests.m */; };
 		E57936161ECA145400C9E3AF /* eight_week_challengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E57936151ECA145400C9E3AF /* eight_week_challengeUITests.m */; };
 		E57936241ECA18A700C9E3AF /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = E57936231ECA18A700C9E3AF /* Cartfile */; };
+		E5C3CA7B1ECB9289002FCCDF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C3CA791ECB9289002FCCDF /* Login.storyboard */; };
+		E5C3CA7E1ECB94A7002FCCDF /* LoginOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C3CA7D1ECB94A7002FCCDF /* LoginOptionsViewController.m */; };
+		E5C3CA811ECB954F002FCCDF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C3CA801ECB954F002FCCDF /* LoginViewController.m */; };
+		E5C3CA841ECB9569002FCCDF /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C3CA831ECB9569002FCCDF /* SignupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +107,13 @@
 		E57936151ECA145400C9E3AF /* eight_week_challengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eight_week_challengeUITests.m; sourceTree = "<group>"; };
 		E57936171ECA145400C9E3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E57936231ECA18A700C9E3AF /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		E5C3CA7A1ECB9289002FCCDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		E5C3CA7C1ECB94A7002FCCDF /* LoginOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginOptionsViewController.h; sourceTree = "<group>"; };
+		E5C3CA7D1ECB94A7002FCCDF /* LoginOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginOptionsViewController.m; sourceTree = "<group>"; };
+		E5C3CA7F1ECB954F002FCCDF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E5C3CA801ECB954F002FCCDF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E5C3CA821ECB9569002FCCDF /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		E5C3CA831ECB9569002FCCDF /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				E57935F91ECA145400C9E3AF /* Main.storyboard */,
+				E5C3CA791ECB9289002FCCDF /* Login.storyboard */,
 				1B6A01741ECA1DB8005DAC00 /* Home.storyboard */,
 				1B6A01771ECA1DF5005DAC00 /* Today.storyboard */,
 				1B6A017A1ECA1E18005DAC00 /* Profile.storyboard */,
@@ -163,6 +175,12 @@
 		1B3983F01ECA32CD000269AD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E5C3CA7F1ECB954F002FCCDF /* LoginViewController.h */,
+				E5C3CA801ECB954F002FCCDF /* LoginViewController.m */,
+				E5C3CA821ECB9569002FCCDF /* SignupViewController.h */,
+				E5C3CA831ECB9569002FCCDF /* SignupViewController.m */,
+				E5C3CA7C1ECB94A7002FCCDF /* LoginOptionsViewController.h */,
+				E5C3CA7D1ECB94A7002FCCDF /* LoginOptionsViewController.m */,
 				E57935F31ECA145400C9E3AF /* AppDelegate.h */,
 				E57935F41ECA145400C9E3AF /* AppDelegate.m */,
 				1B3983EB1ECA2B77000269AD /* HomeViewController.h */,
@@ -368,6 +386,7 @@
 				E57936241ECA18A700C9E3AF /* Cartfile in Resources */,
 				1B6A017C1ECA1E18005DAC00 /* Profile.storyboard in Resources */,
 				E57935FB1ECA145400C9E3AF /* Main.storyboard in Resources */,
+				E5C3CA7B1ECB9289002FCCDF /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,8 +434,11 @@
 				E57935F51ECA145400C9E3AF /* AppDelegate.m in Sources */,
 				1B3983F61ECA3339000269AD /* LeaderboardItem.m in Sources */,
 				1BB83C251ECA5E3E009E6315 /* Task.m in Sources */,
+				E5C3CA841ECB9569002FCCDF /* SignupViewController.m in Sources */,
 				1B3983F31ECA3315000269AD /* LeaderboardCell.m in Sources */,
+				E5C3CA7E1ECB94A7002FCCDF /* LoginOptionsViewController.m in Sources */,
 				E57935F21ECA145400C9E3AF /* main.m in Sources */,
+				E5C3CA811ECB954F002FCCDF /* LoginViewController.m in Sources */,
 				1B3983ED1ECA2B77000269AD /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +514,14 @@
 				E57935FF1ECA145400C9E3AF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E5C3CA791ECB9289002FCCDF /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5C3CA7A1ECB9289002FCCDF /* Base */,
+			);
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
