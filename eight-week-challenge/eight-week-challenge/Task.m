@@ -9,14 +9,14 @@
 #import "Task.h"
 
 @implementation Task
-+ (instancetype) taskFromDict:(NSDictionary*)dict {
++ (instancetype)taskFromDict:(NSDictionary *)dict {
   Task *task = [[Task alloc] init];
   task.title = dict[@"title"];
   task.value = dict[@"value"];
   return task;
 }
 
-+ (NSArray*) tasksFromDicts:(NSArray *)dicts {
++ (NSArray *)tasksFromDicts:(NSArray *)dicts {
   NSMutableArray *tasks = [[NSMutableArray alloc] init];
 
   for (NSDictionary *dict in dicts) {

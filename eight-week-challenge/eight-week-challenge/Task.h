@@ -9,8 +9,10 @@
 @import Foundation;
 
 @interface Task : NSObject
-@property (strong, nonatomic) NSString *title;
-@property (strong, nonatomic) NSNumber *value;
-+ (instancetype) taskFromDict:(NSDictionary*)dict;
-+ (NSArray*) tasksFromDicts:(NSArray *)dicts;
+@property(strong, nonatomic) NSString *title;
+@property(strong, nonatomic) NSNumber *value;
+@property(strong, nonatomic) NSNumber *uid;
+
++ (instancetype)taskFromDict:(NSDictionary *)dict;
++ (NSArray *)tasksFromDicts:(NSArray *)dicts;
 @end

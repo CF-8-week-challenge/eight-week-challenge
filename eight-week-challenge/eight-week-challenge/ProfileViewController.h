@@ -8,5 +8,10 @@
 
 @import UIKit;
 
-@interface ProfileViewController : UIViewController
+@interface ProfileViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate> {
+    
+}
+
+
+
 @end

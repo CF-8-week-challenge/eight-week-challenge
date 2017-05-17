@@ -8,35 +8,43 @@
 
 #import "HomeViewController.h"
 #import "LeaderboardCell.h"
+#import "LoginOptionsViewController.h"
 @import AFNetworking;
 
-@interface HomeViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
-  @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
-  @property (strong, nonatomic) NSArray *leaderBoardItems;
+@interface HomeViewController () <UICollectionViewDataSource,
+                                  UICollectionViewDelegate>
+@property(weak, nonatomic) IBOutlet UICollectionView *collectionView;
+@property(strong, nonatomic) NSArray *leaderBoardItems;
 @end
 
 @implementation HomeViewController
-  
+
 - (void)viewDidLoad {
   [super viewDidLoad];
+    
+  [self checkUserStatus];
+    
   self.collectionView.delegate = self;
   self.collectionView.dataSource = self;
   UINib *leaderboardCell = [UINib nibWithNibName:@"LeaderboardCell" bundle:nil];
   [self.collectionView registerNib:leaderboardCell
         forCellWithReuseIdentifier:@"LeaderboardCell"];
 
-  NSString *leaderboardUrlString = @"https://demo2029138.mockable.io/leaderboard";
+  NSString *leaderboardUrlString =
+      @"https://demo2029138.mockable.io/leaderboard";
   AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
   [manager GET:leaderboardUrlString
-    parameters:nil
+      parameters:nil
       progress:nil
-       success:^(NSURLSessionTask *task, id responseObject) {
-         NSArray *leaderboardEntries = responseObject[@"leaderboard"];
-         self.leaderBoardItems = [LeaderboardItem itemsFromDicts: leaderboardEntries];
-         [self.collectionView reloadData];
-       } failure:^(NSURLSessionTask *operation, NSError *error) {
-         NSLog(@"Error: %@", error);
-       }]; 
+      success:^(NSURLSessionTask *task, id responseObject) {
+        NSArray *leaderboardEntries = responseObject[@"leaderboard"];
+        self.leaderBoardItems =
+            [LeaderboardItem itemsFromDicts:leaderboardEntries];
+        [self.collectionView reloadData];
+      }
+      failure:^(NSURLSessionTask *operation, NSError *error) {
+        NSLog(@"Error: %@", error);
+      }];
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView
@@ -47,17 +55,30 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
                   cellForItemAtIndexPath:(NSIndexPath *)indexPath {
   LeaderboardCell *cell;
-  cell = (LeaderboardCell*)
-  [collectionView dequeueReusableCellWithReuseIdentifier:@"LeaderboardCell"
-                                            forIndexPath:indexPath];
+  cell = (LeaderboardCell *)[collectionView
+      dequeueReusableCellWithReuseIdentifier:@"LeaderboardCell"
+                                forIndexPath:indexPath];
   LeaderboardItem *selectedItem = self.leaderBoardItems[indexPath.row];
-  [cell configureItem: selectedItem];
+  [cell configureItem:selectedItem];
   return cell;
 }
 
 - (void)collectionView:(UICollectionView *)collectionView
-  didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
   NSLog(@"selected item %@", indexPath);
+}
+
+-(void)checkUserStatus {
+    NSDictionary *credentials;
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Login" bundle:nil];
+    
+    if (!credentials) {
+        LoginOptionsViewController *loginController = [storyboard instantiateViewControllerWithIdentifier:@"LoginOptionsViewController"];
+        
+        [self presentViewController:loginController animated:YES completion:nil];
+
+    }
 }
 
 @end
