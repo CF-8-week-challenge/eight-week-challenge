@@ -28,8 +28,7 @@
   NSDate *currDate = [NSDate fromString:@"2001-01-05"];
   NSDictionary *result;
   
-  result = [StartDate weekNumDayNumFromStartDate:startDate
-                                     currentDate:currDate];
+  result = [StartDate weekNumDayNumFromStartDate:startDate currentDate:currDate];
     
   XCTAssertEqualObjects(@1, result[@"weekNum"], @"Expected week 1");
   XCTAssertEqualObjects(@5, result[@"dayNum"], @"Expected day 1");

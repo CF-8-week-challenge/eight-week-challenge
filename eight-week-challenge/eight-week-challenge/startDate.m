@@ -21,7 +21,7 @@
   weeks = days / 7;
   
   dayNum = [NSNumber numberWithInt:((int)days % 7) + 1];
-  weekNum = [NSNumber numberWithInt:(int)days + 1];
+  weekNum = [NSNumber numberWithInt:(int)weeks + 1];
 
   NSDictionary* result = @{ @"weekNum": weekNum, @"dayNum": dayNum };
   NSLog(@"Days and Week: %@", result);
