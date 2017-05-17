@@ -39,11 +39,14 @@
 
     AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc]initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    manager.responseSerializer = [AFJSONResponseSerializer serializerWithReadingOptions:NSJSONReadingAllowFragments];
     [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     
     [manager POST:@"https://effortmanager-staging.herokuapp.com/api/user/signup" parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSLog(@"success!");
-        HomeViewController *homeController = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Home" bundle:nil];
+        HomeViewController *homeController = [storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
+        
         [self presentViewController:homeController animated:YES completion:nil];
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"error: %@", error);
