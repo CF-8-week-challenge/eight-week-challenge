@@ -12,6 +12,8 @@
 		1B0F678F1ECCB6D2006C3268 /* ProgramDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F678E1ECCB6D2006C3268 /* ProgramDay.m */; };
 		1B0F67901ECCB6D2006C3268 /* ProgramDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F678E1ECCB6D2006C3268 /* ProgramDay.m */; };
 		1B0F67921ECCB713006C3268 /* ProgramDayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F67911ECCB713006C3268 /* ProgramDayTest.m */; };
+		1B0F67951ECCD5FA006C3268 /* TaskCatalog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F67941ECCD5FA006C3268 /* TaskCatalog.m */; };
+		1B0F67961ECCD5FA006C3268 /* TaskCatalog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F67941ECCD5FA006C3268 /* TaskCatalog.m */; };
 		1B34D83F1ECAAC2700D01F1F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B34D83E1ECAAC2700D01F1F /* ProfileViewController.m */; };
 		1B3983E71ECA2834000269AD /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3983E61ECA2834000269AD /* AFNetworking.framework */; };
 		1B3983E81ECA2834000269AD /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3983E61ECA2834000269AD /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -78,6 +80,8 @@
 		1B0F678D1ECCB6D2006C3268 /* ProgramDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramDay.h; sourceTree = "<group>"; };
 		1B0F678E1ECCB6D2006C3268 /* ProgramDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramDay.m; sourceTree = "<group>"; };
 		1B0F67911ECCB713006C3268 /* ProgramDayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramDayTest.m; sourceTree = "<group>"; };
+		1B0F67931ECCD5FA006C3268 /* TaskCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskCatalog.h; sourceTree = "<group>"; };
+		1B0F67941ECCD5FA006C3268 /* TaskCatalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskCatalog.m; sourceTree = "<group>"; };
 		1B34D83D1ECAAC2700D01F1F /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		1B34D83E1ECAAC2700D01F1F /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		1B3983E61ECA2834000269AD /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 				1BB83C241ECA5E3E009E6315 /* Task.m */,
 				1B0F678D1ECCB6D2006C3268 /* ProgramDay.h */,
 				1B0F678E1ECCB6D2006C3268 /* ProgramDay.m */,
+				1B0F67931ECCD5FA006C3268 /* TaskCatalog.h */,
+				1B0F67941ECCD5FA006C3268 /* TaskCatalog.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -445,6 +451,7 @@
 				E5C3CA841ECB9569002FCCDF /* SignupViewController.m in Sources */,
 				1B3983F31ECA3315000269AD /* LeaderboardCell.m in Sources */,
 				1B0F678B1ECCB376006C3268 /* NSDate+StringUtils.m in Sources */,
+				1B0F67951ECCD5FA006C3268 /* TaskCatalog.m in Sources */,
 				E5C3CA7E1ECB94A7002FCCDF /* LoginOptionsViewController.m in Sources */,
 				E57935F21ECA145400C9E3AF /* main.m in Sources */,
 				E5C3CA811ECB954F002FCCDF /* LoginViewController.m in Sources */,
@@ -456,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B0F67961ECCD5FA006C3268 /* TaskCatalog.m in Sources */,
 				1BB83C261ECA5E3E009E6315 /* Task.m in Sources */,
 				1B0F67901ECCB6D2006C3268 /* ProgramDay.m in Sources */,
 				1B0F67921ECCB713006C3268 /* ProgramDayTest.m in Sources */,

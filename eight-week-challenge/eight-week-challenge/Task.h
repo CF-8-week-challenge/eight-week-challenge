@@ -15,4 +15,5 @@
 
 + (instancetype)taskFromDict:(NSDictionary *)dict;
 + (NSArray *)tasksFromDicts:(NSArray *)dicts;
++ (NSArray *)tasksForToday;
 @end
