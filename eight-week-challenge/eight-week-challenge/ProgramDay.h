@@ -1,14 +1,14 @@
 //
-//  StartDate.h
+//  ProgramDay.h
 //  eight-week-challenge
 //
-//  Created by Pavel Parkhomey on 5/16/17.
+//  Created by Jake Romer on 5/17/17.
 //  Copyright © 2017 Kyle Hillman. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
-@interface StartDate : NSObject
+@interface ProgramDay : NSObject
 
 +(NSDictionary*) weekNumDayNumFromStartDate:(NSDate*)startDate currentDate:(NSDate*)currentDate;
 

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1B0F678B1ECCB376006C3268 /* NSDate+StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F678A1ECCB376006C3268 /* NSDate+StringUtils.m */; };
 		1B0F678C1ECCB376006C3268 /* NSDate+StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F678A1ECCB376006C3268 /* NSDate+StringUtils.m */; };
+		1B0F678F1ECCB6D2006C3268 /* ProgramDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F678E1ECCB6D2006C3268 /* ProgramDay.m */; };
+		1B0F67901ECCB6D2006C3268 /* ProgramDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F678E1ECCB6D2006C3268 /* ProgramDay.m */; };
+		1B0F67921ECCB713006C3268 /* ProgramDayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F67911ECCB713006C3268 /* ProgramDayTest.m */; };
 		1B34D83F1ECAAC2700D01F1F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B34D83E1ECAAC2700D01F1F /* ProfileViewController.m */; };
 		1B3983E71ECA2834000269AD /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3983E61ECA2834000269AD /* AFNetworking.framework */; };
 		1B3983E81ECA2834000269AD /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3983E61ECA2834000269AD /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -25,14 +28,12 @@
 		1BB83C251ECA5E3E009E6315 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB83C241ECA5E3E009E6315 /* Task.m */; };
 		1BB83C261ECA5E3E009E6315 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB83C241ECA5E3E009E6315 /* Task.m */; };
 		1BB83C2B1ECA6889009E6315 /* tasks.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BB83C2A1ECA6889009E6315 /* tasks.json */; };
-		DB9314651ECB78500087BA1B /* StartDate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9314641ECB78500087BA1B /* StartDate.m */; };
 		E51D5D5D1ECA1A5E00734FB1 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51D5D5C1ECA1A5E00734FB1 /* AFNetworking.framework */; };
 		E57935F21ECA145400C9E3AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E57935F11ECA145400C9E3AF /* main.m */; };
 		E57935F51ECA145400C9E3AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E57935F41ECA145400C9E3AF /* AppDelegate.m */; };
 		E57935FB1ECA145400C9E3AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57935F91ECA145400C9E3AF /* Main.storyboard */; };
 		E57935FD1ECA145400C9E3AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57935FC1ECA145400C9E3AF /* Assets.xcassets */; };
 		E57936001ECA145400C9E3AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57935FE1ECA145400C9E3AF /* LaunchScreen.storyboard */; };
-		E579360B1ECA145400C9E3AF /* eight_week_challengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E579360A1ECA145400C9E3AF /* eight_week_challengeTests.m */; };
 		E57936241ECA18A700C9E3AF /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = E57936231ECA18A700C9E3AF /* Cartfile */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,9 @@
 /* Begin PBXFileReference section */
 		1B0F67891ECCB376006C3268 /* NSDate+StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+StringUtils.h"; sourceTree = "<group>"; };
 		1B0F678A1ECCB376006C3268 /* NSDate+StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+StringUtils.m"; sourceTree = "<group>"; };
+		1B0F678D1ECCB6D2006C3268 /* ProgramDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramDay.h; sourceTree = "<group>"; };
+		1B0F678E1ECCB6D2006C3268 /* ProgramDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramDay.m; sourceTree = "<group>"; };
+		1B0F67911ECCB713006C3268 /* ProgramDayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramDayTest.m; sourceTree = "<group>"; };
 		1B34D83D1ECAAC2700D01F1F /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		1B34D83E1ECAAC2700D01F1F /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		1B3983E61ECA2834000269AD /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
@@ -91,8 +95,6 @@
 		1BB83C231ECA5E3E009E6315 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
 		1BB83C241ECA5E3E009E6315 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		1BB83C2A1ECA6889009E6315 /* tasks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tasks.json; sourceTree = "<group>"; };
-		DB9314631ECB78500087BA1B /* StartDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartDate.h; sourceTree = "<group>"; };
-		DB9314641ECB78500087BA1B /* StartDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartDate.m; sourceTree = "<group>"; };
 		E51D5D5C1ECA1A5E00734FB1 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
 		E57935ED1ECA145400C9E3AF /* eight-week-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eight-week-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57935F11ECA145400C9E3AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,7 +105,6 @@
 		E57935FF1ECA145400C9E3AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E57936011ECA145400C9E3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E57936061ECA145400C9E3AF /* eight-week-challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eight-week-challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E579360A1ECA145400C9E3AF /* eight_week_challengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eight_week_challengeTests.m; sourceTree = "<group>"; };
 		E579360C1ECA145400C9E3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E57936111ECA145400C9E3AF /* eight-week-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eight-week-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57936231ECA18A700C9E3AF /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
@@ -150,10 +151,10 @@
 			children = (
 				1B3983F41ECA3339000269AD /* LeaderboardItem.h */,
 				1B3983F51ECA3339000269AD /* LeaderboardItem.m */,
-				DB9314631ECB78500087BA1B /* StartDate.h */,
-				DB9314641ECB78500087BA1B /* StartDate.m */,
 				1BB83C231ECA5E3E009E6315 /* Task.h */,
 				1BB83C241ECA5E3E009E6315 /* Task.m */,
+				1B0F678D1ECCB6D2006C3268 /* ProgramDay.h */,
+				1B0F678E1ECCB6D2006C3268 /* ProgramDay.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -247,8 +248,8 @@
 		E57936091ECA145400C9E3AF /* eight-week-challengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				E579360A1ECA145400C9E3AF /* eight_week_challengeTests.m */,
 				E579360C1ECA145400C9E3AF /* Info.plist */,
+				1B0F67911ECCB713006C3268 /* ProgramDayTest.m */,
 			);
 			path = "eight-week-challengeTests";
 			sourceTree = "<group>";
@@ -415,7 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB9314651ECB78500087BA1B /* StartDate.m in Sources */,
+				1B0F678F1ECCB6D2006C3268 /* ProgramDay.m in Sources */,
 				1BB83C211ECA5773009E6315 /* TodayTaskCell.m in Sources */,
 				1B34D83F1ECAAC2700D01F1F /* ProfileViewController.m in Sources */,
 				1BB83C1D1ECA56AB009E6315 /* TodayViewController.m in Sources */,
@@ -434,7 +435,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BB83C261ECA5E3E009E6315 /* Task.m in Sources */,
-				E579360B1ECA145400C9E3AF /* eight_week_challengeTests.m in Sources */,
+				1B0F67901ECCB6D2006C3268 /* ProgramDay.m in Sources */,
+				1B0F67921ECCB713006C3268 /* ProgramDayTest.m in Sources */,
 				1B0F678C1ECCB376006C3268 /* NSDate+StringUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
