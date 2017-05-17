@@ -27,11 +27,11 @@
     return dayInWeek;
 }
 
-+(NSDate *)formatDate:(NSString *)date {
-      NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
-    NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
-    [formatter setLocale:locale];
-    [formatter setDateFormat:@"yyyy-MM-dd"];
-    return [formatter dateFromString:date];
-}
+//+(NSDate *)formatDate:(NSString *)date {
+//      NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
+//    NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
+//    [formatter setLocale:locale];
+//    [formatter setDateFormat:@"yyyy-MM-dd"];
+//    return [formatter dateFromString:date];
+//}
 @end

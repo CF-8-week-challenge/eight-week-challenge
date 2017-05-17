@@ -20,7 +20,6 @@
   
 - (void)viewDidLoad {
   [super viewDidLoad];
-    [StartDate currentWeekAndDayFromStartDate:[StartDate formatDate:@"2017-05-01"]];
   self.collectionView.delegate = self;
   self.collectionView.dataSource = self;
   UINib *leaderboardCell = [UINib nibWithNibName:@"LeaderboardCell" bundle:nil];
