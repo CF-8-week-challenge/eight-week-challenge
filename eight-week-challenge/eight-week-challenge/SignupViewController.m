@@ -32,7 +32,7 @@
 
 - (IBAction)signupButtonPressed:(id)sender {
     
-    NSDictionary *params = @{@"emailAddress": self.emailField.text, @"password": self.passwordField.text};
+    NSDictionary *params = @{@"emailAddress": self.emailField.text, @"password": self.passwordField.text, @"name": self.nameField.text, @"dateOfBirth": self.dobField.text, @"currentWeight": self.weightField.text, @"height": self.heightField.text};
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:params options:0 error:nil];
     NSString *json = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
     NSDictionary *dict = @{@"userProfile":json};
@@ -44,10 +44,7 @@
     
     [manager POST:@"https://effortmanager-staging.herokuapp.com/api/user/signup" parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSLog(@"success!");
-        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Home" bundle:nil];
-        HomeViewController *homeController = [storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
-        
-        [self presentViewController:homeController animated:YES completion:nil];
+        [self dismissViewControllerAnimated:NO completion:nil];
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"error: %@", error);
     }];
