@@ -126,9 +126,9 @@
 
 - (NSArray*) sampleEntries {
   return @[
-    @{@"name":@"Ulya Markova", @"score":@30, @"image": [UIImage imageNamed:@"face"] },
-    @{@"name":@"Viktor Vashchuk", @"score":@25, @"image": [UIImage imageNamed:@"face"] },
-    @{@"name":@"Marina Parkhomey", @"score":@20, @"image": [UIImage imageNamed:@"face"] }
+    @{@"name":@"Ulya Markova", @"score":@30, @"image": [UIImage imageNamed:@"face-f1"] },
+    @{@"name":@"Viktor Vashchuk", @"score":@25, @"image": [UIImage imageNamed:@"face-m"] },
+    @{@"name":@"Marina Parkhomey", @"score":@20, @"image": [UIImage imageNamed:@"face-f2"] }
   ];
 }
 
