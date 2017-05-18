@@ -84,6 +84,7 @@
 }
 
 - (void) persistToPoopHeap {
+
   [PoopHeap.shared setCurrentUserEmail:self.emailField.text];
   
   NSDictionary *user = @{ @"name": self.nameField.text,

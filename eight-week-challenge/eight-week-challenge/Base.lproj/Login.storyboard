@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="IbW-gF-cww">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="IbW-gF-cww">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -133,72 +134,104 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="framePic" translatesAutoresizingMaskIntoConstraints="NO" id="daf-KT-CpB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="framePic" translatesAutoresizingMaskIntoConstraints="NO" id="daf-KT-CpB">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Height" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="US9-N4-A1v">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Height" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="US9-N4-A1v">
                                 <rect key="frame" x="93" y="210" width="188" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weight" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aVS-ZZ-Y2s">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weight" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aVS-ZZ-Y2s">
                                 <rect key="frame" x="91" y="248" width="188" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date of Birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j4j-XW-gae">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date of Birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j4j-XW-gae">
                                 <rect key="frame" x="93" y="286" width="188" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="face" translatesAutoresizingMaskIntoConstraints="NO" id="8M9-TE-dze">
-                                <rect key="frame" x="67" y="343" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="G2C-7W-B9N" appends="YES" id="X8f-iL-iYs"/>
-                                </connections>
-                            </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xsy-YH-GVO">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xsy-YH-GVO">
                                 <rect key="frame" x="91" y="134" width="188" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="25a-L9-GIG">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="25a-L9-GIG">
                                 <rect key="frame" x="91" y="172" width="188" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hdq-X6-0aI">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hdq-X6-0aI">
                                 <rect key="frame" x="91" y="96" width="188" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIe-xg-4ck">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIe-xg-4ck">
                                 <rect key="frame" x="135" y="516" width="101" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="SIGN UP"/>
                                 <connections>
                                     <action selector="signupButtonPressed:" destination="Nhf-A7-APb" eventType="touchUpInside" id="1ob-lG-eYZ"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Group Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2oZ-6h-zyf">
+                                <rect key="frame" x="93" y="324" width="188" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="face" translatesAutoresizingMaskIntoConstraints="NO" id="8M9-TE-dze">
+                                <rect key="frame" x="67" y="380" width="240" height="128"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="F4r-Iz-l05"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="G2C-7W-B9N" appends="YES" id="X8f-iL-iYs"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="aVS-ZZ-Y2s" firstAttribute="trailing" secondItem="25a-L9-GIG" secondAttribute="trailing" id="0WO-mm-0eg"/>
+                            <constraint firstItem="aVS-ZZ-Y2s" firstAttribute="leading" secondItem="25a-L9-GIG" secondAttribute="leading" id="18S-kx-B1j"/>
+                            <constraint firstItem="j4j-XW-gae" firstAttribute="leading" secondItem="1ci-EQ-3Yf" secondAttribute="leadingMargin" constant="77" id="2Xx-Wa-dtj"/>
+                            <constraint firstItem="j4j-XW-gae" firstAttribute="trailing" secondItem="US9-N4-A1v" secondAttribute="trailing" id="4Gg-0Z-yqk"/>
+                            <constraint firstItem="25a-L9-GIG" firstAttribute="top" secondItem="xsy-YH-GVO" secondAttribute="bottom" constant="8" symbolic="YES" id="63M-NZ-sEA"/>
+                            <constraint firstItem="j4j-XW-gae" firstAttribute="centerX" secondItem="1ci-EQ-3Yf" secondAttribute="centerX" id="6aH-ad-qn5"/>
+                            <constraint firstItem="xsy-YH-GVO" firstAttribute="top" secondItem="Hdq-X6-0aI" secondAttribute="bottom" constant="8" symbolic="YES" id="9Ah-yW-prh"/>
+                            <constraint firstItem="US9-N4-A1v" firstAttribute="top" secondItem="25a-L9-GIG" secondAttribute="bottom" constant="8" symbolic="YES" id="9IV-1J-G4v"/>
+                            <constraint firstItem="j4j-XW-gae" firstAttribute="leading" secondItem="2oZ-6h-zyf" secondAttribute="leading" id="Djr-bi-HED"/>
+                            <constraint firstItem="j4j-XW-gae" firstAttribute="trailing" secondItem="2oZ-6h-zyf" secondAttribute="trailing" id="IRY-yP-vSe"/>
+                            <constraint firstItem="IIe-xg-4ck" firstAttribute="top" secondItem="8M9-TE-dze" secondAttribute="bottom" constant="8" symbolic="YES" id="Jbr-Bm-WOC"/>
+                            <constraint firstItem="j4j-XW-gae" firstAttribute="top" secondItem="aVS-ZZ-Y2s" secondAttribute="bottom" constant="8" symbolic="YES" id="OTQ-aG-qct"/>
+                            <constraint firstItem="aVS-ZZ-Y2s" firstAttribute="leading" secondItem="Hdq-X6-0aI" secondAttribute="leading" id="Q3Z-jk-x6g"/>
+                            <constraint firstItem="aVS-ZZ-Y2s" firstAttribute="leading" secondItem="xsy-YH-GVO" secondAttribute="leading" id="R78-mn-sbv"/>
+                            <constraint firstItem="j4j-XW-gae" firstAttribute="leading" secondItem="US9-N4-A1v" secondAttribute="leading" id="Rk2-WR-wIp"/>
+                            <constraint firstItem="2oZ-6h-zyf" firstAttribute="top" secondItem="j4j-XW-gae" secondAttribute="bottom" constant="8" id="SKp-SY-htM"/>
+                            <constraint firstItem="aVS-ZZ-Y2s" firstAttribute="trailing" secondItem="xsy-YH-GVO" secondAttribute="trailing" id="T68-4H-gnd"/>
+                            <constraint firstItem="j4j-XW-gae" firstAttribute="centerX" secondItem="8M9-TE-dze" secondAttribute="centerX" id="WiO-Qm-npA"/>
+                            <constraint firstItem="aVS-ZZ-Y2s" firstAttribute="trailing" secondItem="Hdq-X6-0aI" secondAttribute="trailing" id="aW3-TV-x4l"/>
+                            <constraint firstItem="aVS-ZZ-Y2s" firstAttribute="centerX" secondItem="IIe-xg-4ck" secondAttribute="centerX" id="eVv-iI-21c"/>
+                            <constraint firstItem="j4j-XW-gae" firstAttribute="centerX" secondItem="daf-KT-CpB" secondAttribute="centerX" id="eyK-bj-H6G"/>
+                            <constraint firstItem="daf-KT-CpB" firstAttribute="bottom" secondItem="KcI-SW-2EW" secondAttribute="top" id="g0g-Ah-LaY"/>
+                            <constraint firstItem="daf-KT-CpB" firstAttribute="leading" secondItem="1ci-EQ-3Yf" secondAttribute="leading" id="gFj-39-WPL"/>
+                            <constraint firstItem="daf-KT-CpB" firstAttribute="top" secondItem="1ci-EQ-3Yf" secondAttribute="top" id="mjs-B9-9ii"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aVS-ZZ-Y2s" secondAttribute="trailing" constant="80" id="mog-ia-7we"/>
+                            <constraint firstItem="8M9-TE-dze" firstAttribute="leading" secondItem="1ci-EQ-3Yf" secondAttribute="leadingMargin" constant="51" id="o95-0s-OdR"/>
+                            <constraint firstItem="aVS-ZZ-Y2s" firstAttribute="top" secondItem="US9-N4-A1v" secondAttribute="bottom" constant="8" symbolic="YES" id="ryL-fw-A0q"/>
+                            <constraint firstItem="aVS-ZZ-Y2s" firstAttribute="leading" secondItem="1ci-EQ-3Yf" secondAttribute="leadingMargin" constant="75" id="uEm-EJ-H3N"/>
+                            <constraint firstItem="j4j-XW-gae" firstAttribute="top" secondItem="1ci-EQ-3Yf" secondAttribute="top" constant="286" id="xiA-i0-Eeg"/>
+                            <constraint firstItem="8M9-TE-dze" firstAttribute="top" secondItem="2oZ-6h-zyf" secondAttribute="bottom" constant="26" id="zei-Pw-tdD"/>
+                        </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="neT-dY-5DR" appends="YES" id="DGa-CN-3LU"/>
                         </connections>
@@ -206,6 +239,7 @@
                     <connections>
                         <outlet property="dobField" destination="j4j-XW-gae" id="XIL-v3-ECQ"/>
                         <outlet property="emailField" destination="xsy-YH-GVO" id="mgr-P6-Zcn"/>
+                        <outlet property="groupName" destination="2oZ-6h-zyf" id="z6d-Rq-Pw6"/>
                         <outlet property="heightField" destination="US9-N4-A1v" id="dGC-UG-e0T"/>
                         <outlet property="nameField" destination="Hdq-X6-0aI" id="ere-FI-hZK"/>
                         <outlet property="passwordField" destination="25a-L9-GIG" id="DlP-G2-YnR"/>
