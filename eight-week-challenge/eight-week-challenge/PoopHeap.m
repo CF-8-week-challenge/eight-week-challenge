@@ -7,6 +7,7 @@
 //
 
 #import "PoopHeap.h"
+#import "Task.h"
 
 @interface PoopHeap ()
 @property (strong, nonatomic) NSMutableDictionary *groups;
@@ -38,7 +39,7 @@
 }
 
 - (void) addUser:(NSDictionary*)userDict {
-  NSString *userEmail = userDict[@"email"];
+  NSString *userEmail = [self currentUserEmail];
   self.users[userEmail] = userDict;
 }
 
@@ -47,16 +48,18 @@
   self.groups[groupName] = groupDict;
 }
 
-- (void) addJournalEntry:(NSDictionary*)entryDict {
-  NSString *userEmail = entryDict[@"userEmail"];
+- (void) addJournalEntry:(Task*)task {
+  
+  NSString *userEmail = self.currentUserEmail;
 
-  if (!self.groups[userEmail]) {
-    self.groups[userEmail] = [NSMutableArray array];
+  if (!self.journalEntries[userEmail]) {
+    self.journalEntries[userEmail] = [NSMutableArray array];
+    [self.journalEntries[userEmail] addObject:task];
+  } else {
+    NSMutableArray *entries = [NSMutableArray arrayWithArray:self.journalEntries[userEmail]];
+    [entries addObject:task];
+    self.journalEntries[userEmail] = entries;
   }
-
-  NSMutableArray *userEntries = self.groups[userEmail];
-  [userEntries addObject:entryDict];
-  self.groups[userEmail] = userEntries;
 }
 
 - (NSDictionary*) getUserByEmail:(NSString*)email {
@@ -69,6 +72,45 @@
 
 - (NSArray*) getJournalEntriesByUserEmail:(NSString*)email {
   return self.journalEntries[email];
+}
+
+- (NSArray*) getCurrentUserGroupMembers {
+  NSDictionary *currUser = [self getUserByEmail:[self currentUserEmail]];
+  NSString *groupName = currUser[@"groupName"];
+  NSMutableArray *teammates = [NSMutableArray array];
+
+  
+  for (NSString *userEmail in self.users) {
+    NSDictionary *user = self.users[userEmail];
+
+    if ([user[@"groupName"] isEqualToString:groupName]) {
+      [teammates addObject:user];
+    }
+  }
+
+  return teammates;
+}
+
+- (NSArray*) getLeaderBoard {
+  if (self.journalEntries.count == 0) { return @[]; }
+
+  NSMutableArray *board = [NSMutableArray array];
+
+  NSArray *members = [self getCurrentUserGroupMembers];
+
+  for (NSDictionary *member in members) {
+    NSArray *tasks = [self getJournalEntriesByUserEmail:member[@"email"]];
+
+    int sum = 0;
+    for (Task *task in tasks) {
+      sum += [task.value intValue];
+    }
+
+    [board addObject:@{@"name":@"A user",
+                       @"score":[NSNumber numberWithInt:sum]}];
+  }
+
+  return board;
 }
 
 @end

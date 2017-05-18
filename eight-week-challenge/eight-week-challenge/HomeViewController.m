@@ -10,6 +10,7 @@
 #import "LeaderboardCell.h"
 #import "LoginOptionsViewController.h"
 @import AFNetworking;
+#import "PoopHeap.h"
 
 @interface HomeViewController () <UICollectionViewDataSource,
                                   UICollectionViewDelegate>
@@ -27,22 +28,13 @@
   UINib *leaderboardCell = [UINib nibWithNibName:@"LeaderboardCell" bundle:nil];
   [self.collectionView registerNib:leaderboardCell
         forCellWithReuseIdentifier:@"LeaderboardCell"];
+}
 
-  NSString *leaderboardUrlString =
-      @"https://demo2029138.mockable.io/leaderboard";
-  AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-  [manager GET:leaderboardUrlString
-      parameters:nil
-      progress:nil
-      success:^(NSURLSessionTask *task, id responseObject) {
-        NSArray *leaderboardEntries = responseObject[@"leaderboard"];
-        self.leaderBoardItems =
-            [LeaderboardItem itemsFromDicts:leaderboardEntries];
-        [self.collectionView reloadData];
-      }
-      failure:^(NSURLSessionTask *operation, NSError *error) {
-        NSLog(@"Error: %@", error);
-      }];
+- (void) viewDidAppear:(BOOL)animated {
+  [super viewDidAppear:animated];
+  self.leaderBoardItems = [PoopHeap.shared getLeaderBoard];
+  [self.collectionView reloadData];
+  NSLog(@"%@", self.leaderBoardItems);
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView
@@ -56,7 +48,8 @@
   cell = (LeaderboardCell *)[collectionView
       dequeueReusableCellWithReuseIdentifier:@"LeaderboardCell"
                                 forIndexPath:indexPath];
-  LeaderboardItem *selectedItem = self.leaderBoardItems[indexPath.row];
+  LeaderboardItem *selectedItem =
+  [LeaderboardItem itemFromDict:self.leaderBoardItems[indexPath.row]];
   [cell configureItem:selectedItem];
   return cell;
 }

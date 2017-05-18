@@ -17,7 +17,6 @@
   return item;
 }
 
-
 + (NSArray *) itemsFromDicts:(NSArray*)dicts {
   NSMutableArray *items = [NSMutableArray array];
 
