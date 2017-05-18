@@ -45,9 +45,11 @@
     [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     
     [manager POST:@"https://effortmanager-staging.herokuapp.com/api/user/signup" parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"success!");
-
-        [self dismissViewControllerAnimated:NO completion:nil];
+        NSLog(@"success");
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        HomeViewController *tabController = [storyboard instantiateViewControllerWithIdentifier:@"TabBarController"];
+        
+        [self presentViewController:tabController animated:YES completion:nil];
 
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"error: %@", error);
