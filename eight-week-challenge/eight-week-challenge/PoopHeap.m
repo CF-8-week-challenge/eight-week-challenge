@@ -62,6 +62,10 @@
   }
 }
 
+- (void) removeJournalEntry:(Task*)task {
+  // TODO
+}
+
 - (NSDictionary*) getUserByEmail:(NSString*)email {
   return self.users[email];
 }

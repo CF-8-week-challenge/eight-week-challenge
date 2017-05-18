@@ -18,6 +18,8 @@
 - (void) addGroup:(NSDictionary*)groupDict;
 - (void) addJournalEntry:(Task*)task;
 
+- (void) removeJournalEntry:(Task*)task;
+
 - (NSDictionary*) getUserByEmail:(NSString*)email;
 - (NSDictionary*) getGroupByName:(NSString*)name;
 - (NSArray*) getJournalEntriesByUserEmail:(NSString*)email;
