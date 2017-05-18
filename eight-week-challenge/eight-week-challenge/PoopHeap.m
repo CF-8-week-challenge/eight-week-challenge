@@ -98,7 +98,7 @@
 }
 
 - (NSArray*) getLeaderBoard {
-  if (self.journalEntries.count == 0) { return @[]; }
+  if (self.journalEntries.count == 0) { return [self sampleEntries]; }
 
   NSMutableArray *board = [NSMutableArray array];
 
@@ -116,7 +116,17 @@
                        @"score":[NSNumber numberWithInt:sum]}];
   }
 
+  [board addObjectsFromArray:[self sampleEntries]];
+
   return board;
+}
+
+- (NSArray*) sampleEntries {
+  return @[
+    @{@"name":@"Ulya Markova", @"score":@30},
+    @{@"name":@"Viktor Vashchuk", @"score":@25},
+    @{@"name":@"Marina Parkhomey", @"score":@20}
+  ];
 }
 
 @end

@@ -34,7 +34,6 @@
   [super viewDidAppear:animated];
   self.leaderBoardItems = [PoopHeap.shared getLeaderBoard];
   [self.collectionView reloadData];
-  NSLog(@"%@", self.leaderBoardItems);
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView
@@ -48,8 +47,8 @@
   cell = (LeaderboardCell *)[collectionView
       dequeueReusableCellWithReuseIdentifier:@"LeaderboardCell"
                                 forIndexPath:indexPath];
-  LeaderboardItem *selectedItem =
-  [LeaderboardItem itemFromDict:self.leaderBoardItems[indexPath.row]];
+  LeaderboardItem *selectedItem;
+  selectedItem = [LeaderboardItem itemFromDict:self.leaderBoardItems[indexPath.row]];
   [cell configureItem:selectedItem];
   return cell;
 }
