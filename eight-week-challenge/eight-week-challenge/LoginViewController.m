@@ -44,5 +44,8 @@
 
   [self presentViewController:tabController animated:YES completion:nil];
 }
+- (IBAction)viewTapped:(id)sender {
+    [[self view] endEditing:YES];
+}
 
 @end

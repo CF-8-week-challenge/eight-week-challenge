@@ -103,6 +103,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="framePic" translatesAutoresizingMaskIntoConstraints="NO" id="Eu3-uH-cKu">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <gestureRecognizers/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dcr-eP-0GQ">
                                 <rect key="frame" x="93" y="292" width="188" height="30"/>
@@ -173,7 +174,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oRZ-Fo-ggz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="5E9-kC-hYD"/>
+                <tapGestureRecognizer id="5E9-kC-hYD">
+                    <connections>
+                        <action selector="viewTapped:" destination="0Ra-in-pfG" id="k4Z-yH-oq0"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-1533.5999999999999" y="1667.3163418290856"/>
         </scene>
