@@ -14,6 +14,9 @@
 @property (strong, nonatomic) NSString *currentUserEmail;
 @property (strong, nonatomic) NSString *currentUserName;
 @property (strong, nonatomic) UIImage *currentUserImage;
+@property (strong, nonatomic) NSString *currentUserAge;
+@property (strong, nonatomic) NSString *currentUserHeight;
+@property (strong, nonatomic) NSString *currentUserWeight;
 
 + (instancetype) shared;
 

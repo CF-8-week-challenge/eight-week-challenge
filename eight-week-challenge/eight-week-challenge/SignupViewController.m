@@ -64,6 +64,9 @@
 - (void) persistToPoopHeap {
   [PoopHeap.shared setCurrentUserEmail:self.emailField.text];
   [PoopHeap.shared setCurrentUserName:self.nameField.text];
+  [PoopHeap.shared setCurrentUserAge:@"34"];
+  [PoopHeap.shared setCurrentUserHeight:self.heightField.text];
+  [PoopHeap.shared setCurrentUserWeight:self.weightField.text];
   
   NSDictionary *user = @{ @"name": self.nameField.text,
                           @"email": self.emailField.text,

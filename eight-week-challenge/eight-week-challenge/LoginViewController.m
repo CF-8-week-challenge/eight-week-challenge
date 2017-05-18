@@ -24,6 +24,9 @@
   [PoopHeap.shared setCurrentUserEmail:self.usernameField.text];
   [PoopHeap.shared setCurrentUserName:@"Maritza Castro"];
   [PoopHeap.shared setCurrentUserImage:[UIImage imageNamed:@"face"]];
+  [PoopHeap.shared setCurrentUserAge:@"31"];
+  [PoopHeap.shared setCurrentUserHeight:@"5' 6\""];
+  [PoopHeap.shared setCurrentUserWeight:@"145 lbs."];
   
   NSDictionary *user = @{ @"name": @"Jane Doe",
                           @"email": self.usernameField.text,

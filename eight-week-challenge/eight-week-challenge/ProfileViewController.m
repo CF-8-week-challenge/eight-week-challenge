@@ -7,6 +7,7 @@
 //
 
 #import "ProfileViewController.h"
+#import "PoopHeap.h"
 
 @import AFNetworking;
 
@@ -22,8 +23,12 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  
-  [self getUserInfo];
+  // [self getUserInfo];
+  self.profilePic.image = [PoopHeap.shared currentUserImage];
+  self.nameLabel.text = [PoopHeap.shared currentUserName];
+  self.ageLabel.text = [PoopHeap.shared currentUserAge];
+  self.heightLabel.text = [PoopHeap.shared currentUserHeight];
+  self.weightLabel.text = [PoopHeap.shared currentUserWeight];
 }
 
 -(NSDate *)formatDate:(NSString *)date {
