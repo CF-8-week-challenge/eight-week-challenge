@@ -33,29 +33,28 @@
 
 - (IBAction)signupButtonPressed:(id)sender {
   [self persistToPoopHeap];
-    
 
-    NSDictionary *params = @{@"emailAddress": self.emailField.text, @"password": self.passwordField.text, @"name": self.nameField.text, @"dateOfBirth": self.dobField.text, @"currentWeight": self.weightField.text, @"height": self.heightField.text};
-
-    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:params options:0 error:nil];
-    NSString *json = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-    NSDictionary *dict = @{@"userProfile":json};
-
-    AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc]initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
-    manager.requestSerializer = [AFJSONRequestSerializer serializer];
-    manager.responseSerializer = [AFJSONResponseSerializer serializerWithReadingOptions:NSJSONReadingAllowFragments];
-    [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-    
-    [manager POST:@"https://effortmanager-staging.herokuapp.com/api/user/signup" parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"success");
+//    NSDictionary *params = @{@"emailAddress": self.emailField.text, @"password": self.passwordField.text, @"name": self.nameField.text, @"dateOfBirth": self.dobField.text, @"currentWeight": self.weightField.text, @"height": self.heightField.text};
+//
+//    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:params options:0 error:nil];
+//    NSString *json = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+//    NSDictionary *dict = @{@"userProfile":json};
+//
+//    AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc]initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+//    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+//    manager.responseSerializer = [AFJSONResponseSerializer serializerWithReadingOptions:NSJSONReadingAllowFragments];
+//    [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+//    
+//    [manager POST:@"https://effortmanager-staging.herokuapp.com/api/user/signup" parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+//        NSLog(@"success");
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         HomeViewController *tabController = [storyboard instantiateViewControllerWithIdentifier:@"TabBarController"];
-        
+//        
         [self presentViewController:tabController animated:YES completion:nil];
-
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        NSLog(@"error: %@", error);
-    }];
+//
+//    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+//        NSLog(@"error: %@", error);
+//    }];
 }
 
 - (IBAction)viewTapped:(id)sender {

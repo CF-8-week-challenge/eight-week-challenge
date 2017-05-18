@@ -39,10 +39,11 @@
 
 - (IBAction)switchWasToggled:(UISwitch *)sender {
   if (sender.on) {
-    [self postTaskCompletion];
+//    [self postTaskCompletion];
     [PoopHeap.shared addJournalEntry:self.task];
   } else {
-    [self deleteTaskCompletion];
+//    [self deleteTaskCompletion];
+    [PoopHeap.shared removeJournalEntry:self.task];
   }
 }
 
