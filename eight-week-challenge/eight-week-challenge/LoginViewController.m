@@ -26,16 +26,16 @@
 
 - (IBAction)loginButtonPressed:(id)sender {
     
-    NSDictionary *params = @{@"emailAddress": self.usernameField.text, @"password": self.passwordField.text};
+    
 
     AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc]initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
     manager.responseSerializer = [AFJSONResponseSerializer serializerWithReadingOptions:NSJSONReadingAllowFragments];
-    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
+    [manager.requestSerializer setAuthorizationHeaderFieldWithUsername:self.usernameField.text password:self.passwordField.text];
 
     [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     
-    [manager GET:@"https://effortmanager-staging.herokuapp.com/api/user/login" parameters:params progress:nil success:^(NSURLSessionTask *task, id responseObject) {
+    [manager GET:@"https://effortmanager-staging.herokuapp.com/api/user/login" parameters:nil progress:nil success:^(NSURLSessionTask *task, id responseObject) {
         NSLog(@"JSON: %@", responseObject);
         
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
