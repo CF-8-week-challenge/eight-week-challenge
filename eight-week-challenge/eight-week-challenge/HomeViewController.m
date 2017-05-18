@@ -22,8 +22,6 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
     
-  [self checkUserStatus];
-    
   self.collectionView.delegate = self;
   self.collectionView.dataSource = self;
   UINib *leaderboardCell = [UINib nibWithNibName:@"LeaderboardCell" bundle:nil];
@@ -68,17 +66,5 @@
   NSLog(@"selected item %@", indexPath);
 }
 
--(void)checkUserStatus {
-    NSDictionary *credentials;
-    
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Login" bundle:nil];
-    
-    if (!credentials) {
-        LoginOptionsViewController *loginController = [storyboard instantiateViewControllerWithIdentifier:@"LoginOptionsViewController"];
-        
-        [self presentViewController:loginController animated:YES completion:nil];
-
-    }
-}
 
 @end
