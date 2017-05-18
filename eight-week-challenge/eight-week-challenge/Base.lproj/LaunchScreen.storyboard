@@ -17,21 +17,10 @@
                         <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleAspectFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Final_App_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="8Tr-6E-D2c">
-                                <rect key="frame" x="5" y="198" width="365" height="270"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="8Tr-6E-D2c" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="178" id="H3F-GZ-rKv"/>
-                            <constraint firstItem="8Tr-6E-D2c" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="5" id="K1A-7A-gDW"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="8Tr-6E-D2c" secondAttribute="bottom" constant="199" id="Zar-u6-khH"/>
-                            <constraint firstAttribute="trailing" secondItem="8Tr-6E-D2c" secondAttribute="trailing" constant="5" id="hlf-cp-WDU"/>
-                        </constraints>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -39,7 +28,4 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Final_App_Logo" width="630" height="472"/>
-    </resources>
 </document>
