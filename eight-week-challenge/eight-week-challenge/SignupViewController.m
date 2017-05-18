@@ -35,6 +35,10 @@
 
     NSDictionary *params = @{@"emailAddress": self.emailField.text, @"password": self.passwordField.text, @"name": self.nameField.text, @"dateOfBirth": self.dobField.text, @"currentWeight": self.weightField.text, @"height": self.heightField.text};
 
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:params options:0 error:nil];
+    NSString *json = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+    NSDictionary *dict = @{@"userProfile":json};
+
     AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc]initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
     manager.responseSerializer = [AFJSONResponseSerializer serializerWithReadingOptions:NSJSONReadingAllowFragments];
