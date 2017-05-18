@@ -11,6 +11,7 @@
 
 @interface PoopHeap : NSObject
 @property (strong, nonatomic) NSString *currentUserEmail;
+@property (strong, nonatomic) NSString *currentUserName;
 
 + (instancetype) shared;
 

@@ -84,7 +84,6 @@
   NSDictionary *currUser = [self getUserByEmail:[self currentUserEmail]];
   NSString *groupName = currUser[@"groupName"];
   NSMutableArray *teammates = [NSMutableArray array];
-
   
   for (NSString *userEmail in self.users) {
     NSDictionary *user = self.users[userEmail];
@@ -112,7 +111,7 @@
       sum += [task.value intValue];
     }
 
-    [board addObject:@{@"name":@"A user",
+    [board addObject:@{@"name":[PoopHeap.shared currentUserName],
                        @"score":[NSNumber numberWithInt:sum]}];
   }
 
