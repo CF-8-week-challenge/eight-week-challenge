@@ -13,7 +13,7 @@
 + (instancetype) itemFromDict:(NSDictionary *)dict {
   LeaderboardItem *item = [[LeaderboardItem alloc] init];
   item.name = dict[@"name"];
-  item.currentScore = dict[@"currentScore"];
+  item.currentScore = dict[@"score"];
   return item;
 }
 
