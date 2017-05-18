@@ -49,7 +49,6 @@
 }
 
 - (void) addJournalEntry:(Task*)task {
-  
   NSString *userEmail = self.currentUserEmail;
 
   if (!self.journalEntries[userEmail]) {
@@ -63,7 +62,10 @@
 }
 
 - (void) removeJournalEntry:(Task*)task {
-  // TODO
+  NSString *userEmail = self.currentUserEmail;
+  NSMutableArray *entries = [NSMutableArray arrayWithArray:self.journalEntries[userEmail]];
+  [entries removeObject:task];
+  self.journalEntries[userEmail] = entries;
 }
 
 - (NSDictionary*) getUserByEmail:(NSString*)email {
