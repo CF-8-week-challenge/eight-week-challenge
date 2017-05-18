@@ -14,6 +14,7 @@
   LeaderboardItem *item = [[LeaderboardItem alloc] init];
   item.name = dict[@"name"];
   item.currentScore = dict[@"score"];
+  item.image = dict[@"image"];
   return item;
 }
 

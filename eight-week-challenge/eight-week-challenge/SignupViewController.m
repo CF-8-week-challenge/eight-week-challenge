@@ -51,9 +51,10 @@
 
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
-    UIImage *selectedImage = info[UIImagePickerControllerEditedImage];
-    self.profilePic.image = selectedImage;
-    [picker dismissViewControllerAnimated:YES completion:NULL];
+  UIImage *selectedImage = info[UIImagePickerControllerEditedImage];
+  self.profilePic.image = selectedImage;
+  [PoopHeap.shared setCurrentUserImage:selectedImage];
+  [picker dismissViewControllerAnimated:YES completion:NULL];
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
@@ -69,6 +70,7 @@
                           @"height": self.heightField.text,
                           @"weight": self.weightField.text,
                           @"dob": self.dobField.text,
+                          @"image": self.profilePic.image,
                           @"groupName": self.groupName.text };
 
   NSDictionary *group = @{ @"name": self.nameField.text,

@@ -32,7 +32,7 @@
 
 - (void) viewDidAppear:(BOOL)animated {
   [super viewDidAppear:animated];
-  self.leaderBoardItems = [PoopHeap.shared getLeaderBoard];
+  self.leaderBoardItems = [LeaderboardItem itemsFromDicts:[PoopHeap.shared getLeaderBoard]];
   [self.collectionView reloadData];
 }
 
@@ -48,7 +48,7 @@
       dequeueReusableCellWithReuseIdentifier:@"LeaderboardCell"
                                 forIndexPath:indexPath];
   LeaderboardItem *selectedItem;
-  selectedItem = [LeaderboardItem itemFromDict:self.leaderBoardItems[indexPath.row]];
+  selectedItem = self.leaderBoardItems[indexPath.row];
   [cell configureItem:selectedItem];
   return cell;
 }
@@ -57,6 +57,5 @@
     didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
   NSLog(@"selected item %@", indexPath);
 }
-
 
 @end

@@ -21,7 +21,7 @@
   self.userName.text = item.name;
   self.currentScore.text = [NSString stringWithFormat:@"Current Score: %@",
                             item.currentScore];
-  self.userAvatar.image = [UIImage imageNamed:@"face"];
+  self.userAvatar.image = item.image;
 }
 
 @end

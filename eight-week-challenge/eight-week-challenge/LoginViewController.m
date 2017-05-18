@@ -23,6 +23,7 @@
 - (IBAction)loginButtonPressed:(id)sender {
   [PoopHeap.shared setCurrentUserEmail:self.usernameField.text];
   [PoopHeap.shared setCurrentUserName:@"Maritza Castro"];
+  [PoopHeap.shared setCurrentUserImage:[UIImage imageNamed:@"face"]];
   
   NSDictionary *user = @{ @"name": @"Jane Doe",
                           @"email": self.usernameField.text,

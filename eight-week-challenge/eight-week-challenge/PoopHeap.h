@@ -7,11 +7,13 @@
 //
 
 @import Foundation;
+@import UIKit;
 #import "Task.h"
 
 @interface PoopHeap : NSObject
 @property (strong, nonatomic) NSString *currentUserEmail;
 @property (strong, nonatomic) NSString *currentUserName;
+@property (strong, nonatomic) UIImage *currentUserImage;
 
 + (instancetype) shared;
 
