@@ -21,15 +21,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Final_App_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="8Tr-6E-D2c">
-                                <rect key="frame" x="20" y="198" width="335" height="270"/>
+                            <imageView multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Final_App_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="8Tr-6E-D2c">
+                                <rect key="frame" x="33" y="212" width="309" height="242"/>
                             </imageView>
                         </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="8Tr-6E-D2c" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="178" id="H3F-GZ-rKv"/>
-                            <constraint firstItem="8Tr-6E-D2c" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="K1A-7A-gDW"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="8Tr-6E-D2c" secondAttribute="bottom" constant="199" id="Zar-u6-khH"/>
-                            <constraint firstAttribute="trailing" secondItem="8Tr-6E-D2c" secondAttribute="trailing" constant="20" id="hlf-cp-WDU"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="8Tr-6E-D2c" secondAttribute="bottom" constant="213" id="16g-db-FfA"/>
+                            <constraint firstItem="8Tr-6E-D2c" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="33" id="JoV-IW-Z93"/>
+                            <constraint firstItem="8Tr-6E-D2c" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="192" id="KSR-GI-TNJ"/>
+                            <constraint firstAttribute="trailing" secondItem="8Tr-6E-D2c" secondAttribute="trailing" constant="33" id="ZMW-EE-tId"/>
                         </constraints>
                     </view>
                 </viewController>
