@@ -98,9 +98,7 @@
 
 - (NSArray*) getLeaderBoard {
   if (self.journalEntries.count == 0) { return [self sampleEntries]; }
-
   NSMutableArray *board = [NSMutableArray array];
-
   NSArray *members = [self getCurrentUserGroupMembers];
 
   for (NSDictionary *member in members) {
@@ -116,8 +114,12 @@
   }
 
   [board addObjectsFromArray:[self sampleEntries]];
+  
+  NSSortDescriptor *sortByScore = [NSSortDescriptor sortDescriptorWithKey:@"score" ascending:NO];
+  NSArray *sortDescriptors = [NSArray arrayWithObject:sortByScore];
+  NSArray *sortedArray = [board sortedArrayUsingDescriptors:sortDescriptors];
 
-  return board;
+  return sortedArray;
 }
 
 - (NSArray*) sampleEntries {
