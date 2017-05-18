@@ -9,6 +9,7 @@
 #import "TodayViewController.h"
 #import "TodayTaskCell.h"
 #import "Task.h"
+#import "TaskCatalog.h"
 
 @interface TodayViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -25,19 +26,7 @@
   UINib *todayTaskCell = [UINib nibWithNibName:@"TodayTaskCell" bundle:nil];
   [self.tableView registerNib:todayTaskCell forCellReuseIdentifier:@"TodayTaskCell"];
 
-  NSArray *today;
-  NSString *path = [[NSBundle mainBundle] pathForResource:@"tasks" ofType:@"json"];
-  NSData *jsonData = [NSData dataWithContentsOfFile:path];
-  NSError *jsonError;
-  NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:jsonData
-                                                       options:NSJSONReadingMutableContainers
-                                                         error:&jsonError];
-  if (jsonError) {
-    NSLog(@"JSON Parsing error: %@", jsonError);
-  } else {
-    today = dict[@"week3"][@"day6"];
-    self.todaysTasks = [Task tasksFromDicts:today];
-  }
+  self.todaysTasks = [Task tasksForToday];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView

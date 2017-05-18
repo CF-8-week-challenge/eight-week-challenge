@@ -7,6 +7,9 @@
 //
 
 #import "Task.h"
+#import "TaskCatalog.h"
+#import "NSDate+StringUtils.h"
+#import "ProgramDay.h"
 
 @implementation Task
 + (instancetype)taskFromDict:(NSDictionary *)dict {
@@ -24,5 +27,20 @@
   }
 
   return tasks;
+}
+
++ (NSArray *)tasksForToday {
+  NSDate *start, *today;
+  NSDictionary *dict;
+  NSArray *taskAttrs;
+
+  // TODO: Store this someplace
+  start = [NSDate fromString:@"2017-05-01"];
+  today = [[NSDate alloc] init];
+  dict = [ProgramDay weekNumDayNumFromStartDate:start currentDate:today];
+
+  taskAttrs = [TaskCatalog.shared tasksForWeekNum:dict[@"weekNum"]
+                                           dayNum:dict[@"dayNum"]];
+  return [self tasksFromDicts:taskAttrs];
 }
 @end
