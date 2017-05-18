@@ -7,6 +7,7 @@
 //
 
 #import "TodayTaskCell.h"
+#import "PoopHeap.h"
 @import AFNetworking;
 
 @interface TodayTaskCell ()
@@ -39,6 +40,7 @@
 - (IBAction)switchWasToggled:(UISwitch *)sender {
   if (sender.on) {
     [self postTaskCompletion];
+    [PoopHeap.shared addJournalEntry:self.task];
   } else {
     [self deleteTaskCompletion];
   }

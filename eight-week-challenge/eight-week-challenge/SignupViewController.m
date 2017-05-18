@@ -8,6 +8,7 @@
 
 #import "SignupViewController.h"
 #import "HomeViewController.h"
+#import "PoopHeap.h"
 
 @import AFNetworking;
 
@@ -19,7 +20,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *dobField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordField;
 @property (weak, nonatomic) IBOutlet UIImageView *profilePic;
-
+@property (weak, nonatomic) IBOutlet UITextField *groupName;
 @end
 
 @implementation SignupViewController
@@ -31,6 +32,7 @@
 }
 
 - (IBAction)signupButtonPressed:(id)sender {
+  [self persistToPoopHeap];
     
 
     NSDictionary *params = @{@"emailAddress": self.emailField.text, @"password": self.passwordField.text, @"name": self.nameField.text, @"dateOfBirth": self.dobField.text, @"currentWeight": self.weightField.text, @"height": self.heightField.text};
@@ -80,6 +82,24 @@
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
     [picker dismissViewControllerAnimated:YES completion:NULL];
+}
+
+- (void) persistToPoopHeap {
+  [PoopHeap.shared setCurrentUserEmail:self.emailField.text];
+  
+  NSDictionary *user = @{ @"name": self.nameField.text,
+                          @"email": self.emailField.text,
+                          @"height": self.heightField.text,
+                          @"weight": self.weightField.text,
+                          @"dob": self.dobField.text,
+                          @"groupName": self.groupName.text };
+
+  NSDictionary *group = @{ @"name": self.nameField.text,
+                           @"startDate": [[NSDate alloc] init],
+                           @"adminEmail": user[@"email"] };
+
+  [PoopHeap.shared addUser: user];
+  [PoopHeap.shared addGroup: group];
 }
 
 @end
